@@ -6,8 +6,8 @@ Este documento define la identidad visual, la paleta de colores y las directrice
 
 ## 1. Principios Fundamentales
 *   **Identidad Artística:** JANA OS debe percibirse como el ecosistema digital donde vive y evoluciona el talento artístico de la escuela, alejándose de los patrones fríos de los ERPs o LMS corporativos tradicionales.
-*   **Mobile-First:** Todo componente se diseña, maqueta y optimiza primero para dispositivos móviles, escalando progresivamente a pantallas de escritorio.
-*   **Accesibilidad desde el Día 1:** El sistema de diseño integra el cumplimiento estricto del estándar **WCAG 2.2 AA** de forma nativa (ratios de contraste mínimos, áreas táctiles adaptadas y compatibilidad absoluta con lectores de pantalla y navegación por teclado).
+*   **Mobile-First:** Todo componente se diseña, maqueta y optimiza primero para dispositivos móviles, escalando progresivamente a pantallas de escritorio. Para más detalles sobre interacciones y arquitectura de información visual, consulte la [Regla de Diseño de Experiencia de Usuario (UX)](file:///D:/JANA/.agents/rules/ux_design.md).
+*   **Accesibilidad desde el Día 1:** El sistema de diseño integra el cumplimiento estricto del estándar **WCAG 2.2 AA** de forma nativa. Para ver las pautas de codificación y diseño obligatorias, consulte la [Regla de Accesibilidad Avanzada WCAG 2.2](file:///D:/JANA/.agents/rules/wcag_accessibility.md).
 *   **Focalización en el Talento:** Cada pantalla debe responder afirmativamente a la pregunta: *¿Ayuda esto a desarrollar, organizar o comprender mejor el talento artístico?*. Si la respuesta es negativa, el elemento es superfluo y se elimina.
 
 ---
