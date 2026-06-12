@@ -5,12 +5,28 @@ import { StageComposition } from "@/components/remotion/stage-composition";
 
 export function ProductionPlayer() {
   return (
-    <div className="overflow-hidden rounded-lg border border-border bg-black shadow-card">
+    <div className="overflow-hidden rounded-xl border border-border bg-black shadow-card">
+      {/* Header bar */}
+      <div className="flex items-center justify-between border-b border-border/40 bg-black/60 px-4 py-2.5">
+        <div className="flex items-center gap-2.5">
+          <span className="size-2.5 rounded-full bg-error" />
+          <span className="size-2.5 rounded-full bg-warning" />
+          <span className="size-2.5 rounded-full bg-success" />
+        </div>
+        <span className="text-[10px] font-bold text-foreground-muted tracking-widest uppercase">
+          JANA Studio · Remotion Render Preview
+        </span>
+        <div className="flex items-center gap-1.5 text-[10px] text-success font-medium">
+          <span className="size-1.5 rounded-full bg-success animate-pulse" />
+          Live
+        </div>
+      </div>
+
       <Player
         component={StageComposition}
-        compositionWidth={1080}
+        compositionWidth={1280}
         compositionHeight={720}
-        durationInFrames={180}
+        durationInFrames={210}
         fps={30}
         acknowledgeRemotionLicense
         controls
@@ -18,8 +34,8 @@ export function ProductionPlayer() {
         autoPlay
         style={{ width: "100%" }}
         inputProps={{
-          productionTitle: "Ensayo general: Luz, voz y movimiento",
-          scene: "Transicion escenica sincronizada para vista previa de producciones artisticas.",
+          productionTitle: "La Bella y la Bestia",
+          scene: "Ensayo general: Acto II · Escena del Baile Principal",
           intensity: 72,
         }}
       />
