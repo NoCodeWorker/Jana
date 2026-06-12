@@ -100,7 +100,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_ethical_cro",
-      "community": 12,
+      "community": 2,
       "norm_label": "ethical_cro.md"
     },
     {
@@ -110,7 +110,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico",
-      "community": 12,
+      "community": 2,
       "norm_label": "regla del agente: optimizacion de la tasa de conversion etica (cro etico)"
     },
     {
@@ -120,7 +120,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "rules_ethical_cro_1_principios_del_cro_\u00e9tico",
-      "community": 12,
+      "community": 2,
       "norm_label": "1. principios del cro etico"
     },
     {
@@ -130,7 +130,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "rules_ethical_cro_1_1_transparencia_total_sobre_costes_y_condiciones",
-      "community": 12,
+      "community": 2,
       "norm_label": "1.1 transparencia total sobre costes y condiciones"
     },
     {
@@ -140,7 +140,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "rules_ethical_cro_1_2_respeto_a_la_autonom\u00eda_del_usuario_no_guilt_tripping",
-      "community": 12,
+      "community": 2,
       "norm_label": "1.2 respeto a la autonomia del usuario (no guilt-tripping)"
     },
     {
@@ -150,7 +150,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "rules_ethical_cro_2_alternativas_\u00e9ticas_a_los_patrones_persuasivos_agresivos",
-      "community": 12,
+      "community": 2,
       "norm_label": "2. alternativas eticas a los patrones persuasivos agresivos"
     },
     {
@@ -160,7 +160,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "rules_ethical_cro_3_reducci\u00f3n_pr\u00e1ctica_de_fricci\u00f3n_en_formularios_y_checkout",
-      "community": 12,
+      "community": 2,
       "norm_label": "3. reduccion practica de friccion en formularios y checkout"
     },
     {
@@ -170,7 +170,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "rules_ethical_cro_3_1_formularios_simplificados_y_guardado_autom\u00e1tico",
-      "community": 12,
+      "community": 2,
       "norm_label": "3.1 formularios simplificados y guardado automatico"
     },
     {
@@ -180,7 +180,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "rules_ethical_cro_3_2_pasarela_de_pago_transparente_y_r\u00e1pida",
-      "community": 12,
+      "community": 2,
       "norm_label": "3.2 pasarela de pago transparente y rapida"
     },
     {
@@ -632,6 +632,16 @@
       "id": "claude_claude_graphify",
       "community": 33,
       "norm_label": "graphify"
+    },
+    {
+      "label": "shadcn-init",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_claude_shadcn_init",
+      "community": 33,
+      "norm_label": "shadcn-init"
     },
     {
       "label": "SKILL.md",
@@ -1216,6 +1226,76 @@
     {
       "label": "SKILL.md",
       "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill",
+      "community": 12,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "shadcn-init Skill",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "community": 12,
+      "norm_label": "shadcn-init skill"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
+      "community": 12,
+      "norm_label": "usage"
+    },
+    {
+      "label": "1. Initialization (Init)",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "community": 12,
+      "norm_label": "1. initialization (init)"
+    },
+    {
+      "label": "Templates Available:",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_templates_available",
+      "community": 12,
+      "norm_label": "templates available:"
+    },
+    {
+      "label": "2. Adding Components (Add)",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
+      "community": 12,
+      "norm_label": "2. adding components (add)"
+    },
+    {
+      "label": "3. Verification & Troubleshooting",
+      "file_type": "document",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "claude_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
+      "community": 12,
+      "norm_label": "3. verification & troubleshooting"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1774,6 +1854,76 @@
       "norm_label": "for --cluster-only"
     },
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill",
+      "community": 36,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "shadcn-init Skill",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "community": 36,
+      "norm_label": "shadcn-init skill"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
+      "community": 36,
+      "norm_label": "usage"
+    },
+    {
+      "label": "1. Initialization (Init)",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "community": 36,
+      "norm_label": "1. initialization (init)"
+    },
+    {
+      "label": "Templates Available:",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_templates_available",
+      "community": 36,
+      "norm_label": "templates available:"
+    },
+    {
+      "label": "2. Adding Components (Add)",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
+      "community": 36,
+      "norm_label": "2. adding components (add)"
+    },
+    {
+      "label": "3. Verification & Troubleshooting",
+      "file_type": "document",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "codex_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
+      "community": 36,
+      "norm_label": "3. verification & troubleshooting"
+    },
+    {
       "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "AGENTS.md",
@@ -2120,7 +2270,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "docs_03_requisitos_funcionales_4_adaptador_verifactu_y_finanzas",
-      "community": 12,
+      "community": 2,
       "norm_label": "4. adaptador verifactu y finanzas"
     },
     {
@@ -2460,7 +2610,7 @@
       "source_location": "L315",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_cards",
-      "community": 0,
+      "community": 37,
       "norm_label": "cards"
     },
     {
@@ -2470,7 +2620,7 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_standard_card",
-      "community": 0,
+      "community": 37,
       "norm_label": "standard card"
     },
     {
@@ -2480,7 +2630,7 @@
       "source_location": "L325",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_insight_card",
-      "community": 0,
+      "community": 37,
       "norm_label": "insight card"
     },
     {
@@ -2490,7 +2640,7 @@
       "source_location": "L331",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_talent_card",
-      "community": 0,
+      "community": 37,
       "norm_label": "talent card"
     },
     {
@@ -2500,7 +2650,7 @@
       "source_location": "L337",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_production_card",
-      "community": 0,
+      "community": 37,
       "norm_label": "production card"
     },
     {
@@ -2865,16 +3015,6 @@
   ],
   "links": [
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
-      "source_location": "L1",
-      "source": "rules_copywriting",
-      "target": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting"
-    },
-    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2886,82 +3026,82 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
+      "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_copywriting",
+      "target": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/copywriting.md",
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
       "target": "rules_copywriting_1_tono_y_voz_de_jana_os"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
       "target": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
       "target": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n",
       "target": "rules_copywriting_2_1_enfoque_en_beneficios_y_transformaci\u00f3n"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n",
       "target": "rules_copywriting_2_2_frameworks_de_conversi\u00f3n_cl\u00e1sicos"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language",
       "target": "rules_copywriting_3_1_claridad_sobre_ingenio_clarity_over_cleverness"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/copywriting.md",
-      "weight": 1.0,
       "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language",
       "target": "rules_copywriting_3_2_enlaces_descriptivos_prohibici\u00f3n_de_haz_clic_aqu\u00ed"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
-      "source_location": "L1",
-      "source": "rules_ethical_cro",
-      "target": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico"
     },
     {
       "relation": "implements",
@@ -2975,82 +3115,82 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
+      "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ethical_cro",
+      "target": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/ethical_cro.md",
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico",
       "target": "rules_ethical_cro_1_principios_del_cro_\u00e9tico"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico",
       "target": "rules_ethical_cro_2_alternativas_\u00e9ticas_a_los_patrones_persuasivos_agresivos"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_regla_del_agente_optimizaci\u00f3n_de_la_tasa_de_conversi\u00f3n_\u00e9tica_cro_\u00e9tico",
       "target": "rules_ethical_cro_3_reducci\u00f3n_pr\u00e1ctica_de_fricci\u00f3n_en_formularios_y_checkout"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_1_principios_del_cro_\u00e9tico",
       "target": "rules_ethical_cro_1_1_transparencia_total_sobre_costes_y_condiciones"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_1_principios_del_cro_\u00e9tico",
       "target": "rules_ethical_cro_1_2_respeto_a_la_autonom\u00eda_del_usuario_no_guilt_tripping"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_3_reducci\u00f3n_pr\u00e1ctica_de_fricci\u00f3n_en_formularios_y_checkout",
       "target": "rules_ethical_cro_3_1_formularios_simplificados_y_guardado_autom\u00e1tico"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ethical_cro.md",
-      "weight": 1.0,
       "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ethical_cro_3_reducci\u00f3n_pr\u00e1ctica_de_fricci\u00f3n_en_formularios_y_checkout",
       "target": "rules_ethical_cro_3_2_pasarela_de_pago_transparente_y_r\u00e1pida"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/graphify.md",
-      "weight": 1.0,
-      "source_location": "L6",
-      "source": "rules_graphify",
-      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -3082,21 +3222,21 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/workflows/graphify.md",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_graphify",
-      "target": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo"
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": ".agents/rules/seo_geo_aio.md",
+      "source_file": ".agents/workflows/graphify.md",
       "weight": 1.0,
-      "source_location": "L1",
-      "source": "rules_seo_geo_aio",
-      "target": "rules_seo_geo_aio_regla_del_agente_seo_geo_y_aio_optimizaci\u00f3n_para_ia_y_buscadores"
+      "source": "rules_graphify",
+      "target": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo"
     },
     {
       "relation": "implements",
@@ -3110,112 +3250,112 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
+      "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_seo_geo_aio",
+      "target": "rules_seo_geo_aio_regla_del_agente_seo_geo_y_aio_optimizaci\u00f3n_para_ia_y_buscadores"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/seo_geo_aio.md",
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_regla_del_agente_seo_geo_y_aio_optimizaci\u00f3n_para_ia_y_buscadores",
       "target": "rules_seo_geo_aio_1_geo_aio_optimizaci\u00f3n_para_motores_de_inteligencia_artificial"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_regla_del_agente_seo_geo_y_aio_optimizaci\u00f3n_para_ia_y_buscadores",
       "target": "rules_seo_geo_aio_2_estructuraci\u00f3n_t\u00e9cnica_de_metadatos_y_schema"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_regla_del_agente_seo_geo_y_aio_optimizaci\u00f3n_para_ia_y_buscadores",
       "target": "rules_seo_geo_aio_3_seo_t\u00e9cnico_tradicional_wpo_y_next_js"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_1_geo_aio_optimizaci\u00f3n_para_motores_de_inteligencia_artificial",
       "target": "rules_seo_geo_aio_1_1_bottom_line_up_front_bluf_respuesta_r\u00e1pida"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_1_geo_aio_optimizaci\u00f3n_para_motores_de_inteligencia_artificial",
       "target": "rules_seo_geo_aio_1_2_estructura_de_contenido_at\u00f3mico_y_preguntas_conversacionales"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_1_geo_aio_optimizaci\u00f3n_para_motores_de_inteligencia_artificial",
       "target": "rules_seo_geo_aio_1_3_se\u00f1ales_de_autoridad_y_citas_de_fuentes_e_e_a_t_para_ia"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_1_geo_aio_optimizaci\u00f3n_para_motores_de_inteligencia_artificial",
       "target": "rules_seo_geo_aio_1_4_bloques_de_se\u00f1ales_sem\u00e1nticas_invisibles_semantic_signal_blocks"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_2_estructuraci\u00f3n_t\u00e9cnica_de_metadatos_y_schema",
       "target": "rules_seo_geo_aio_2_1_schema_json_ld_en_formato_graph"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_3_seo_t\u00e9cnico_tradicional_wpo_y_next_js",
       "target": "rules_seo_geo_aio_3_1_metadata_din\u00e1mica_en_next_js"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/seo_geo_aio.md",
-      "weight": 1.0,
       "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_seo_geo_aio_3_seo_t\u00e9cnico_tradicional_wpo_y_next_js",
       "target": "rules_seo_geo_aio_3_2_optimizaci\u00f3n_de_rendimiento_wpo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
-      "source_location": "L1",
-      "source": "rules_ux_design",
-      "target": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux"
     },
     {
       "relation": "implements",
@@ -3229,102 +3369,102 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
+      "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_ux_design",
+      "target": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/ux_design.md",
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux",
       "target": "rules_ux_design_1_principios_de_dise\u00f1o_visual_y_emocional"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux",
       "target": "rules_ux_design_2_pautas_de_arquitectura_de_informaci\u00f3n_y_carga_cognitiva"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux",
       "target": "rules_ux_design_3_micro_interacciones_y_feedback_visual_motion_ux"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_regla_del_agente_dise\u00f1o_de_experiencia_de_usuario_ux",
       "target": "rules_ux_design_4_estabilidad_visual_wpo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_1_principios_de_dise\u00f1o_visual_y_emocional",
       "target": "rules_ux_design_1_1_est\u00e9tica_teatral_oscura_jana_creative_stage_system"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_2_pautas_de_arquitectura_de_informaci\u00f3n_y_carga_cognitiva",
       "target": "rules_ux_design_2_1_dise\u00f1o_mobile_first_estricto"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_2_pautas_de_arquitectura_de_informaci\u00f3n_y_carga_cognitiva",
       "target": "rules_ux_design_2_2_divulgaci\u00f3n_progresiva_progressive_disclosure"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_3_micro_interacciones_y_feedback_visual_motion_ux",
       "target": "rules_ux_design_3_1_animaciones_con_significado"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/ux_design.md",
-      "weight": 1.0,
       "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_ux_design_3_micro_interacciones_y_feedback_visual_motion_ux",
       "target": "rules_ux_design_3_2_transiciones_de_estado_robustas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
-      "source_location": "L1",
-      "source": "rules_wcag_accessibility",
-      "target": "rules_wcag_accessibility_regla_del_agente_accesibilidad_avanzada_wcag_2_2_aa"
     },
     {
       "relation": "implements",
@@ -3338,110 +3478,120 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
+      "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "rules_wcag_accessibility",
+      "target": "rules_wcag_accessibility_regla_del_agente_accesibilidad_avanzada_wcag_2_2_aa"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/wcag_accessibility.md",
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_regla_del_agente_accesibilidad_avanzada_wcag_2_2_aa",
       "target": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_regla_del_agente_accesibilidad_avanzada_wcag_2_2_aa",
       "target": "rules_wcag_accessibility_2_pautas_generales_y_sem\u00e1ntica_html"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_1_tama\u00f1o_del_objetivo_de_pulsaci\u00f3n_target_size_m\u00ednimo_criterio_2_5_8_aa"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_2_apariencia_del_foco_focus_appearance_criterio_2_4_13_aa"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_3_foco_no_obstruido_focus_not_obscured_m\u00ednimo_mejorado_criterios_2_4_11_a_2_4_12_aa"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_4_alternativa_a_movimientos_de_arrastre_dragging_movements_criterio_2_5_7_aa"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_5_autenticaci\u00f3n_accesible_accessible_authentication_m\u00ednimo_criterio_3_3_8_a"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_1_nuevos_criterios_de_wcag_2_2_aa_implementaci\u00f3n_obligatoria",
       "target": "rules_wcag_accessibility_1_6_entrada_redundante_redundant_entry_criterio_3_3_7_a"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_2_pautas_generales_y_sem\u00e1ntica_html",
       "target": "rules_wcag_accessibility_2_1_alternativas_accesibles_para_visualizaciones_complejas"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_2_pautas_generales_y_sem\u00e1ntica_html",
       "target": "rules_wcag_accessibility_2_2_regiones_aria_y_etiquetas_din\u00e1micas"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/rules/wcag_accessibility.md",
-      "weight": 1.0,
       "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rules_wcag_accessibility_2_pautas_generales_y_sem\u00e1ntica_html",
       "target": "rules_wcag_accessibility_2_3_respeto_a_preferencias_del_usuario_animaciones_reducidas"
     },
@@ -3451,17 +3601,17 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify",
-      "target": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".agents/workflows/graphify.md",
-      "weight": 1.0,
       "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo",
       "target": "workflows_graphify_1_inicializaci\u00f3n_del_repositorio_de_control_de_cambios"
     },
@@ -3471,9 +3621,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo",
-      "target": "workflows_graphify_2_el_ciclo_de_desarrollo_guiado_por_grafo_workflow_loop",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_2_el_ciclo_de_desarrollo_guiado_por_grafo_workflow_loop"
     },
     {
       "relation": "contains",
@@ -3481,9 +3631,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workflows_graphify_contrato_de_flujo_de_trabajo_iteraci\u00f3n_din\u00e1mica_del_grafo",
-      "target": "workflows_graphify_3_comandos_de_emergencia_y_mantenimiento",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_3_comandos_de_emergencia_y_mantenimiento"
     },
     {
       "relation": "contains",
@@ -3509,8 +3659,18 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude",
-      "target": "claude_claude_graphify",
+      "target": "claude_claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_claude",
+      "target": "claude_claude_shadcn_init",
       "confidence_score": 1.0
     },
     {
@@ -3519,9 +3679,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_graphify"
     },
     {
       "relation": "contains",
@@ -3529,9 +3689,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L619",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_for_graphify_add_and_watch",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_for_graphify_add_and_watch"
     },
     {
       "relation": "contains",
@@ -3539,9 +3699,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L607",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_for_graphify_query",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_for_graphify_query"
     },
     {
       "relation": "contains",
@@ -3549,9 +3709,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L625",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -3559,9 +3719,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L601",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_for_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_for_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -3569,9 +3729,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L644",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_honesty_rules",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_honesty_rules"
     },
     {
       "relation": "contains",
@@ -3579,9 +3739,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L583",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_interpreter_guard_for_subcommands",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_interpreter_guard_for_subcommands"
     },
     {
       "relation": "contains",
@@ -3589,9 +3749,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_usage",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_usage"
     },
     {
       "relation": "contains",
@@ -3599,9 +3759,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_what_graphify_is_for",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_what_graphify_is_for"
     },
     {
       "relation": "contains",
@@ -3609,9 +3769,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked"
     },
     {
       "relation": "contains",
@@ -3619,9 +3779,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L631",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "graphify_skill_troubleshooting",
-      "confidence_score": 1.0
+      "target": "graphify_skill_troubleshooting"
     },
     {
       "relation": "contains",
@@ -3629,9 +3789,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
     },
     {
       "relation": "contains",
@@ -3639,9 +3799,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_1_ensure_graphify_is_installed",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_1_ensure_graphify_is_installed"
     },
     {
       "relation": "contains",
@@ -3649,9 +3809,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -3659,9 +3819,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_2_detect_files",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_2_detect_files"
     },
     {
       "relation": "contains",
@@ -3669,9 +3829,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L168",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships"
     },
     {
       "relation": "contains",
@@ -3679,9 +3839,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L390",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
     },
     {
       "relation": "contains",
@@ -3689,9 +3849,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L442",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_5_label_communities",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_5_label_communities"
     },
     {
       "relation": "contains",
@@ -3699,9 +3859,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L482",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
     },
     {
       "relation": "contains",
@@ -3709,9 +3869,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L508",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
     },
     {
       "relation": "contains",
@@ -3719,9 +3879,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L502",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
     },
     {
       "relation": "contains",
@@ -3729,9 +3889,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_part_a_structural_extraction_for_code_files",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_part_a_structural_extraction_for_code_files"
     },
     {
       "relation": "contains",
@@ -3739,9 +3899,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L211",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_part_b_semantic_extraction_parallel_subagents"
     },
     {
       "relation": "contains",
@@ -3749,9 +3909,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L356",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "claude_skills_graphify_skill_md_graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_skill_md_graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
     },
     {
       "relation": "contains",
@@ -3759,9 +3919,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L633",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_troubleshooting",
-      "target": "graphify_skill_powershell_5_1_vertical_scrolling_stops_working",
-      "confidence_score": 1.0
+      "target": "graphify_skill_powershell_5_1_vertical_scrolling_stops_working"
     },
     {
       "relation": "contains",
@@ -3769,9 +3929,9 @@
       "source_file": ".claude/skills/graphify/references/add-watch.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_add_watch_md_references_add_watch",
-      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
     },
     {
       "relation": "contains",
@@ -3779,9 +3939,9 @@
       "source_file": ".claude/skills/graphify/references/add-watch.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_for_graphify_add",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_for_graphify_add"
     },
     {
       "relation": "contains",
@@ -3789,9 +3949,9 @@
       "source_file": ".claude/skills/graphify/references/add-watch.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_for_watch",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_add_watch_md_references_add_watch_for_watch"
     },
     {
       "relation": "contains",
@@ -3799,9 +3959,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark"
     },
     {
       "relation": "contains",
@@ -3809,9 +3969,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_6b_wiki_only_if_wiki_flag",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_6b_wiki_only_if_wiki_flag"
     },
     {
       "relation": "contains",
@@ -3819,9 +3979,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
     },
     {
       "relation": "contains",
@@ -3829,9 +3989,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7b_svg_export_only_if_svg_flag",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7b_svg_export_only_if_svg_flag"
     },
     {
       "relation": "contains",
@@ -3839,9 +3999,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7c_graphml_export_only_if_graphml_flag"
     },
     {
       "relation": "contains",
@@ -3849,9 +4009,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_7d_mcp_server_only_if_mcp_flag"
     },
     {
       "relation": "contains",
@@ -3859,9 +4019,9 @@
       "source_file": ".claude/skills/graphify/references/exports.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "claude_skills_graphify_references_exports_md_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_exports_md_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
     },
     {
       "relation": "contains",
@@ -3869,9 +4029,9 @@
       "source_file": ".claude/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_extraction_spec_md_references_extraction_spec",
-      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "confidence_score": 1.0
+      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt"
     },
     {
       "relation": "contains",
@@ -3879,9 +4039,9 @@
       "source_file": ".claude/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge",
-      "target": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
     },
     {
       "relation": "contains",
@@ -3889,9 +4049,9 @@
       "source_file": ".claude/skills/graphify/references/github-and-merge.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "target": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_github_and_merge_md_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
     },
     {
       "relation": "contains",
@@ -3899,9 +4059,9 @@
       "source_file": ".claude/skills/graphify/references/hooks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_hooks_md_references_hooks",
-      "target": "claude_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -3909,9 +4069,9 @@
       "source_file": ".claude/skills/graphify/references/hooks.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "claude_skills_graphify_references_hooks_md_references_hooks_for_git_commit_hook",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_hooks_md_references_hooks_for_git_commit_hook"
     },
     {
       "relation": "contains",
@@ -3919,9 +4079,9 @@
       "source_file": ".claude/skills/graphify/references/hooks.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "claude_skills_graphify_references_hooks_md_references_hooks_for_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_hooks_md_references_hooks_for_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -3929,9 +4089,9 @@
       "source_file": ".claude/skills/graphify/references/query.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_query_md_references_query",
-      "target": "claude_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain"
     },
     {
       "relation": "contains",
@@ -3939,9 +4099,9 @@
       "source_file": ".claude/skills/graphify/references/query.md",
       "source_location": "L198",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "target": "claude_skills_graphify_references_query_md_references_query_for_graphify_explain",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_query_md_references_query_for_graphify_explain"
     },
     {
       "relation": "contains",
@@ -3949,9 +4109,9 @@
       "source_file": ".claude/skills/graphify/references/query.md",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "target": "claude_skills_graphify_references_query_md_references_query_for_graphify_path",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_query_md_references_query_for_graphify_path"
     },
     {
       "relation": "contains",
@@ -3959,9 +4119,9 @@
       "source_file": ".claude/skills/graphify/references/transcribe.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_transcribe_md_references_transcribe",
-      "target": "claude_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio"
     },
     {
       "relation": "contains",
@@ -3969,9 +4129,9 @@
       "source_file": ".claude/skills/graphify/references/transcribe.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "target": "claude_skills_graphify_references_transcribe_md_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_transcribe_md_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -3979,9 +4139,9 @@
       "source_file": ".claude/skills/graphify/references/update.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_update_md_references_update",
-      "target": "claude_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -3989,9 +4149,9 @@
       "source_file": ".claude/skills/graphify/references/update.md",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "claude_skills_graphify_references_update_md_references_update_for_cluster_only",
-      "confidence_score": 1.0
+      "target": "claude_skills_graphify_references_update_md_references_update_for_cluster_only"
     },
     {
       "relation": "contains",
@@ -3999,8 +4159,68 @@
       "source_file": ".claude/skills/graphify/references/update.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "claude_skills_graphify_references_update_md_references_update_for_update_incremental_re_extraction",
+      "target": "claude_skills_graphify_references_update_md_references_update_for_update_incremental_re_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/shadcn/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_templates_available",
       "confidence_score": 1.0
     },
     {
@@ -4009,9 +4229,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_graphify"
     },
     {
       "relation": "contains",
@@ -4019,9 +4239,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L594",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_for_graphify_add_and_watch",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_for_graphify_add_and_watch"
     },
     {
       "relation": "contains",
@@ -4029,9 +4249,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L582",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_for_graphify_query",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_for_graphify_query"
     },
     {
       "relation": "contains",
@@ -4039,9 +4259,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L600",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -4049,9 +4269,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L576",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_for_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_for_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -4059,9 +4279,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L606",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_honesty_rules",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_honesty_rules"
     },
     {
       "relation": "contains",
@@ -4069,9 +4289,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L558",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_interpreter_guard_for_subcommands",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_interpreter_guard_for_subcommands"
     },
     {
       "relation": "contains",
@@ -4079,9 +4299,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_usage",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_usage"
     },
     {
       "relation": "contains",
@@ -4089,9 +4309,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_what_graphify_is_for",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_what_graphify_is_for"
     },
     {
       "relation": "contains",
@@ -4099,9 +4319,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_graphify",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked"
     },
     {
       "relation": "contains",
@@ -4109,9 +4329,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
     },
     {
       "relation": "contains",
@@ -4119,9 +4339,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_1_ensure_graphify_is_installed",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_1_ensure_graphify_is_installed"
     },
     {
       "relation": "contains",
@@ -4129,9 +4349,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -4139,9 +4359,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_2_detect_files",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_2_detect_files"
     },
     {
       "relation": "contains",
@@ -4149,9 +4369,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships"
     },
     {
       "relation": "contains",
@@ -4159,9 +4379,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L365",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
     },
     {
       "relation": "contains",
@@ -4169,9 +4389,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L417",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_5_label_communities",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_5_label_communities"
     },
     {
       "relation": "contains",
@@ -4179,9 +4399,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L457",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
     },
     {
       "relation": "contains",
@@ -4189,9 +4409,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L483",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
     },
     {
       "relation": "contains",
@@ -4199,9 +4419,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L477",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_what_you_must_do_when_invoked",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
     },
     {
       "relation": "contains",
@@ -4209,9 +4429,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_part_a_structural_extraction_for_code_files",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_part_a_structural_extraction_for_code_files"
     },
     {
       "relation": "contains",
@@ -4219,9 +4439,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_part_b_semantic_extraction_parallel_subagents"
     },
     {
       "relation": "contains",
@@ -4229,9 +4449,9 @@
       "source_file": ".codex/skills/graphify/SKILL.md",
       "source_location": "L331",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_skill_md_graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "codex_skills_graphify_skill_md_graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_skill_md_graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
     },
     {
       "relation": "contains",
@@ -4239,9 +4459,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_add_watch_md_references_add_watch",
-      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
     },
     {
       "relation": "contains",
@@ -4249,9 +4469,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_for_graphify_add",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_for_graphify_add"
     },
     {
       "relation": "contains",
@@ -4259,9 +4479,9 @@
       "source_file": ".codex/skills/graphify/references/add-watch.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_add_watch_md_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_for_watch",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_add_watch_md_references_add_watch_for_watch"
     },
     {
       "relation": "contains",
@@ -4269,9 +4489,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark"
     },
     {
       "relation": "contains",
@@ -4279,9 +4499,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_6b_wiki_only_if_wiki_flag",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_6b_wiki_only_if_wiki_flag"
     },
     {
       "relation": "contains",
@@ -4289,9 +4509,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
     },
     {
       "relation": "contains",
@@ -4299,9 +4519,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7b_svg_export_only_if_svg_flag",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7b_svg_export_only_if_svg_flag"
     },
     {
       "relation": "contains",
@@ -4309,9 +4529,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7c_graphml_export_only_if_graphml_flag"
     },
     {
       "relation": "contains",
@@ -4319,9 +4539,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_7d_mcp_server_only_if_mcp_flag"
     },
     {
       "relation": "contains",
@@ -4329,9 +4549,9 @@
       "source_file": ".codex/skills/graphify/references/exports.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_exports_md_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "codex_skills_graphify_references_exports_md_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_exports_md_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
     },
     {
       "relation": "contains",
@@ -4339,9 +4559,9 @@
       "source_file": ".codex/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_extraction_spec_md_references_extraction_spec",
-      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt_compact",
-      "confidence_score": 1.0
+      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt_compact"
     },
     {
       "relation": "contains",
@@ -4349,9 +4569,9 @@
       "source_file": ".codex/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge",
-      "target": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
     },
     {
       "relation": "contains",
@@ -4359,9 +4579,9 @@
       "source_file": ".codex/skills/graphify/references/github-and-merge.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "target": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_github_and_merge_md_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
     },
     {
       "relation": "contains",
@@ -4369,9 +4589,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_hooks_md_references_hooks",
-      "target": "codex_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -4379,9 +4599,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "codex_skills_graphify_references_hooks_md_references_hooks_for_git_commit_hook",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_hooks_md_references_hooks_for_git_commit_hook"
     },
     {
       "relation": "contains",
@@ -4389,9 +4609,9 @@
       "source_file": ".codex/skills/graphify/references/hooks.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_hooks_md_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "codex_skills_graphify_references_hooks_md_references_hooks_for_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_hooks_md_references_hooks_for_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -4399,9 +4619,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_query_md_references_query",
-      "target": "codex_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain"
     },
     {
       "relation": "contains",
@@ -4409,9 +4629,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L198",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "target": "codex_skills_graphify_references_query_md_references_query_for_graphify_explain",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_query_md_references_query_for_graphify_explain"
     },
     {
       "relation": "contains",
@@ -4419,9 +4639,9 @@
       "source_file": ".codex/skills/graphify/references/query.md",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_query_md_references_query_graphify_reference_query_path_explain",
-      "target": "codex_skills_graphify_references_query_md_references_query_for_graphify_path",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_query_md_references_query_for_graphify_path"
     },
     {
       "relation": "contains",
@@ -4429,9 +4649,9 @@
       "source_file": ".codex/skills/graphify/references/transcribe.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_transcribe_md_references_transcribe",
-      "target": "codex_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio"
     },
     {
       "relation": "contains",
@@ -4439,9 +4659,9 @@
       "source_file": ".codex/skills/graphify/references/transcribe.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_transcribe_md_references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "target": "codex_skills_graphify_references_transcribe_md_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_transcribe_md_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -4449,9 +4669,9 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_update_md_references_update",
-      "target": "codex_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -4459,9 +4679,9 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "codex_skills_graphify_references_update_md_references_update_for_cluster_only",
-      "confidence_score": 1.0
+      "target": "codex_skills_graphify_references_update_md_references_update_for_cluster_only"
     },
     {
       "relation": "contains",
@@ -4469,8 +4689,68 @@
       "source_file": ".codex/skills/graphify/references/update.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "codex_skills_graphify_references_update_md_references_update_for_update_incremental_re_extraction",
+      "target": "codex_skills_graphify_references_update_md_references_update_for_update_incremental_re_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/shadcn/SKILL.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_templates_available",
       "confidence_score": 1.0
     },
     {
@@ -4489,287 +4769,287 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_graphify"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica",
       "target": "docs_01_vision_arquitectonica_jana_os_especificaci\u00f3n_de_visi\u00f3n_arquitect\u00f3nica"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_jana_os_especificaci\u00f3n_de_visi\u00f3n_arquitect\u00f3nica",
       "target": "docs_01_vision_arquitectonica_1_estructura_de_capas_del_sistema_arquitectura_desacoplada"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_jana_os_especificaci\u00f3n_de_visi\u00f3n_arquitect\u00f3nica",
       "target": "docs_01_vision_arquitectonica_2_stack_tecnol\u00f3gico"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_jana_os_especificaci\u00f3n_de_visi\u00f3n_arquitect\u00f3nica",
       "target": "docs_01_vision_arquitectonica_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_jana_os_especificaci\u00f3n_de_visi\u00f3n_arquitect\u00f3nica",
       "target": "docs_01_vision_arquitectonica_4_infraestructura_y_despliegue"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_2_stack_tecnol\u00f3gico",
       "target": "docs_01_vision_arquitectonica_2_1_frontend"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_2_stack_tecnol\u00f3gico",
       "target": "docs_01_vision_arquitectonica_2_2_backend_y_mensajer\u00eda"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_2_stack_tecnol\u00f3gico",
       "target": "docs_01_vision_arquitectonica_2_3_capa_de_datos_y_almacenamiento"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
       "target": "docs_01_vision_arquitectonica_3_1_jana_orchestrator"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
       "target": "docs_01_vision_arquitectonica_3_2_jana_brain_y_agentes_especializados"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/01_vision_arquitectonica.md",
-      "weight": 1.0,
       "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_01_vision_arquitectonica_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
       "target": "docs_01_vision_arquitectonica_3_3_knowledge_service"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos",
       "target": "docs_02_modelos_de_datos_jana_os_especificaci\u00f3n_de_modelos_de_datos_y_grafo_de_talento"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_jana_os_especificaci\u00f3n_de_modelos_de_datos_y_grafo_de_talento",
       "target": "docs_02_modelos_de_datos_1_esquema_relacional_postgresql"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_jana_os_especificaci\u00f3n_de_modelos_de_datos_y_grafo_de_talento",
       "target": "docs_02_modelos_de_datos_2_grafo_vivo_jana_talent_graph"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_jana_os_especificaci\u00f3n_de_modelos_de_datos_y_grafo_de_talento",
       "target": "docs_02_modelos_de_datos_3_esquema_vectorial_y_seguridad_rag_pgvector"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_1_esquema_relacional_postgresql",
       "target": "docs_02_modelos_de_datos_1_1_sedes_y_usuarios"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_1_esquema_relacional_postgresql",
       "target": "docs_02_modelos_de_datos_1_2_clases_y_evaluaciones"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_1_esquema_relacional_postgresql",
       "target": "docs_02_modelos_de_datos_1_3_finanzas_y_verifactu"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_2_grafo_vivo_jana_talent_graph",
       "target": "docs_02_modelos_de_datos_2_1_metadatos_de_las_relaciones"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_2_grafo_vivo_jana_talent_graph",
       "target": "docs_02_modelos_de_datos_2_2_taxonom\u00eda_de_skills"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_3_esquema_vectorial_y_seguridad_rag_pgvector",
       "target": "docs_02_modelos_de_datos_3_1_estructura_de_la_tabla_de_embeddings"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/02_modelos_de_datos.md",
-      "weight": 1.0,
       "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_02_modelos_de_datos_3_esquema_vectorial_y_seguridad_rag_pgvector",
       "target": "docs_02_modelos_de_datos_3_2_niveles_de_sensibilidad_del_rag"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales",
       "target": "docs_03_requisitos_funcionales_jana_os_especificaci\u00f3n_de_requisitos_funcionales_y_procesos_de_ia"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales_jana_os_especificaci\u00f3n_de_requisitos_funcionales_y_procesos_de_ia",
       "target": "docs_03_requisitos_funcionales_1_b\u00fasqueda_global_segura_pgvector_rag"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales_jana_os_especificaci\u00f3n_de_requisitos_funcionales_y_procesos_de_ia",
       "target": "docs_03_requisitos_funcionales_2_generaci\u00f3n_de_contenido_autom\u00e1tica_jana_content_engine"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales_jana_os_especificaci\u00f3n_de_requisitos_funcionales_y_procesos_de_ia",
       "target": "docs_03_requisitos_funcionales_3_mensajer\u00eda_en_tiempo_real_jana_chat"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales_jana_os_especificaci\u00f3n_de_requisitos_funcionales_y_procesos_de_ia",
       "target": "docs_03_requisitos_funcionales_4_adaptador_verifactu_y_finanzas"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/03_requisitos_funcionales.md",
-      "weight": 1.0,
       "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_03_requisitos_funcionales_2_generaci\u00f3n_de_contenido_autom\u00e1tica_jana_content_engine",
       "target": "docs_03_requisitos_funcionales_2_1_detalle_del_flujo_de_trabajo"
     },
@@ -4788,9 +5068,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_accesibilidad",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_accesibilidad"
     },
     {
       "relation": "contains",
@@ -4798,9 +5078,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_bordes",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_bordes"
     },
     {
       "relation": "contains",
@@ -4808,9 +5088,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L260",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_botones",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_botones"
     },
     {
       "relation": "contains",
@@ -4818,9 +5098,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_cards",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_cards"
     },
     {
       "relation": "contains",
@@ -4828,9 +5108,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L432",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_dark_mode",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_dark_mode"
     },
     {
       "relation": "contains",
@@ -4838,9 +5118,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_duraciones",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_duraciones"
     },
     {
       "relation": "contains",
@@ -4848,9 +5128,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_escala_tipogr\u00e1fica",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_escala_tipogr\u00e1fica"
     },
     {
       "relation": "contains",
@@ -4858,9 +5138,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L343",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_estados_ia",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_estados_ia"
     },
     {
       "relation": "contains",
@@ -4868,9 +5148,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_filosof\u00eda_de_dise\u00f1o",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_filosof\u00eda_de_dise\u00f1o"
     },
     {
       "relation": "contains",
@@ -4878,9 +5158,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_glassmorphism",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_glassmorphism"
     },
     {
       "relation": "contains",
@@ -4888,9 +5168,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L285",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_inputs_285",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_inputs_285"
     },
     {
       "relation": "contains",
@@ -4898,9 +5178,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_jana_os_sistema_de_dise\u00f1o",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_jana_os_sistema_de_dise\u00f1o"
     },
     {
       "relation": "contains",
@@ -4908,9 +5188,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_mobile_first",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_mobile_first"
     },
     {
       "relation": "contains",
@@ -4918,9 +5198,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L373",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_motion_design",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_motion_design"
     },
     {
       "relation": "contains",
@@ -4928,9 +5208,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L440",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_principio_final",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_principio_final"
     },
     {
       "relation": "contains",
@@ -4938,9 +5218,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L383",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_principios",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_principios"
     },
     {
       "relation": "contains",
@@ -4948,9 +5228,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L298",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_sidebar",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_sidebar"
     },
     {
       "relation": "contains",
@@ -4958,9 +5238,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_sistema_de_color",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_sistema_de_color"
     },
     {
       "relation": "contains",
@@ -4968,9 +5248,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L227",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_sombras",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_sombras"
     },
     {
       "relation": "contains",
@@ -4978,9 +5258,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L417",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_talent_graph",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_talent_graph"
     },
     {
       "relation": "contains",
@@ -4988,9 +5268,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_tipograf\u00eda",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_tipograf\u00eda"
     },
     {
       "relation": "contains",
@@ -4998,9 +5278,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_jana_os_sistema_de_dise\u00f1o",
-      "target": "docs_04_diseno_ui_ux_versi\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_versi\u00f3n"
     },
     {
       "relation": "contains",
@@ -5008,9 +5288,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_filosof\u00eda_de_dise\u00f1o",
-      "target": "docs_04_diseno_ui_ux_principio_principal",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_principio_principal"
     },
     {
       "relation": "contains",
@@ -5018,9 +5298,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_tipograf\u00eda",
-      "target": "docs_04_diseno_ui_ux_primaria",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_primaria"
     },
     {
       "relation": "contains",
@@ -5028,9 +5308,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_tipograf\u00eda",
-      "target": "docs_04_diseno_ui_ux_secundaria",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_secundaria"
     },
     {
       "relation": "contains",
@@ -5038,9 +5318,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_background",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_background"
     },
     {
       "relation": "contains",
@@ -5048,9 +5328,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_brain",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_brain"
     },
     {
       "relation": "contains",
@@ -5058,9 +5338,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_elevated_surface",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_elevated_surface"
     },
     {
       "relation": "contains",
@@ -5068,9 +5348,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_error",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_error"
     },
     {
       "relation": "contains",
@@ -5078,9 +5358,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_info",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_info"
     },
     {
       "relation": "contains",
@@ -5088,9 +5368,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_jana_primary",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_jana_primary"
     },
     {
       "relation": "contains",
@@ -5098,9 +5378,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_jana_primary_accessible",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_jana_primary_accessible"
     },
     {
       "relation": "contains",
@@ -5108,9 +5388,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_production",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_production"
     },
     {
       "relation": "contains",
@@ -5118,9 +5398,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_success",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_success"
     },
     {
       "relation": "contains",
@@ -5128,9 +5408,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_surface",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_surface"
     },
     {
       "relation": "contains",
@@ -5138,9 +5418,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_talent",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_talent"
     },
     {
       "relation": "contains",
@@ -5148,9 +5428,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_warning",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_warning"
     },
     {
       "relation": "contains",
@@ -5158,9 +5438,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_bordes",
-      "target": "docs_04_diseno_ui_ux_cards_destacadas",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_cards_destacadas"
     },
     {
       "relation": "contains",
@@ -5168,9 +5448,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L211",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_bordes",
-      "target": "docs_04_diseno_ui_ux_inputs",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_inputs"
     },
     {
       "relation": "contains",
@@ -5178,9 +5458,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_bordes",
-      "target": "docs_04_diseno_ui_ux_radio_est\u00e1ndar",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_radio_est\u00e1ndar"
     },
     {
       "relation": "contains",
@@ -5188,9 +5468,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L325",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_cards",
-      "target": "docs_04_diseno_ui_ux_insight_card",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_insight_card"
     },
     {
       "relation": "contains",
@@ -5198,9 +5478,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L337",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_cards",
-      "target": "docs_04_diseno_ui_ux_production_card",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_production_card"
     },
     {
       "relation": "contains",
@@ -5208,9 +5488,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L319",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_cards",
-      "target": "docs_04_diseno_ui_ux_standard_card",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_standard_card"
     },
     {
       "relation": "contains",
@@ -5218,9 +5498,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L331",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_cards",
-      "target": "docs_04_diseno_ui_ux_talent_card",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_talent_card"
     },
     {
       "relation": "contains",
@@ -5228,9 +5508,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L357",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_complete",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_complete"
     },
     {
       "relation": "contains",
@@ -5238,9 +5518,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L365",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_review",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_review"
     },
     {
       "relation": "contains",
@@ -5248,97 +5528,97 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L345",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_thinking",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_thinking"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
-      "weight": 1.0,
       "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent",
       "target": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestaci\u00f3n_agentes_de_contenido"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestaci\u00f3n_agentes_de_contenido",
       "target": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_answer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
-      "weight": 1.0,
       "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestaci\u00f3n_agentes_de_contenido",
       "target": "memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_source_nodes"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
-      "weight": 1.0,
       "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d",
       "target": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
       "target": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_answer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
-      "weight": 1.0,
       "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
       "target": "memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_source_nodes"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
-      "weight": 1.0,
       "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa",
       "target": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
-      "weight": 1.0,
       "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
       "target": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_answer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
-      "weight": 1.0,
       "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
       "target": "memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_source_nodes"
     },
@@ -5434,5 +5714,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "450d81d6b23864c10b3613618ff7456a7c8f282a"
+  "built_at_commit": "eace69065f8b2e1db6593f10f8926b3d147fee2e"
 }
