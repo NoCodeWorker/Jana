@@ -71,8 +71,8 @@ graph TD
 2.  **Publicación de Evento:** FastAPI recibe la petición HTTP, registra el cambio básico en base de datos y publica el evento `PRODUCCION_MODIFICADA` en el **Event Bus**. La respuesta HTTP retorna inmediatamente al profesor, garantizando cero retrasos en el frontend.
 3.  **Orquestación:** **JANA Orchestrator** consume el evento del Event Bus y desencadena la cola de tareas del motor de contenidos.
 4.  **Generación de Contenido:**
-    *   **Content Agent** redacta un artículo sobre el proceso de montaje coral y las técnicas utilizadas, aplicando las directrices de la [Regla de Redacción Persuasiva y Accesible (Copywriting)](file:///D:/JANA/.agents/rules/copywriting.md).
-    *   **SEO Agent, GEO Agent y AIO Agent** ajustan, localizan y estructuran el contenido en formato de preguntas y respuestas cortas optimizadas para búsquedas de IA y buscadores tradicionales, conforme a la [Regla de SEO, GEO y AIO](file:///D:/JANA/.agents/rules/seo_geo_aio.md).
+    *   **Content Agent** redacta un artículo sobre el proceso de montaje coral y las técnicas utilizadas, aplicando las directrices de la [Regla de Redacción Persuasiva y Accesible (Copywriting)](../.agents/rules/copywriting.md).
+    *   **SEO Agent, GEO Agent y AIO Agent** ajustan, localizan y estructuran el contenido en formato de preguntas y respuestas cortas optimizadas para búsquedas de IA y buscadores tradicionales, conforme a la [Regla de SEO, GEO y AIO](../.agents/rules/seo_geo_aio.md).
 5.  **CMS:** Se guarda en el CMS interno como borrador pendiente de aprobación por el Administrador.
 
 ---
@@ -127,4 +127,4 @@ graph LR
 ```
 *   **Encadenamiento de Facturas (Hash Chaining):** Cada factura que se genera por matrícula o mensualidad en JANA OS debe contener obligatoriamente el hash de la factura inmediatamente anterior, junto con la fecha y hora de expedición. Esto imposibilita la alteración o borrado de transacciones financieras previas una vez registradas.
 *   **Certificado Digital:** El adaptador de Verifactu firma digitalmente el XML de salida para su validación inmediata por parte de la Agencia Tributaria Española.
-*   **Pasarela de Pago y Checkout Ético:** Todos los cobros, mensualidades e inscripciones procesados por el módulo financiero deben seguir estrictamente la [Regla de Optimización de la Tasa de Conversión Ética (CRO Ético)](file:///D:/JANA/.agents/rules/ethical_cro.md) para garantizar la transparencia y evitar patrones oscuros.
+*   **Pasarela de Pago y Checkout Ético:** Todos los cobros, mensualidades e inscripciones procesados por el módulo financiero deben seguir estrictamente la [Regla de Optimización de la Tasa de Conversión Ética (CRO Ético)](../.agents/rules/ethical_cro.md) para garantizar la transparencia y evitar patrones oscuros.

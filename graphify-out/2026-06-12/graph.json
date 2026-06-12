@@ -13,745 +13,2091 @@
       "author": null,
       "contributor": null,
       "id": "codex_hooks_pretooluse",
-      "community": 3,
+      "community": 14,
       "norm_label": "codex pretooluse hook"
     },
     {
-      "label": "Graphify Knowledge Graph Rule",
+      "label": "copywriting.md",
       "file_type": "document",
-      "source_file": "D:/JANA/.agents/rules/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "rules_graphify_knowledge_graph",
-      "community": 3,
-      "norm_label": "graphify knowledge graph rule"
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L1",
+      "id": "agents_rules_copywriting_md",
+      "community": 6,
+      "norm_label": "copywriting.md"
     },
     {
-      "label": "Graphify Update Rule",
+      "label": "Regla del Agente: Redacci\u00f3n Persuasiva y Accesible (Copywriting)",
       "file_type": "document",
-      "source_file": "D:/JANA/.agents/rules/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "rules_graphify_update_rule",
-      "community": 3,
-      "norm_label": "graphify update rule"
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L1",
+      "id": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting",
+      "community": 6,
+      "norm_label": "regla del agente: redaccion persuasiva y accesible (copywriting)"
     },
     {
-      "label": "Graphify Codex Integration",
+      "label": "1. Tono y Voz de JANA OS",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L7",
+      "id": "agents_rules_copywriting_md_1_tono_y_voz_de_jana_os",
+      "community": 6,
+      "norm_label": "1. tono y voz de jana os"
+    },
+    {
+      "label": "2. Principios y Frameworks de Redacci\u00f3n",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L17",
+      "id": "agents_rules_copywriting_md_2_principios_y_frameworks_de_redaccin",
+      "community": 6,
+      "norm_label": "2. principios y frameworks de redaccion"
+    },
+    {
+      "label": "2.1 Enfoque en Beneficios y Transformaci\u00f3n",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L19",
+      "id": "agents_rules_copywriting_md_21_enfoque_en_beneficios_y_transformacin",
+      "community": 6,
+      "norm_label": "2.1 enfoque en beneficios y transformacion"
+    },
+    {
+      "label": "2.2 Frameworks de Conversi\u00f3n Cl\u00e1sicos",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L24",
+      "id": "agents_rules_copywriting_md_22_frameworks_de_conversin_clsicos",
+      "community": 6,
+      "norm_label": "2.2 frameworks de conversion clasicos"
+    },
+    {
+      "label": "3. Copywriting Accesible (Inclusive & Plain Language)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L39",
+      "id": "agents_rules_copywriting_md_3_copywriting_accesible_inclusive_plain_language",
+      "community": 6,
+      "norm_label": "3. copywriting accesible (inclusive & plain language)"
+    },
+    {
+      "label": "3.1 Claridad sobre Ingenio (Clarity Over Cleverness)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L43",
+      "id": "agents_rules_copywriting_md_31_claridad_sobre_ingenio_clarity_over_cleverness",
+      "community": 6,
+      "norm_label": "3.1 claridad sobre ingenio (clarity over cleverness)"
+    },
+    {
+      "label": "3.2 Enlaces Descriptivos (Prohibici\u00f3n de \"Haz Clic Aqu\u00ed\")",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "source_location": "L47",
+      "id": "agents_rules_copywriting_md_32_enlaces_descriptivos_prohibicin_de_haz_clic_aqu",
+      "community": 6,
+      "norm_label": "3.2 enlaces descriptivos (prohibicion de \"haz clic aqui\")"
+    },
+    {
+      "label": "ethical_cro.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L1",
+      "id": "agents_rules_ethical_cro_md",
+      "community": 8,
+      "norm_label": "ethical_cro.md"
+    },
+    {
+      "label": "Regla del Agente: Optimizaci\u00f3n de la Tasa de Conversi\u00f3n \u00c9tica (CRO \u00c9tico)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L1",
+      "id": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico",
+      "community": 9,
+      "norm_label": "regla del agente: optimizacion de la tasa de conversion etica (cro etico)"
+    },
+    {
+      "label": "1. Principios del CRO \u00c9tico",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L7",
+      "id": "agents_rules_ethical_cro_md_1_principios_del_cro_tico",
+      "community": 9,
+      "norm_label": "1. principios del cro etico"
+    },
+    {
+      "label": "1.1 Transparencia Total sobre Costes y Condiciones",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L11",
+      "id": "agents_rules_ethical_cro_md_11_transparencia_total_sobre_costes_y_condiciones",
+      "community": 9,
+      "norm_label": "1.1 transparencia total sobre costes y condiciones"
+    },
+    {
+      "label": "1.2 Respeto a la Autonom\u00eda del Usuario (No Guilt-Tripping)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L16",
+      "id": "agents_rules_ethical_cro_md_12_respeto_a_la_autonoma_del_usuario_no_guilttripping",
+      "community": 9,
+      "norm_label": "1.2 respeto a la autonomia del usuario (no guilt-tripping)"
+    },
+    {
+      "label": "2. Alternativas \u00c9ticas a los Patrones Persuasivos Agresivos",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L22",
+      "id": "agents_rules_ethical_cro_md_2_alternativas_ticas_a_los_patrones_persuasivos_agresivos",
+      "community": 9,
+      "norm_label": "2. alternativas eticas a los patrones persuasivos agresivos"
+    },
+    {
+      "label": "3. Reducci\u00f3n Pr\u00e1ctica de Fricci\u00f3n en Formularios y Checkout",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L32",
+      "id": "agents_rules_ethical_cro_md_3_reduccin_prctica_de_friccin_en_formularios_y_checkout",
+      "community": 9,
+      "norm_label": "3. reduccion practica de friccion en formularios y checkout"
+    },
+    {
+      "label": "3.1 Formularios Simplificados y Guardado Autom\u00e1tico",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L34",
+      "id": "agents_rules_ethical_cro_md_31_formularios_simplificados_y_guardado_automtico",
+      "community": 9,
+      "norm_label": "3.1 formularios simplificados y guardado automatico"
+    },
+    {
+      "label": "3.2 Pasarela de Pago Transparente y R\u00e1pida",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "source_location": "L39",
+      "id": "agents_rules_ethical_cro_md_32_pasarela_de_pago_transparente_y_rpida",
+      "community": 9,
+      "norm_label": "3.2 pasarela de pago transparente y rapida"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/graphify.md",
+      "source_location": "L1",
+      "id": "agents_rules_graphify_md",
+      "community": 7,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/graphify.md",
+      "source_location": "L6",
+      "id": "agents_rules_graphify_md_graphify",
+      "community": 7,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "seo_geo_aio.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L1",
+      "id": "agents_rules_seo_geo_aio_md",
+      "community": 1,
+      "norm_label": "seo_geo_aio.md"
+    },
+    {
+      "label": "Regla del Agente: SEO, GEO y AIO (Optimizaci\u00f3n para IA y Buscadores)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L1",
+      "id": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores",
+      "community": 1,
+      "norm_label": "regla del agente: seo, geo y aio (optimizacion para ia y buscadores)"
+    },
+    {
+      "label": "1. GEO / AIO (Optimizaci\u00f3n para Motores de Inteligencia Artificial)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L7",
+      "id": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "community": 1,
+      "norm_label": "1. geo / aio (optimizacion para motores de inteligencia artificial)"
+    },
+    {
+      "label": "1.1 Bottom Line Up Front (BLUF) / Respuesta R\u00e1pida",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L11",
+      "id": "agents_rules_seo_geo_aio_md_11_bottom_line_up_front_bluf_respuesta_rpida",
+      "community": 1,
+      "norm_label": "1.1 bottom line up front (bluf) / respuesta rapida"
+    },
+    {
+      "label": "1.2 Estructura de Contenido At\u00f3mico y Preguntas Conversacionales",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L15",
+      "id": "agents_rules_seo_geo_aio_md_12_estructura_de_contenido_atmico_y_preguntas_conversacionales",
+      "community": 1,
+      "norm_label": "1.2 estructura de contenido atomico y preguntas conversacionales"
+    },
+    {
+      "label": "1.3 Se\u00f1ales de Autoridad y Citas de Fuentes (E-E-A-T para IA)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L21",
+      "id": "agents_rules_seo_geo_aio_md_13_seales_de_autoridad_y_citas_de_fuentes_eeat_para_ia",
+      "community": 1,
+      "norm_label": "1.3 senales de autoridad y citas de fuentes (e-e-a-t para ia)"
+    },
+    {
+      "label": "1.4 Bloques de Se\u00f1ales Sem\u00e1nticas Invisibles (Semantic Signal Blocks)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L26",
+      "id": "agents_rules_seo_geo_aio_md_14_bloques_de_seales_semnticas_invisibles_semantic_signal_blocks",
+      "community": 1,
+      "norm_label": "1.4 bloques de senales semanticas invisibles (semantic signal blocks)"
+    },
+    {
+      "label": "2. Estructuraci\u00f3n T\u00e9cnica de Metadatos y Schema",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L38",
+      "id": "agents_rules_seo_geo_aio_md_2_estructuracin_tcnica_de_metadatos_y_schema",
+      "community": 1,
+      "norm_label": "2. estructuracion tecnica de metadatos y schema"
+    },
+    {
+      "label": "2.1 Schema JSON-LD en Formato `@graph`",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L40",
+      "id": "agents_rules_seo_geo_aio_md_21_schema_jsonld_en_formato_graph",
+      "community": 1,
+      "norm_label": "2.1 schema json-ld en formato `@graph`"
+    },
+    {
+      "label": "3. SEO T\u00e9cnico Tradicional (WPO y Next.js)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L71",
+      "id": "agents_rules_seo_geo_aio_md_3_seo_tcnico_tradicional_wpo_y_nextjs",
+      "community": 1,
+      "norm_label": "3. seo tecnico tradicional (wpo y next.js)"
+    },
+    {
+      "label": "3.1 Metadata Din\u00e1mica en Next.js",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L73",
+      "id": "agents_rules_seo_geo_aio_md_31_metadata_dinmica_en_nextjs",
+      "community": 1,
+      "norm_label": "3.1 metadata dinamica en next.js"
+    },
+    {
+      "label": "3.2 Optimizaci\u00f3n de Rendimiento (WPO)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "source_location": "L77",
+      "id": "agents_rules_seo_geo_aio_md_32_optimizacin_de_rendimiento_wpo",
+      "community": 1,
+      "norm_label": "3.2 optimizacion de rendimiento (wpo)"
+    },
+    {
+      "label": "ux_design.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L1",
+      "id": "agents_rules_ux_design_md",
+      "community": 2,
+      "norm_label": "ux_design.md"
+    },
+    {
+      "label": "Regla del Agente: Dise\u00f1o de Experiencia de Usuario (UX)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L1",
+      "id": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "community": 2,
+      "norm_label": "regla del agente: diseno de experiencia de usuario (ux)"
+    },
+    {
+      "label": "1. Principios de Dise\u00f1o Visual y Emocional",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L7",
+      "id": "agents_rules_ux_design_md_1_principios_de_diseo_visual_y_emocional",
+      "community": 2,
+      "norm_label": "1. principios de diseno visual y emocional"
+    },
+    {
+      "label": "1.1 Est\u00e9tica Teatral Oscura (JANA Creative Stage System)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L11",
+      "id": "agents_rules_ux_design_md_11_esttica_teatral_oscura_jana_creative_stage_system",
+      "community": 2,
+      "norm_label": "1.1 estetica teatral oscura (jana creative stage system)"
+    },
+    {
+      "label": "2. Pautas de Arquitectura de Informaci\u00f3n y Carga Cognitiva",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L18",
+      "id": "agents_rules_ux_design_md_2_pautas_de_arquitectura_de_informacin_y_carga_cognitiva",
+      "community": 2,
+      "norm_label": "2. pautas de arquitectura de informacion y carga cognitiva"
+    },
+    {
+      "label": "2.1 Dise\u00f1o Mobile-First Estricto",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L20",
+      "id": "agents_rules_ux_design_md_21_diseo_mobilefirst_estricto",
+      "community": 2,
+      "norm_label": "2.1 diseno mobile-first estricto"
+    },
+    {
+      "label": "2.2 Divulgaci\u00f3n Progresiva (Progressive Disclosure)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L24",
+      "id": "agents_rules_ux_design_md_22_divulgacin_progresiva_progressive_disclosure",
+      "community": 2,
+      "norm_label": "2.2 divulgacion progresiva (progressive disclosure)"
+    },
+    {
+      "label": "3. Micro-interacciones y Feedback Visual (Motion UX)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L30",
+      "id": "agents_rules_ux_design_md_3_microinteracciones_y_feedback_visual_motion_ux",
+      "community": 2,
+      "norm_label": "3. micro-interacciones y feedback visual (motion ux)"
+    },
+    {
+      "label": "3.1 Animaciones con Significado",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L34",
+      "id": "agents_rules_ux_design_md_31_animaciones_con_significado",
+      "community": 2,
+      "norm_label": "3.1 animaciones con significado"
+    },
+    {
+      "label": "3.2 Transiciones de Estado Robustas",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L38",
+      "id": "agents_rules_ux_design_md_32_transiciones_de_estado_robustas",
+      "community": 2,
+      "norm_label": "3.2 transiciones de estado robustas"
+    },
+    {
+      "label": "4. Estabilidad Visual (WPO)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "source_location": "L44",
+      "id": "agents_rules_ux_design_md_4_estabilidad_visual_wpo",
+      "community": 2,
+      "norm_label": "4. estabilidad visual (wpo)"
+    },
+    {
+      "label": "wcag_accessibility.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L1",
+      "id": "agents_rules_wcag_accessibility_md",
+      "community": 0,
+      "norm_label": "wcag_accessibility.md"
+    },
+    {
+      "label": "Regla del Agente: Accesibilidad Avanzada WCAG 2.2 (AA)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L1",
+      "id": "agents_rules_wcag_accessibility_md_regla_del_agente_accesibilidad_avanzada_wcag_22_aa",
+      "community": 0,
+      "norm_label": "regla del agente: accesibilidad avanzada wcag 2.2 (aa)"
+    },
+    {
+      "label": "1. Nuevos Criterios de WCAG 2.2 AA (Implementaci\u00f3n Obligatoria)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L7",
+      "id": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "community": 0,
+      "norm_label": "1. nuevos criterios de wcag 2.2 aa (implementacion obligatoria)"
+    },
+    {
+      "label": "1.1 Tama\u00f1o del Objetivo de Pulsaci\u00f3n / Target Size (M\u00ednimo) [Criterio 2.5.8 - AA]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L9",
+      "id": "agents_rules_wcag_accessibility_md_11_tamao_del_objetivo_de_pulsacin_target_size_mnimo_criterio_258_aa",
+      "community": 0,
+      "norm_label": "1.1 tamano del objetivo de pulsacion / target size (minimo) [criterio 2.5.8 - aa]"
+    },
+    {
+      "label": "1.2 Apariencia del Foco / Focus Appearance [Criterio 2.4.13 - AA]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L14",
+      "id": "agents_rules_wcag_accessibility_md_12_apariencia_del_foco_focus_appearance_criterio_2413_aa",
+      "community": 0,
+      "norm_label": "1.2 apariencia del foco / focus appearance [criterio 2.4.13 - aa]"
+    },
+    {
+      "label": "1.3 Foco No Obstruido / Focus Not Obscured (M\u00ednimo/Mejorado) [Criterios 2.4.11 - A & 2.4.12 - AA]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L26",
+      "id": "agents_rules_wcag_accessibility_md_13_foco_no_obstruido_focus_not_obscured_mnimomejorado_criterios_2411_a_2412_aa",
+      "community": 0,
+      "norm_label": "1.3 foco no obstruido / focus not obscured (minimo/mejorado) [criterios 2.4.11 - a & 2.4.12 - aa]"
+    },
+    {
+      "label": "1.4 Alternativa a Movimientos de Arrastre / Dragging Movements [Criterio 2.5.7 - AA]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L35",
+      "id": "agents_rules_wcag_accessibility_md_14_alternativa_a_movimientos_de_arrastre_dragging_movements_criterio_257_aa",
+      "community": 0,
+      "norm_label": "1.4 alternativa a movimientos de arrastre / dragging movements [criterio 2.5.7 - aa]"
+    },
+    {
+      "label": "1.5 Autenticaci\u00f3n Accesible / Accessible Authentication (M\u00ednimo) [Criterio 3.3.8 - A]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L39",
+      "id": "agents_rules_wcag_accessibility_md_15_autenticacin_accesible_accessible_authentication_mnimo_criterio_338_a",
+      "community": 0,
+      "norm_label": "1.5 autenticacion accesible / accessible authentication (minimo) [criterio 3.3.8 - a]"
+    },
+    {
+      "label": "1.6 Entrada Redundante / Redundant Entry [Criterio 3.3.7 - A]",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L46",
+      "id": "agents_rules_wcag_accessibility_md_16_entrada_redundante_redundant_entry_criterio_337_a",
+      "community": 0,
+      "norm_label": "1.6 entrada redundante / redundant entry [criterio 3.3.7 - a]"
+    },
+    {
+      "label": "2. Pautas Generales y Sem\u00e1ntica HTML",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L54",
+      "id": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "community": 0,
+      "norm_label": "2. pautas generales y semantica html"
+    },
+    {
+      "label": "2.1 Alternativas Accesibles para Visualizaciones Complejas",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L56",
+      "id": "agents_rules_wcag_accessibility_md_21_alternativas_accesibles_para_visualizaciones_complejas",
+      "community": 0,
+      "norm_label": "2.1 alternativas accesibles para visualizaciones complejas"
+    },
+    {
+      "label": "2.2 Regiones ARIA y Etiquetas Din\u00e1micas",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L60",
+      "id": "agents_rules_wcag_accessibility_md_22_regiones_aria_y_etiquetas_dinmicas",
+      "community": 0,
+      "norm_label": "2.2 regiones aria y etiquetas dinamicas"
+    },
+    {
+      "label": "2.3 Respeto a Preferencias del Usuario: Animaciones Reducidas",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "source_location": "L64",
+      "id": "agents_rules_wcag_accessibility_md_23_respeto_a_preferencias_del_usuario_animaciones_reducidas",
+      "community": 0,
+      "norm_label": "2.3 respeto a preferencias del usuario: animaciones reducidas"
+    },
+    {
+      "label": "Contrato de Flujo de Trabajo: Iteraci\u00f3n Din\u00e1mica del Grafo",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L6",
+      "id": "d:_jana__agents_workflows_graphify_md_contrato_de_flujo_de_trabajo_iteracin_dinmica_del_grafo",
+      "community": 7,
+      "norm_label": "contrato de flujo de trabajo: iteracion dinamica del grafo"
+    },
+    {
+      "label": "1. Inicializaci\u00f3n del Repositorio de Control de Cambios",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L12",
+      "id": "d:_jana__agents_workflows_graphify_md_1_inicializacin_del_repositorio_de_control_de_cambios",
+      "community": 7,
+      "norm_label": "1. inicializacion del repositorio de control de cambios"
+    },
+    {
+      "label": "1. Inicializar repositorio git si no existe",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L17",
+      "id": "d:_jana__agents_workflows_graphify_md_1_inicializar_repositorio_git_si_no_existe",
+      "community": 7,
+      "norm_label": "1. inicializar repositorio git si no existe"
+    },
+    {
+      "label": "2. Agregar archivos actuales y realizar commit inicial",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L20",
+      "id": "d:_jana__agents_workflows_graphify_md_2_agregar_archivos_actuales_y_realizar_commit_inicial",
+      "community": 7,
+      "norm_label": "2. agregar archivos actuales y realizar commit inicial"
+    },
+    {
+      "label": "3. Instalar los ganchos de post-commit de Graphify",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L24",
+      "id": "d:_jana__agents_workflows_graphify_md_3_instalar_los_ganchos_de_postcommit_de_graphify",
+      "community": 7,
+      "norm_label": "3. instalar los ganchos de post-commit de graphify"
+    },
+    {
+      "label": "2. El Ciclo de Desarrollo Guiado por Grafo (Workflow Loop)",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L30",
+      "id": "d:_jana__agents_workflows_graphify_md_2_el_ciclo_de_desarrollo_guiado_por_grafo_workflow_loop",
+      "community": 7,
+      "norm_label": "2. el ciclo de desarrollo guiado por grafo (workflow loop)"
+    },
+    {
+      "label": "3. Comandos de Emergencia y Mantenimiento",
+      "file_type": "document",
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "source_location": "L57",
+      "id": "d:_jana__agents_workflows_graphify_md_3_comandos_de_emergencia_y_mantenimiento",
+      "community": 7,
+      "norm_label": "3. comandos de emergencia y mantenimiento"
+    },
+    {
+      "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "D:/JANA/AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "agents_graphify_codex_integration",
+      "source_location": "L1",
+      "id": "d:_jana_agents_md",
+      "community": 13,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "D:/JANA/AGENTS.md",
+      "source_location": "L1",
+      "id": "d:_jana_agents_md_graphify",
+      "community": 13,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "01_vision_arquitectonica.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md",
       "community": 3,
-      "norm_label": "graphify codex integration"
+      "norm_label": "01_vision_arquitectonica.md"
     },
     {
-      "label": "Landing Corporativa",
+      "label": "JANA OS - Especificaci\u00f3n de Visi\u00f3n Arquitect\u00f3nica",
       "file_type": "document",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_landing_corporativa",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "community": 3,
+      "norm_label": "jana os - especificacion de vision arquitectonica"
+    },
+    {
+      "label": "1. Estructura de Capas del Sistema (Arquitectura Desacoplada)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L5",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_1_estructura_de_capas_del_sistema_arquitectura_desacoplada",
+      "community": 3,
+      "norm_label": "1. estructura de capas del sistema (arquitectura desacoplada)"
+    },
+    {
+      "label": "2. Stack Tecnol\u00f3gico",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L62",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico",
+      "community": 3,
+      "norm_label": "2. stack tecnologico"
+    },
+    {
+      "label": "2.1 Frontend",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L64",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_21_frontend",
+      "community": 3,
+      "norm_label": "2.1 frontend"
+    },
+    {
+      "label": "2.2 Backend y Mensajer\u00eda",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L70",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_22_backend_y_mensajera",
+      "community": 3,
+      "norm_label": "2.2 backend y mensajeria"
+    },
+    {
+      "label": "2.3 Capa de Datos y Almacenamiento",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L76",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_23_capa_de_datos_y_almacenamiento",
+      "community": 3,
+      "norm_label": "2.3 capa de datos y almacenamiento"
+    },
+    {
+      "label": "3. Arquitectura del Motor de IA (JANA BRAIN & KNOWLEDGE SERVICE)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L83",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
+      "community": 3,
+      "norm_label": "3. arquitectura del motor de ia (jana brain & knowledge service)"
+    },
+    {
+      "label": "3.1 JANA Orchestrator",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L85",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_31_jana_orchestrator",
+      "community": 3,
+      "norm_label": "3.1 jana orchestrator"
+    },
+    {
+      "label": "3.2 JANA Brain y Agentes Especializados",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L88",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_32_jana_brain_y_agentes_especializados",
+      "community": 3,
+      "norm_label": "3.2 jana brain y agentes especializados"
+    },
+    {
+      "label": "3.3 Knowledge Service",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L93",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_33_knowledge_service",
+      "community": 3,
+      "norm_label": "3.3 knowledge service"
+    },
+    {
+      "label": "4. Infraestructura y Despliegue",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "source_location": "L98",
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_4_infraestructura_y_despliegue",
+      "community": 3,
+      "norm_label": "4. infraestructura y despliegue"
+    },
+    {
+      "label": "02_modelos_de_datos.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_02_modelos_de_datos_md",
+      "community": 4,
+      "norm_label": "02_modelos_de_datos.md"
+    },
+    {
+      "label": "JANA OS - Especificaci\u00f3n de Modelos de Datos y Grafo de Talento",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento",
+      "community": 4,
+      "norm_label": "jana os - especificacion de modelos de datos y grafo de talento"
+    },
+    {
+      "label": "1. Esquema Relacional (PostgreSQL)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L7",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql",
+      "community": 4,
+      "norm_label": "1. esquema relacional (postgresql)"
+    },
+    {
+      "label": "1.1 Sedes y Usuarios",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L11",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_11_sedes_y_usuarios",
+      "community": 4,
+      "norm_label": "1.1 sedes y usuarios"
+    },
+    {
+      "label": "1.2 Clases y Evaluaciones",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L29",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_12_clases_y_evaluaciones",
+      "community": 4,
+      "norm_label": "1.2 clases y evaluaciones"
+    },
+    {
+      "label": "1.3 Finanzas y Verifactu",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L46",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_13_finanzas_y_verifactu",
+      "community": 4,
+      "norm_label": "1.3 finanzas y verifactu"
+    },
+    {
+      "label": "2. Grafo Vivo (JANA TALENT GRAPH)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L61",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_2_grafo_vivo_jana_talent_graph",
+      "community": 4,
+      "norm_label": "2. grafo vivo (jana talent graph)"
+    },
+    {
+      "label": "2.1 Metadatos de las Relaciones",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L80",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_21_metadatos_de_las_relaciones",
+      "community": 4,
+      "norm_label": "2.1 metadatos de las relaciones"
+    },
+    {
+      "label": "2.2 Taxonom\u00eda de Skills",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L122",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_22_taxonoma_de_skills",
+      "community": 4,
+      "norm_label": "2.2 taxonomia de skills"
+    },
+    {
+      "label": "3. Esquema Vectorial y Seguridad RAG (pgvector)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L135",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_3_esquema_vectorial_y_seguridad_rag_pgvector",
+      "community": 4,
+      "norm_label": "3. esquema vectorial y seguridad rag (pgvector)"
+    },
+    {
+      "label": "3.1 Estructura de la Tabla de Embeddings",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L139",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_31_estructura_de_la_tabla_de_embeddings",
+      "community": 4,
+      "norm_label": "3.1 estructura de la tabla de embeddings"
+    },
+    {
+      "label": "3.2 Niveles de Sensibilidad del RAG",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "source_location": "L161",
+      "id": "d:_jana_docs_02_modelos_de_datos_md_32_niveles_de_sensibilidad_del_rag",
+      "community": 4,
+      "norm_label": "3.2 niveles de sensibilidad del rag"
+    },
+    {
+      "label": "03_requisitos_funcionales.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md",
+      "community": 8,
+      "norm_label": "03_requisitos_funcionales.md"
+    },
+    {
+      "label": "JANA OS - Especificaci\u00f3n de Requisitos Funcionales y Procesos de IA",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "community": 8,
+      "norm_label": "jana os - especificacion de requisitos funcionales y procesos de ia"
+    },
+    {
+      "label": "1. B\u00fasqueda Global Segura (pgvector + RAG)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L7",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_1_bsqueda_global_segura_pgvector_rag",
+      "community": 8,
+      "norm_label": "1. busqueda global segura (pgvector + rag)"
+    },
+    {
+      "label": "2. Generaci\u00f3n de Contenido Autom\u00e1tica (JANA Content Engine)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L41",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_2_generacin_de_contenido_automtica_jana_content_engine",
+      "community": 8,
+      "norm_label": "2. generacion de contenido automatica (jana content engine)"
+    },
+    {
+      "label": "2.1 Detalle del Flujo de Trabajo",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L69",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_21_detalle_del_flujo_de_trabajo",
+      "community": 8,
+      "norm_label": "2.1 detalle del flujo de trabajo"
+    },
+    {
+      "label": "3. Mensajer\u00eda en Tiempo Real (JANA Chat)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L80",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_3_mensajera_en_tiempo_real_jana_chat",
+      "community": 8,
+      "norm_label": "3. mensajeria en tiempo real (jana chat)"
+    },
+    {
+      "label": "4. Adaptador Verifactu y Finanzas",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "source_location": "L111",
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_4_adaptador_verifactu_y_finanzas",
+      "community": 8,
+      "norm_label": "4. adaptador verifactu y finanzas"
+    },
+    {
+      "label": "04_diseno_ui_ux.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md",
       "community": 5,
-      "norm_label": "landing corporativa"
+      "norm_label": "04_diseno_ui_ux.md"
     },
     {
-      "label": "Landings GEO por Sede",
+      "label": "JANA OS - Especificaci\u00f3n del Sistema de Dise\u00f1o (UI/UX)",
       "file_type": "document",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_geo_landings",
-      "community": 1,
-      "norm_label": "landings geo por sede"
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L1",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "community": 5,
+      "norm_label": "jana os - especificacion del sistema de diseno (ui/ux)"
     },
     {
-      "label": "Next.js Frontend",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_nextjs_frontend",
-      "community": 4,
-      "norm_label": "next.js frontend"
-    },
-    {
-      "label": "FastAPI Backend Gateway",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_fastapi_backend",
-      "community": 2,
-      "norm_label": "fastapi backend gateway"
-    },
-    {
-      "label": "Event Bus",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_event_bus",
-      "community": 2,
-      "norm_label": "event bus"
-    },
-    {
-      "label": "WebSockets Gateway",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_websockets",
-      "community": 2,
-      "norm_label": "websockets gateway"
-    },
-    {
-      "label": "Better Auth",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_better_auth",
-      "community": 2,
-      "norm_label": "better auth"
-    },
-    {
-      "label": "PostgreSQL Database",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_postgresql",
-      "community": 0,
-      "norm_label": "postgresql database"
-    },
-    {
-      "label": "pgvector",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_pgvector",
-      "community": 0,
-      "norm_label": "pgvector"
-    },
-    {
-      "label": "S3 Storage",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_s3_storage",
-      "community": 6,
-      "norm_label": "s3 storage"
-    },
-    {
-      "label": "JANA Orchestrator",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_jana_orchestrator",
-      "community": 0,
-      "norm_label": "jana orchestrator"
-    },
-    {
-      "label": "Agentes Especializados IA",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_specialized_agents",
-      "community": 0,
-      "norm_label": "agentes especializados ia"
-    },
-    {
-      "label": "Knowledge Service",
-      "file_type": "concept",
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_01_vision_arquitectonica_knowledge_service",
-      "community": 0,
-      "norm_label": "knowledge service"
-    },
-    {
-      "label": "Tabla Sedes",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_sedes_table",
-      "community": 1,
-      "norm_label": "tabla sedes"
-    },
-    {
-      "label": "Tabla Usuarios",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_usuarios_table",
-      "community": 1,
-      "norm_label": "tabla usuarios"
-    },
-    {
-      "label": "Tabla Clases",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_clases_table",
-      "community": 1,
-      "norm_label": "tabla clases"
-    },
-    {
-      "label": "Tabla Evaluaciones",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_evaluaciones_table",
-      "community": 1,
-      "norm_label": "tabla evaluaciones"
-    },
-    {
-      "label": "Tabla Eventos Financieros",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_eventos_financieros_table",
-      "community": 1,
-      "norm_label": "tabla eventos financieros"
-    },
-    {
-      "label": "JANA Talent Graph",
-      "file_type": "concept",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_jana_talent_graph",
-      "community": 0,
-      "norm_label": "jana talent graph"
-    },
-    {
-      "label": "Taxonom\u00eda de Skills",
-      "file_type": "concept",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_skills_taxonomy",
-      "community": 0,
-      "norm_label": "taxonomia de skills"
-    },
-    {
-      "label": "Tabla Embeddings pgvector",
-      "file_type": "code",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_embeddings_table",
-      "community": 1,
-      "norm_label": "tabla embeddings pgvector"
-    },
-    {
-      "label": "Seguridad y Privacidad RAG",
-      "file_type": "rationale",
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_02_modelos_de_datos_rag_security",
-      "community": 0,
-      "norm_label": "seguridad y privacidad rag"
-    },
-    {
-      "label": "Flujo RAG Seguro",
-      "file_type": "concept",
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_03_requisitos_funcionales_rag_flow",
-      "community": 0,
-      "norm_label": "flujo rag seguro"
-    },
-    {
-      "label": "Flujo JANA Content Engine",
-      "file_type": "concept",
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_03_requisitos_funcionales_content_engine_flow",
-      "community": 2,
-      "norm_label": "flujo jana content engine"
-    },
-    {
-      "label": "Flujo JANA Chat",
-      "file_type": "concept",
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_03_requisitos_funcionales_chat_flow",
-      "community": 2,
-      "norm_label": "flujo jana chat"
-    },
-    {
-      "label": "Adaptador Verifactu",
-      "file_type": "concept",
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_03_requisitos_funcionales_verifactu_adapter",
-      "community": 1,
-      "norm_label": "adaptador verifactu"
-    },
-    {
-      "label": "Especificaci\u00f3n Sistema de Dise\u00f1o",
+      "label": "1. Principios Fundamentales",
       "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "docs_04_diseno_ui_ux_spec",
-      "community": 4,
-      "norm_label": "especificacion sistema de diseno"
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L7",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_1_principios_fundamentales",
+      "community": 2,
+      "norm_label": "1. principios fundamentales"
     },
     {
-      "label": "app/globals.css (Tema Tailwind v4)",
-      "file_type": "code",
-      "source_file": "app/globals.css",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "app_globals_css",
-      "community": 4,
-      "norm_label": "app/globals.css (tema tailwind v4)"
+      "label": "2. Paleta de Colores y Tokens CSS",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L15",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_2_paleta_de_colores_y_tokens_css",
+      "community": 5,
+      "norm_label": "2. paleta de colores y tokens css"
+    },
+    {
+      "label": "2.1 Variables CSS del Tema (Tailwind CSS v4)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L38",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_21_variables_css_del_tema_tailwind_css_v4",
+      "community": 5,
+      "norm_label": "2.1 variables css del tema (tailwind css v4)"
+    },
+    {
+      "label": "3. Tipograf\u00eda y Escala",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L71",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_3_tipografa_y_escala",
+      "community": 5,
+      "norm_label": "3. tipografia y escala"
+    },
+    {
+      "label": "Escala de Tama\u00f1os",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L78",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_escala_de_tamaos",
+      "community": 5,
+      "norm_label": "escala de tamanos"
+    },
+    {
+      "label": "4. Pautas de Accesibilidad e Interacci\u00f3n",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L89",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin",
+      "community": 5,
+      "norm_label": "4. pautas de accesibilidad e interaccion"
+    },
+    {
+      "label": "4.1 \u00c1reas T\u00e1ctiles y Controles",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L91",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_41_reas_tctiles_y_controles",
+      "community": 5,
+      "norm_label": "4.1 areas tactiles y controles"
+    },
+    {
+      "label": "4.2 Lectores de Pantalla y Accesibilidad Web",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L96",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_42_lectores_de_pantalla_y_accesibilidad_web",
+      "community": 5,
+      "norm_label": "4.2 lectores de pantalla y accesibilidad web"
+    },
+    {
+      "label": "4.3 Motion Design (Movimiento con Significado)",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L101",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_43_motion_design_movimiento_con_significado",
+      "community": 5,
+      "norm_label": "4.3 motion design (movimiento con significado)"
+    },
+    {
+      "label": "5. Aplicaci\u00f3n del Color por M\u00f3dulos",
+      "file_type": "document",
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "source_location": "L107",
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_5_aplicacin_del_color_por_mdulos",
+      "community": 5,
+      "norm_label": "5. aplicacion del color por modulos"
+    },
+    {
+      "label": "query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "source_location": "L1",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md",
+      "community": 10,
+      "norm_label": "query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md"
+    },
+    {
+      "label": "Q: Why does Knowledge Service connect Grafo de Talento & Skills to Orquestaci\u00f3n & Agentes de Contenido?",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "source_location": "L9",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestacin_agentes_de_contenido",
+      "community": 10,
+      "norm_label": "q: why does knowledge service connect grafo de talento & skills to orquestacion & agentes de contenido?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "source_location": "L11",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_answer",
+      "community": 10,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "source_location": "L15",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_source_nodes",
+      "community": 10,
+      "norm_label": "source nodes"
+    },
+    {
+      "label": "query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "source_location": "L1",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md",
+      "community": 11,
+      "norm_label": "query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md"
+    },
+    {
+      "label": "Q: Why does Tabla Embeddings pgvector connect Grafo de Talento & Skills to Estructura Operativa & Sedes?",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "source_location": "L9",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
+      "community": 11,
+      "norm_label": "q: why does tabla embeddings pgvector connect grafo de talento & skills to estructura operativa & sedes?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "source_location": "L11",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_answer",
+      "community": 11,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "source_location": "L15",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_source_nodes",
+      "community": 11,
+      "norm_label": "source nodes"
+    },
+    {
+      "label": "query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "source_location": "L1",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md",
+      "community": 12,
+      "norm_label": "query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md"
+    },
+    {
+      "label": "Q: Why does Tabla Sedes connect Estructura Operativa & Sedes to Grafo de Talento & Skills?",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "source_location": "L9",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
+      "community": 12,
+      "norm_label": "q: why does tabla sedes connect estructura operativa & sedes to grafo de talento & skills?"
+    },
+    {
+      "label": "Answer",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "source_location": "L11",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_answer",
+      "community": 12,
+      "norm_label": "answer"
+    },
+    {
+      "label": "Source Nodes",
+      "file_type": "document",
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "source_location": "L15",
+      "id": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_source_nodes",
+      "community": 12,
+      "norm_label": "source nodes"
     }
   ],
   "links": [
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "D:/JANA/.codex/hooks.json",
-      "source_location": null,
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
       "weight": 1.0,
-      "source": "codex_hooks_pretooluse",
-      "target": "agents_graphify_codex_integration"
+      "source": "agents_rules_copywriting_md",
+      "target": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting"
     },
     {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_21_detalle_del_flujo_de_trabajo",
+      "target": "agents_rules_copywriting_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting",
+      "target": "agents_rules_copywriting_md_1_tono_y_voz_de_jana_os"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting",
+      "target": "agents_rules_copywriting_md_2_principios_y_frameworks_de_redaccin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting",
+      "target": "agents_rules_copywriting_md_3_copywriting_accesible_inclusive_plain_language"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_2_principios_y_frameworks_de_redaccin",
+      "target": "agents_rules_copywriting_md_21_enfoque_en_beneficios_y_transformacin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_2_principios_y_frameworks_de_redaccin",
+      "target": "agents_rules_copywriting_md_22_frameworks_de_conversin_clsicos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_3_copywriting_accesible_inclusive_plain_language",
+      "target": "agents_rules_copywriting_md_31_claridad_sobre_ingenio_clarity_over_cleverness"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/copywriting.md",
+      "weight": 1.0,
+      "source": "agents_rules_copywriting_md_3_copywriting_accesible_inclusive_plain_language",
+      "target": "agents_rules_copywriting_md_32_enlaces_descriptivos_prohibicin_de_haz_clic_aqu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md",
+      "target": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_4_adaptador_verifactu_y_finanzas",
+      "target": "agents_rules_ethical_cro_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico",
+      "target": "agents_rules_ethical_cro_md_1_principios_del_cro_tico"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico",
+      "target": "agents_rules_ethical_cro_md_2_alternativas_ticas_a_los_patrones_persuasivos_agresivos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico",
+      "target": "agents_rules_ethical_cro_md_3_reduccin_prctica_de_friccin_en_formularios_y_checkout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_1_principios_del_cro_tico",
+      "target": "agents_rules_ethical_cro_md_11_transparencia_total_sobre_costes_y_condiciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_1_principios_del_cro_tico",
+      "target": "agents_rules_ethical_cro_md_12_respeto_a_la_autonoma_del_usuario_no_guilttripping"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_3_reduccin_prctica_de_friccin_en_formularios_y_checkout",
+      "target": "agents_rules_ethical_cro_md_31_formularios_simplificados_y_guardado_automtico"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ethical_cro.md",
+      "weight": 1.0,
+      "source": "agents_rules_ethical_cro_md_3_reduccin_prctica_de_friccin_en_formularios_y_checkout",
+      "target": "agents_rules_ethical_cro_md_32_pasarela_de_pago_transparente_y_rpida"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "D:/JANA/.agents/rules/graphify.md",
-      "source_location": null,
       "weight": 1.0,
-      "source": "rules_graphify_knowledge_graph",
-      "target": "agents_graphify_codex_integration"
+      "source": "agents_rules_graphify_md",
+      "target": "agents_rules_graphify_md_graphify"
     },
     {
-      "relation": "conceptually_related_to",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "D:/JANA/.agents/rules/graphify.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
       "weight": 1.0,
-      "source": "rules_graphify_update_rule",
-      "target": "rules_graphify_knowledge_graph"
+      "source": "agents_rules_graphify_md",
+      "target": "d:_jana__agents_workflows_graphify_md_1_inicializar_repositorio_git_si_no_existe"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "weight": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "d:_jana__agents_workflows_graphify_md_2_agregar_archivos_actuales_y_realizar_commit_inicial"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "weight": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "d:_jana__agents_workflows_graphify_md_3_instalar_los_ganchos_de_postcommit_de_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
+      "weight": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "d:_jana__agents_workflows_graphify_md_contrato_de_flujo_de_trabajo_iteracin_dinmica_del_grafo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "weight": 1.0,
+      "source": "agents_rules_seo_geo_aio_md",
+      "target": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores"
     },
     {
       "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_sedes_table",
-      "target": "docs_01_vision_arquitectonica_geo_landings"
-    },
-    {
-      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": null,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
       "weight": 1.0,
-      "source": "docs_04_diseno_ui_ux_spec",
-      "target": "docs_01_vision_arquitectonica_nextjs_frontend"
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_21_detalle_del_flujo_de_trabajo",
+      "target": "agents_rules_seo_geo_aio_md"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_fastapi_backend",
-      "target": "docs_01_vision_arquitectonica_better_auth"
+      "source": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores",
+      "target": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_fastapi_backend",
-      "target": "docs_01_vision_arquitectonica_event_bus"
+      "source": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores",
+      "target": "agents_rules_seo_geo_aio_md_2_estructuracin_tcnica_de_metadatos_y_schema"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_fastapi_backend",
-      "target": "docs_01_vision_arquitectonica_websockets"
+      "source": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores",
+      "target": "agents_rules_seo_geo_aio_md_3_seo_tcnico_tradicional_wpo_y_nextjs"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_event_bus",
-      "target": "docs_01_vision_arquitectonica_jana_orchestrator"
+      "source": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "target": "agents_rules_seo_geo_aio_md_11_bottom_line_up_front_bluf_respuesta_rpida"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_03_requisitos_funcionales_chat_flow",
-      "target": "docs_01_vision_arquitectonica_event_bus"
+      "source": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "target": "agents_rules_seo_geo_aio_md_12_estructura_de_contenido_atmico_y_preguntas_conversacionales"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_03_requisitos_funcionales_content_engine_flow",
-      "target": "docs_01_vision_arquitectonica_event_bus"
+      "source": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "target": "agents_rules_seo_geo_aio_md_13_seales_de_autoridad_y_citas_de_fuentes_eeat_para_ia"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_jana_orchestrator",
-      "target": "docs_01_vision_arquitectonica_postgresql"
+      "source": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "target": "agents_rules_seo_geo_aio_md_14_bloques_de_seales_semnticas_invisibles_semantic_signal_blocks"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_knowledge_service",
-      "target": "docs_01_vision_arquitectonica_postgresql"
+      "source": "agents_rules_seo_geo_aio_md_2_estructuracin_tcnica_de_metadatos_y_schema",
+      "target": "agents_rules_seo_geo_aio_md_21_schema_jsonld_en_formato_graph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "weight": 1.0,
+      "source": "agents_rules_seo_geo_aio_md_3_seo_tcnico_tradicional_wpo_y_nextjs",
+      "target": "agents_rules_seo_geo_aio_md_31_metadata_dinmica_en_nextjs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/seo_geo_aio.md",
+      "weight": 1.0,
+      "source": "agents_rules_seo_geo_aio_md_3_seo_tcnico_tradicional_wpo_y_nextjs",
+      "target": "agents_rules_seo_geo_aio_md_32_optimizacin_de_rendimiento_wpo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md",
+      "target": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux"
     },
     {
       "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_jana_talent_graph",
-      "target": "docs_01_vision_arquitectonica_postgresql"
-    },
-    {
-      "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_knowledge_service",
-      "target": "docs_01_vision_arquitectonica_pgvector"
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_1_principios_fundamentales",
+      "target": "agents_rules_ux_design_md"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_jana_orchestrator",
-      "target": "docs_01_vision_arquitectonica_specialized_agents"
+      "source": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "target": "agents_rules_ux_design_md_1_principios_de_diseo_visual_y_emocional"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/01_vision_arquitectonica.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
       "weight": 1.0,
-      "source": "docs_01_vision_arquitectonica_specialized_agents",
-      "target": "docs_01_vision_arquitectonica_knowledge_service"
+      "source": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "target": "agents_rules_ux_design_md_2_pautas_de_arquitectura_de_informacin_y_carga_cognitiva"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "target": "agents_rules_ux_design_md_3_microinteracciones_y_feedback_visual_motion_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "target": "agents_rules_ux_design_md_4_estabilidad_visual_wpo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_1_principios_de_diseo_visual_y_emocional",
+      "target": "agents_rules_ux_design_md_11_esttica_teatral_oscura_jana_creative_stage_system"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_2_pautas_de_arquitectura_de_informacin_y_carga_cognitiva",
+      "target": "agents_rules_ux_design_md_21_diseo_mobilefirst_estricto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_2_pautas_de_arquitectura_de_informacin_y_carga_cognitiva",
+      "target": "agents_rules_ux_design_md_22_divulgacin_progresiva_progressive_disclosure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_3_microinteracciones_y_feedback_visual_motion_ux",
+      "target": "agents_rules_ux_design_md_31_animaciones_con_significado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/ux_design.md",
+      "weight": 1.0,
+      "source": "agents_rules_ux_design_md_3_microinteracciones_y_feedback_visual_motion_ux",
+      "target": "agents_rules_ux_design_md_32_transiciones_de_estado_robustas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
+      "weight": 1.0,
+      "source": "agents_rules_wcag_accessibility_md",
+      "target": "agents_rules_wcag_accessibility_md_regla_del_agente_accesibilidad_avanzada_wcag_22_aa"
     },
     {
       "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_embeddings_table",
-      "target": "docs_01_vision_arquitectonica_knowledge_service"
-    },
-    {
-      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_rag_security",
-      "target": "docs_01_vision_arquitectonica_knowledge_service"
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_1_principios_fundamentales",
+      "target": "agents_rules_wcag_accessibility_md"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_03_requisitos_funcionales_rag_flow",
-      "target": "docs_01_vision_arquitectonica_knowledge_service"
+      "source": "agents_rules_wcag_accessibility_md_regla_del_agente_accesibilidad_avanzada_wcag_22_aa",
+      "target": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_clases_table",
-      "target": "docs_02_modelos_de_datos_sedes_table"
+      "source": "agents_rules_wcag_accessibility_md_regla_del_agente_accesibilidad_avanzada_wcag_22_aa",
+      "target": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_embeddings_table",
-      "target": "docs_02_modelos_de_datos_sedes_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_11_tamao_del_objetivo_de_pulsacin_target_size_mnimo_criterio_258_aa"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_eventos_financieros_table",
-      "target": "docs_02_modelos_de_datos_sedes_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_12_apariencia_del_foco_focus_appearance_criterio_2413_aa"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_usuarios_table",
-      "target": "docs_02_modelos_de_datos_sedes_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_13_foco_no_obstruido_focus_not_obscured_mnimomejorado_criterios_2411_a_2412_aa"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_clases_table",
-      "target": "docs_02_modelos_de_datos_usuarios_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_14_alternativa_a_movimientos_de_arrastre_dragging_movements_criterio_257_aa"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_evaluaciones_table",
-      "target": "docs_02_modelos_de_datos_usuarios_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_15_autenticacin_accesible_accessible_authentication_mnimo_criterio_338_a"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_eventos_financieros_table",
-      "target": "docs_02_modelos_de_datos_usuarios_table"
+      "source": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "target": "agents_rules_wcag_accessibility_md_16_entrada_redundante_redundant_entry_criterio_337_a"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_evaluaciones_table",
-      "target": "docs_02_modelos_de_datos_clases_table"
+      "source": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "target": "agents_rules_wcag_accessibility_md_21_alternativas_accesibles_para_visualizaciones_complejas"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/03_requisoles_funcionales.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_03_requisitos_funcionales_verifactu_adapter",
-      "target": "docs_02_modelos_de_datos_eventos_financieros_table"
+      "source": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "target": "agents_rules_wcag_accessibility_md_22_regiones_aria_y_etiquetas_dinmicas"
     },
     {
-      "relation": "conceptually_related_to",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/02_modelos_de_datos.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/rules/wcag_accessibility.md",
       "weight": 1.0,
-      "source": "docs_02_modelos_de_datos_skills_taxonomy",
-      "target": "docs_02_modelos_de_datos_jana_talent_graph"
+      "source": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "target": "agents_rules_wcag_accessibility_md_23_respeto_a_preferencias_del_usuario_animaciones_reducidas"
     },
     {
-      "relation": "conceptually_related_to",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
       "weight": 1.0,
-      "source": "docs_04_diseno_ui_ux_spec",
-      "target": "docs_02_modelos_de_datos_jana_talent_graph"
+      "source": "d:_jana__agents_workflows_graphify_md_contrato_de_flujo_de_trabajo_iteracin_dinmica_del_grafo",
+      "target": "d:_jana__agents_workflows_graphify_md_1_inicializacin_del_repositorio_de_control_de_cambios"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/03_requisitos_funcionales.md",
-      "source_location": null,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
       "weight": 1.0,
-      "source": "docs_03_requisitos_funcionales_chat_flow",
-      "target": "docs_04_diseno_ui_ux_spec"
+      "source": "d:_jana__agents_workflows_graphify_md_3_instalar_los_ganchos_de_postcommit_de_graphify",
+      "target": "d:_jana__agents_workflows_graphify_md_2_el_ciclo_de_desarrollo_guiado_por_grafo_workflow_loop"
     },
     {
-      "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "app/globals.css",
-      "source_location": null,
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/.agents/workflows/graphify.md",
       "weight": 1.0,
-      "source": "app_globals_css",
-      "target": "docs_04_diseno_ui_ux_spec"
+      "source": "d:_jana__agents_workflows_graphify_md_3_instalar_los_ganchos_de_postcommit_de_graphify",
+      "target": "d:_jana__agents_workflows_graphify_md_3_comandos_de_emergencia_y_mantenimiento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/AGENTS.md",
+      "weight": 1.0,
+      "source": "d:_jana_agents_md",
+      "target": "d:_jana_agents_md_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_1_estructura_de_capas_del_sistema_arquitectura_desacoplada"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_4_infraestructura_y_despliegue"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_21_frontend"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_22_backend_y_mensajera"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_23_capa_de_datos_y_almacenamiento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_31_jana_orchestrator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_32_jana_brain_y_agentes_especializados"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/01_vision_arquitectonica.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
+      "target": "d:_jana_docs_01_vision_arquitectonica_md_33_knowledge_service"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_2_grafo_vivo_jana_talent_graph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_3_esquema_vectorial_y_seguridad_rag_pgvector"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_11_sedes_y_usuarios"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_12_clases_y_evaluaciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_13_finanzas_y_verifactu"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_2_grafo_vivo_jana_talent_graph",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_21_metadatos_de_las_relaciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_2_grafo_vivo_jana_talent_graph",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_22_taxonoma_de_skills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_3_esquema_vectorial_y_seguridad_rag_pgvector",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_31_estructura_de_la_tabla_de_embeddings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/02_modelos_de_datos.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_02_modelos_de_datos_md_3_esquema_vectorial_y_seguridad_rag_pgvector",
+      "target": "d:_jana_docs_02_modelos_de_datos_md_32_niveles_de_sensibilidad_del_rag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_1_bsqueda_global_segura_pgvector_rag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_2_generacin_de_contenido_automtica_jana_content_engine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_3_mensajera_en_tiempo_real_jana_chat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_4_adaptador_verifactu_y_finanzas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/03_requisitos_funcionales.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_03_requisitos_funcionales_md_2_generacin_de_contenido_automtica_jana_content_engine",
+      "target": "d:_jana_docs_03_requisitos_funcionales_md_21_detalle_del_flujo_de_trabajo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_1_principios_fundamentales"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_2_paleta_de_colores_y_tokens_css"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_3_tipografa_y_escala"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_5_aplicacin_del_color_por_mdulos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_2_paleta_de_colores_y_tokens_css",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_21_variables_css_del_tema_tailwind_css_v4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_3_tipografa_y_escala",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_escala_de_tamaos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_41_reas_tctiles_y_controles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_42_lectores_de_pantalla_y_accesibilidad_web"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/docs/04_diseno_ui_ux.md",
+      "weight": 1.0,
+      "source": "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin",
+      "target": "d:_jana_docs_04_diseno_ui_ux_md_43_motion_design_movimiento_con_significado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestacin_agentes_de_contenido"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestacin_agentes_de_contenido",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_answer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestacin_agentes_de_contenido",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_source_nodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_answer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_source_nodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_answer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/JANA/graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md",
+      "weight": 1.0,
+      "source": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
+      "target": "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_source_nodes"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2ad3378fb7db63d549e3f401ffa9c416f1e4f945"
+  "built_at_commit": "450d81d6b23864c10b3613618ff7456a7c8f282a"
 }

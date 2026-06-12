@@ -1,0 +1,242 @@
+{
+  "communities": {
+    "0": [
+      "agents_rules_wcag_accessibility_md",
+      "agents_rules_wcag_accessibility_md_11_tamao_del_objetivo_de_pulsacin_target_size_mnimo_criterio_258_aa",
+      "agents_rules_wcag_accessibility_md_12_apariencia_del_foco_focus_appearance_criterio_2413_aa",
+      "agents_rules_wcag_accessibility_md_13_foco_no_obstruido_focus_not_obscured_mnimomejorado_criterios_2411_a_2412_aa",
+      "agents_rules_wcag_accessibility_md_14_alternativa_a_movimientos_de_arrastre_dragging_movements_criterio_257_aa",
+      "agents_rules_wcag_accessibility_md_15_autenticacin_accesible_accessible_authentication_mnimo_criterio_338_a",
+      "agents_rules_wcag_accessibility_md_16_entrada_redundante_redundant_entry_criterio_337_a",
+      "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "agents_rules_wcag_accessibility_md_21_alternativas_accesibles_para_visualizaciones_complejas",
+      "agents_rules_wcag_accessibility_md_22_regiones_aria_y_etiquetas_dinmicas",
+      "agents_rules_wcag_accessibility_md_23_respeto_a_preferencias_del_usuario_animaciones_reducidas",
+      "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "agents_rules_wcag_accessibility_md_regla_del_agente_accesibilidad_avanzada_wcag_22_aa"
+    ],
+    "1": [
+      "agents_rules_seo_geo_aio_md",
+      "agents_rules_seo_geo_aio_md_11_bottom_line_up_front_bluf_respuesta_rpida",
+      "agents_rules_seo_geo_aio_md_12_estructura_de_contenido_atmico_y_preguntas_conversacionales",
+      "agents_rules_seo_geo_aio_md_13_seales_de_autoridad_y_citas_de_fuentes_eeat_para_ia",
+      "agents_rules_seo_geo_aio_md_14_bloques_de_seales_semnticas_invisibles_semantic_signal_blocks",
+      "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "agents_rules_seo_geo_aio_md_21_schema_jsonld_en_formato_graph",
+      "agents_rules_seo_geo_aio_md_2_estructuracin_tcnica_de_metadatos_y_schema",
+      "agents_rules_seo_geo_aio_md_31_metadata_dinmica_en_nextjs",
+      "agents_rules_seo_geo_aio_md_32_optimizacin_de_rendimiento_wpo",
+      "agents_rules_seo_geo_aio_md_3_seo_tcnico_tradicional_wpo_y_nextjs",
+      "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores"
+    ],
+    "2": [
+      "agents_rules_ux_design_md",
+      "agents_rules_ux_design_md_11_esttica_teatral_oscura_jana_creative_stage_system",
+      "agents_rules_ux_design_md_1_principios_de_diseo_visual_y_emocional",
+      "agents_rules_ux_design_md_21_diseo_mobilefirst_estricto",
+      "agents_rules_ux_design_md_22_divulgacin_progresiva_progressive_disclosure",
+      "agents_rules_ux_design_md_2_pautas_de_arquitectura_de_informacin_y_carga_cognitiva",
+      "agents_rules_ux_design_md_31_animaciones_con_significado",
+      "agents_rules_ux_design_md_32_transiciones_de_estado_robustas",
+      "agents_rules_ux_design_md_3_microinteracciones_y_feedback_visual_motion_ux",
+      "agents_rules_ux_design_md_4_estabilidad_visual_wpo",
+      "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "d:_jana_docs_04_diseno_ui_ux_md_1_principios_fundamentales"
+    ],
+    "3": [
+      "d:_jana_docs_01_vision_arquitectonica_md",
+      "d:_jana_docs_01_vision_arquitectonica_md_1_estructura_de_capas_del_sistema_arquitectura_desacoplada",
+      "d:_jana_docs_01_vision_arquitectonica_md_21_frontend",
+      "d:_jana_docs_01_vision_arquitectonica_md_22_backend_y_mensajera",
+      "d:_jana_docs_01_vision_arquitectonica_md_23_capa_de_datos_y_almacenamiento",
+      "d:_jana_docs_01_vision_arquitectonica_md_2_stack_tecnolgico",
+      "d:_jana_docs_01_vision_arquitectonica_md_31_jana_orchestrator",
+      "d:_jana_docs_01_vision_arquitectonica_md_32_jana_brain_y_agentes_especializados",
+      "d:_jana_docs_01_vision_arquitectonica_md_33_knowledge_service",
+      "d:_jana_docs_01_vision_arquitectonica_md_3_arquitectura_del_motor_de_ia_jana_brain_knowledge_service",
+      "d:_jana_docs_01_vision_arquitectonica_md_4_infraestructura_y_despliegue",
+      "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica"
+    ],
+    "4": [
+      "d:_jana_docs_02_modelos_de_datos_md",
+      "d:_jana_docs_02_modelos_de_datos_md_11_sedes_y_usuarios",
+      "d:_jana_docs_02_modelos_de_datos_md_12_clases_y_evaluaciones",
+      "d:_jana_docs_02_modelos_de_datos_md_13_finanzas_y_verifactu",
+      "d:_jana_docs_02_modelos_de_datos_md_1_esquema_relacional_postgresql",
+      "d:_jana_docs_02_modelos_de_datos_md_21_metadatos_de_las_relaciones",
+      "d:_jana_docs_02_modelos_de_datos_md_22_taxonoma_de_skills",
+      "d:_jana_docs_02_modelos_de_datos_md_2_grafo_vivo_jana_talent_graph",
+      "d:_jana_docs_02_modelos_de_datos_md_31_estructura_de_la_tabla_de_embeddings",
+      "d:_jana_docs_02_modelos_de_datos_md_32_niveles_de_sensibilidad_del_rag",
+      "d:_jana_docs_02_modelos_de_datos_md_3_esquema_vectorial_y_seguridad_rag_pgvector",
+      "d:_jana_docs_02_modelos_de_datos_md_jana_os_especificacin_de_modelos_de_datos_y_grafo_de_talento"
+    ],
+    "5": [
+      "d:_jana_docs_04_diseno_ui_ux_md",
+      "d:_jana_docs_04_diseno_ui_ux_md_21_variables_css_del_tema_tailwind_css_v4",
+      "d:_jana_docs_04_diseno_ui_ux_md_2_paleta_de_colores_y_tokens_css",
+      "d:_jana_docs_04_diseno_ui_ux_md_3_tipografa_y_escala",
+      "d:_jana_docs_04_diseno_ui_ux_md_41_reas_tctiles_y_controles",
+      "d:_jana_docs_04_diseno_ui_ux_md_42_lectores_de_pantalla_y_accesibilidad_web",
+      "d:_jana_docs_04_diseno_ui_ux_md_43_motion_design_movimiento_con_significado",
+      "d:_jana_docs_04_diseno_ui_ux_md_4_pautas_de_accesibilidad_e_interaccin",
+      "d:_jana_docs_04_diseno_ui_ux_md_5_aplicacin_del_color_por_mdulos",
+      "d:_jana_docs_04_diseno_ui_ux_md_escala_de_tamaos",
+      "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux"
+    ],
+    "6": [
+      "agents_rules_copywriting_md",
+      "agents_rules_copywriting_md_1_tono_y_voz_de_jana_os",
+      "agents_rules_copywriting_md_21_enfoque_en_beneficios_y_transformacin",
+      "agents_rules_copywriting_md_22_frameworks_de_conversin_clsicos",
+      "agents_rules_copywriting_md_2_principios_y_frameworks_de_redaccin",
+      "agents_rules_copywriting_md_31_claridad_sobre_ingenio_clarity_over_cleverness",
+      "agents_rules_copywriting_md_32_enlaces_descriptivos_prohibicin_de_haz_clic_aqu",
+      "agents_rules_copywriting_md_3_copywriting_accesible_inclusive_plain_language",
+      "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting"
+    ],
+    "7": [
+      "agents_rules_graphify_md",
+      "agents_rules_graphify_md_graphify",
+      "d:_jana__agents_workflows_graphify_md_1_inicializacin_del_repositorio_de_control_de_cambios",
+      "d:_jana__agents_workflows_graphify_md_1_inicializar_repositorio_git_si_no_existe",
+      "d:_jana__agents_workflows_graphify_md_2_agregar_archivos_actuales_y_realizar_commit_inicial",
+      "d:_jana__agents_workflows_graphify_md_2_el_ciclo_de_desarrollo_guiado_por_grafo_workflow_loop",
+      "d:_jana__agents_workflows_graphify_md_3_comandos_de_emergencia_y_mantenimiento",
+      "d:_jana__agents_workflows_graphify_md_3_instalar_los_ganchos_de_postcommit_de_graphify",
+      "d:_jana__agents_workflows_graphify_md_contrato_de_flujo_de_trabajo_iteracin_dinmica_del_grafo"
+    ],
+    "8": [
+      "agents_rules_ethical_cro_md",
+      "d:_jana_docs_03_requisitos_funcionales_md",
+      "d:_jana_docs_03_requisitos_funcionales_md_1_bsqueda_global_segura_pgvector_rag",
+      "d:_jana_docs_03_requisitos_funcionales_md_21_detalle_del_flujo_de_trabajo",
+      "d:_jana_docs_03_requisitos_funcionales_md_2_generacin_de_contenido_automtica_jana_content_engine",
+      "d:_jana_docs_03_requisitos_funcionales_md_3_mensajera_en_tiempo_real_jana_chat",
+      "d:_jana_docs_03_requisitos_funcionales_md_4_adaptador_verifactu_y_finanzas",
+      "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia"
+    ],
+    "9": [
+      "agents_rules_ethical_cro_md_11_transparencia_total_sobre_costes_y_condiciones",
+      "agents_rules_ethical_cro_md_12_respeto_a_la_autonoma_del_usuario_no_guilttripping",
+      "agents_rules_ethical_cro_md_1_principios_del_cro_tico",
+      "agents_rules_ethical_cro_md_2_alternativas_ticas_a_los_patrones_persuasivos_agresivos",
+      "agents_rules_ethical_cro_md_31_formularios_simplificados_y_guardado_automtico",
+      "agents_rules_ethical_cro_md_32_pasarela_de_pago_transparente_y_rpida",
+      "agents_rules_ethical_cro_md_3_reduccin_prctica_de_friccin_en_formularios_y_checkout",
+      "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico"
+    ],
+    "10": [
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_answer",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_q_why_does_knowledge_service_connect_grafo_de_talento_skills_to_orquestacin_agentes_de_contenido",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent_md_source_nodes"
+    ],
+    "11": [
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_answer",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_q_why_does_tabla_embeddings_pgvector_connect_grafo_de_talento_skills_to_estructura_operativa_sedes",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d_md_source_nodes"
+    ],
+    "12": [
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_answer",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_q_why_does_tabla_sedes_connect_estructura_operativa_sedes_to_grafo_de_talento_skills",
+      "d:_jana_graphify_out_memory_query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa_md_source_nodes"
+    ],
+    "13": [
+      "d:_jana_agents_md",
+      "d:_jana_agents_md_graphify"
+    ],
+    "14": [
+      "codex_hooks_pretooluse"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15384615384615385,
+    "1": 0.16666666666666666,
+    "2": 0.16666666666666666,
+    "3": 0.16666666666666666,
+    "4": 0.16666666666666666,
+    "5": 0.18181818181818182,
+    "6": 0.2222222222222222,
+    "7": 0.2222222222222222,
+    "8": 0.25,
+    "9": 0.25,
+    "10": 0.5,
+    "11": 0.5,
+    "12": 0.5,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "agents_rules_wcag_accessibility_md_1_nuevos_criterios_de_wcag_22_aa_implementacin_obligatoria",
+      "label": "1. Nuevos Criterios de WCAG 2.2 AA (Implementación Obligatoria)",
+      "degree": 7
+    },
+    {
+      "id": "d:_jana_docs_04_diseno_ui_ux_md_jana_os_especificacin_del_sistema_de_diseo_uiux",
+      "label": "JANA OS - Especificación del Sistema de Diseño (UI/UX)",
+      "degree": 6
+    },
+    {
+      "id": "agents_rules_seo_geo_aio_md_1_geo_aio_optimizacin_para_motores_de_inteligencia_artificial",
+      "label": "1. GEO / AIO (Optimización para Motores de Inteligencia Artificial)",
+      "degree": 5
+    },
+    {
+      "id": "agents_rules_ux_design_md_regla_del_agente_diseo_de_experiencia_de_usuario_ux",
+      "label": "Regla del Agente: Diseño de Experiencia de Usuario (UX)",
+      "degree": 5
+    },
+    {
+      "id": "d:_jana_docs_01_vision_arquitectonica_md_jana_os_especificacin_de_visin_arquitectnica",
+      "label": "JANA OS - Especificación de Visión Arquitectónica",
+      "degree": 5
+    },
+    {
+      "id": "d:_jana_docs_03_requisitos_funcionales_md_jana_os_especificacin_de_requisitos_funcionales_y_procesos_de_ia",
+      "label": "JANA OS - Especificación de Requisitos Funcionales y Procesos de IA",
+      "degree": 5
+    },
+    {
+      "id": "agents_rules_copywriting_md_regla_del_agente_redaccin_persuasiva_y_accesible_copywriting",
+      "label": "Regla del Agente: Redacción Persuasiva y Accesible (Copywriting)",
+      "degree": 4
+    },
+    {
+      "id": "agents_rules_ethical_cro_md_regla_del_agente_optimizacin_de_la_tasa_de_conversin_tica_cro_tico",
+      "label": "Regla del Agente: Optimización de la Tasa de Conversión Ética (CRO Ético)",
+      "degree": 4
+    },
+    {
+      "id": "agents_rules_seo_geo_aio_md_regla_del_agente_seo_geo_y_aio_optimizacin_para_ia_y_buscadores",
+      "label": "Regla del Agente: SEO, GEO y AIO (Optimización para IA y Buscadores)",
+      "degree": 4
+    },
+    {
+      "id": "agents_rules_wcag_accessibility_md_2_pautas_generales_y_semntica_html",
+      "label": "2. Pautas Generales y Semántica HTML",
+      "degree": 4
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `2.1 Detalle del Flujo de Trabajo` connect `Community 8` to `FastAPI Backend & Comunicación`, `Landing Corporativa`?",
+      "why": "High betweenness centrality (0.059) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `1. Principios Fundamentales` connect `Configuración de Herramientas & Reglas del Agente` to `Estructura Operativa & Sedes`, `pgvector & Seguridad RAG`?",
+      "why": "High betweenness centrality (0.057) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Codex PreToolUse Hook`, `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación` to the rest of the system?",
+      "why": "69 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
