@@ -230,13 +230,13 @@
     "semantic_hash": ""
   },
   "components/app-providers.tsx": {
-    "mtime": 1781274760.0449574,
-    "ast_hash": "bf7324db65c5def6ba6e3dad6045ff4a",
+    "mtime": 1781283286.6807952,
+    "ast_hash": "9bd34d8d829e97c85fd3aebd184ec079",
     "semantic_hash": ""
   },
   "components/jana-stage.tsx": {
-    "mtime": 1781274936.2014327,
-    "ast_hash": "16fd26b738d07c6976e12e25c431ed03",
+    "mtime": 1781283373.487091,
+    "ast_hash": "59d44767a88b1e2cd9656efa2af9ba92",
     "semantic_hash": ""
   },
   "components/remotion/production-player.tsx": {
@@ -367,6 +367,11 @@
   "public/window.svg": {
     "mtime": 1781270807.5110905,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "components/mock-data-context.tsx": {
+    "mtime": 1781283387.6530745,
+    "ast_hash": "fafdd316c1cd0b1b73da9ebe3424d37f",
     "semantic_hash": ""
   }
 }

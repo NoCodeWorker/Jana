@@ -25,8 +25,11 @@ import {
   FileText,
   DollarSign,
   TrendingUp,
+  MessageSquare,
 } from "lucide-react";
 import { useMockData, Student, Teacher } from "@/components/mock-data-context";
+import { JanaLogo } from "@/components/jana-logo";
+import { ProductionPlayer } from "@/components/remotion/production-player";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -41,6 +44,7 @@ import { JanaRole } from "@/lib/jana-auth";
 const navItems = [
   { label: "Brain", icon: Brain },
   { label: "Aula", icon: GraduationCap },
+  { label: "Chat", icon: MessageSquare },
   { label: "Talent Graph", icon: Users },
   { label: "Panel", icon: Clapperboard },
 ];
@@ -75,6 +79,7 @@ export function JanaStage() {
     status: "idle",
     message: "Selecciona un rol y valida acceso Backstage.",
   });
+  const [showBackstage, setShowBackstage] = useState(false);
 
   const isLight = resolvedTheme === "light";
 
@@ -120,6 +125,7 @@ export function JanaStage() {
     } else {
       setActiveNav("Brain");
     }
+    setShowBackstage(true);
   }
 
   // Filter students based on active Sede
@@ -127,9 +133,26 @@ export function JanaStage() {
     return students.filter(s => s.sede === activeSede);
   }, [students, activeSede]);
 
+  if (!showBackstage) {
+    return (
+      <LandingPage
+        resolvedTheme={resolvedTheme}
+        setTheme={setTheme}
+        email={email}
+        setEmail={setEmail}
+        password={password}
+        setPassword={setPassword}
+        login={login}
+        setLogin={setLogin}
+        handleLogin={handleLogin}
+        selectMockUser={selectMockUser}
+      />
+    );
+  }
+
   return (
     <main className="stage-vignette min-h-screen overflow-hidden bg-background">
-      <div className="mx-auto grid min-h-screen w-full max-w-[1600px] grid-cols-1 lg:grid-cols-[280px_1fr]">
+      <div className="grid min-h-screen w-full grid-cols-1 lg:grid-cols-[280px_1fr]">
         
         {/* DESKTOP SIDEBAR */}
         <aside className="hidden border-r border-border bg-surface/72 px-4 py-5 lg:block">
@@ -210,7 +233,7 @@ export function JanaStage() {
                     </nav>
                   </SheetContent>
                 </Sheet>
-                <BrandMark />
+                <JanaLogo className="h-8 w-auto" />
               </div>
 
               {/* CONTEXT SELECTORS (RAG Simulator controls in header) */}
@@ -263,6 +286,14 @@ export function JanaStage() {
                   <TooltipContent>Cambiar tema</TooltipContent>
                 </Tooltip>
 
+                <Button
+                  variant="outline"
+                  className="h-11 border-border text-foreground hover:bg-accent/40 mr-1"
+                  onClick={() => setShowBackstage(false)}
+                >
+                  Ver Web Pública
+                </Button>
+
                 {/* LOGIN DIALOG */}
                 <Dialog>
                   <DialogTrigger asChild>
@@ -278,63 +309,15 @@ export function JanaStage() {
                         Validación local por rol contra variables de entorno simuladas.
                       </DialogDescription>
                     </DialogHeader>
-                    <form className="space-y-4" onSubmit={handleLogin}>
-                      <div className="space-y-2">
-                        <label className="text-sm font-medium" htmlFor="email">
-                          Usuario
-                        </label>
-                        <Input
-                          id="email"
-                          type="email"
-                          value={email}
-                          onChange={(event) => setEmail(event.target.value)}
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <label className="text-sm font-medium" htmlFor="password">
-                          Contraseña
-                        </label>
-                        <Input
-                          id="password"
-                          type="password"
-                          value={password}
-                          onChange={(event) => setPassword(event.target.value)}
-                        />
-                      </div>
-                      <Button className="h-11 w-full" disabled={login.status === "loading"}>
-                        {login.status === "loading" ? "Validando..." : "Iniciar Sesión"}
-                      </Button>
-                      <p
-                        className={cn(
-                          "rounded-lg border px-3 py-2 text-sm",
-                          login.status === "success" && "border-success/50 text-success bg-success/10",
-                          login.status === "error" && "border-error/50 text-error bg-error/10",
-                          login.status !== "success" &&
-                            login.status !== "error" &&
-                            "border-border text-muted-foreground"
-                        )}
-                        role="status"
-                      >
-                        {login.message}
-                      </p>
-
-                      <div className="mt-4 border-t border-border pt-3">
-                        <p className="text-xs font-semibold text-muted-foreground mb-2">Simular Plantilla de Credenciales:</p>
-                        <div className="grid grid-cols-2 gap-2">
-                          {rolesList.map(r => (
-                            <button
-                              key={r.role}
-                              type="button"
-                              onClick={() => selectMockUser(r.role as JanaRole, r.user)}
-                              className="text-left text-xs p-2 rounded border border-border hover:border-jana-primary bg-surface/50 truncate"
-                            >
-                              <span className="font-semibold block">{r.label}</span>
-                              <span className="text-muted-foreground block text-[10px] truncate">{r.user}</span>
-                            </button>
-                          ))}
-                        </div>
-                      </div>
-                    </form>
+                    <LoginForm
+                      email={email}
+                      setEmail={setEmail}
+                      password={password}
+                      setPassword={setPassword}
+                      login={login}
+                      handleLogin={handleLogin}
+                      selectMockUser={selectMockUser}
+                    />
                   </DialogContent>
                 </Dialog>
               </div>
@@ -391,6 +374,18 @@ export function JanaStage() {
                   <PanelView activeSede={activeSede} teachers={teachers} students={filteredStudents} />
                 </motion.div>
               )}
+
+              {activeNav === "Chat" && (
+                <motion.div
+                  key="chat-tab"
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -15 }}
+                  transition={{ duration: 0.25 }}
+                >
+                  <ChatView activeRole={activeRole} activeSede={activeSede} />
+                </motion.div>
+              )}
             </AnimatePresence>
           </div>
         </section>
@@ -407,8 +402,6 @@ export function JanaStage() {
 function BrainView({ activeRole, activeSede }: { activeRole: JanaRole; activeSede: string }) {
   const [query, setQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
-  const { chatMessages, sendChatMessage } = useMockData();
-  const [newChatText, setNewChatText] = useState("");
 
   const searchDatabase = [
     { title: "Evaluaciones Trimestrales Canto - 1ºA", content: "Resultados detallados del examen de técnica vocal de Sofía García. Nivel actual: 8/10.", Sede: "Madrid Centro", sensitivity: "RESTRICTED", roleRequired: "profesor" },
@@ -427,6 +420,162 @@ function BrainView({ activeRole, activeSede }: { activeRole: JanaRole; activeSed
     }, 1500);
   };
 
+  return (
+    <div className="space-y-6 max-w-5xl mx-auto">
+      {/* RAG SEARCH BOX */}
+      <Card className="rounded-lg bg-surface/90 border-border">
+        <CardHeader>
+          <CardTitle className="text-xl font-bold flex items-center gap-2">
+            <Brain className="size-5 text-brain" />
+            Simulador de Consultas RAG Seguro
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <div className="flex gap-2">
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-3.5 size-4 text-muted-foreground" />
+              <Input
+                placeholder="Busca por notas, finanzas, metodologías, alumnos..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                className="pl-9 h-11"
+                onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+              />
+            </div>
+            <Button onClick={handleSearch} className="h-11 bg-jana-primary hover:bg-jana-primary-hover">
+              Consultar RAG
+            </Button>
+          </div>
+
+          {/* RAG SIMULATOR METADATA */}
+          {query && (
+            <div className="mt-4 rounded-lg bg-black/40 p-4 border border-border space-y-3">
+              <p className="text-xs font-semibold text-muted-foreground">LOG DE SEGURIDAD RAG (Filtros en tiempo real):</p>
+              {isSearching ? (
+                <div className="flex items-center gap-2 text-sm text-brain font-medium animate-pulse">
+                  <Sparkles className="size-4 animate-spin" />
+                  Generando respuesta contextual del JANA Brain...
+                </div>
+              ) : (
+                <div className="space-y-2 text-xs">
+                  <p className="text-success flex items-center gap-1.5">
+                    <CheckCircle className="size-3.5" />
+                    Filtro de Sede activo: <span className="font-bold">{activeSede}</span> (Excluye otras sedes)
+                  </p>
+                  <p className="text-info flex items-center gap-1.5">
+                    <CheckCircle className="size-3.5" />
+                    Rol activo: <span className="font-bold uppercase">{activeRole}</span>
+                  </p>
+                  
+                  <div className="border-t border-border mt-3 pt-3">
+                    <p className="font-semibold mb-2">Estado de Documentos Vectoriales recuperados:</p>
+                    <div className="grid gap-2">
+                      {searchDatabase.map((doc, idx) => {
+                        const hasSedeAccess = doc.Sede === activeSede;
+                        let hasRoleAccess = false;
+                        if (activeRole === "direccion") hasRoleAccess = true;
+                        else if (activeRole === "admin" && ["CONFIDENTIAL", "INTERNAL", "PUBLIC"].includes(doc.sensitivity)) hasRoleAccess = true;
+                        else if (activeRole === "profesor" && ["RESTRICTED", "INTERNAL", "PUBLIC"].includes(doc.sensitivity)) hasRoleAccess = true;
+                        else if (activeRole === "alumno" && doc.sensitivity === "PUBLIC") hasRoleAccess = true;
+
+                        const isAuthorized = hasSedeAccess && hasRoleAccess;
+
+                        return (
+                          <div key={idx} className={cn("p-2 rounded border text-xs flex justify-between items-center", isAuthorized ? "bg-surface/50 border-border" : "bg-error/5 border-error/20 opacity-70")}>
+                            <div>
+                              <span className="font-semibold block">{doc.title}</span>
+                              <span className="text-[10px] text-muted-foreground">{doc.Sede} · Sensibilidad: <span className="font-bold">{doc.sensitivity}</span></span>
+                            </div>
+                            {isAuthorized ? (
+                              <span className="text-success text-[10px] flex items-center gap-1"><Unlock className="size-3" /> Incluido</span>
+                            ) : (
+                              <span className="text-error text-[10px] flex items-center gap-1"><Lock className="size-3" /> Filtrado</span>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* MOCK SEARCH RESULTS OR INTRO */}
+      <AnimatePresence mode="wait">
+        {isSearching ? (
+          <motion.div
+            key="searching"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="flex flex-col items-center justify-center p-12 rounded-lg border border-border bg-surface/50"
+          >
+            <div className="size-14 rounded-full bg-brain/10 flex items-center justify-center animate-bounce mb-4">
+              <Brain className="size-8 text-brain animate-pulse" />
+            </div>
+            <p className="font-display font-semibold text-lg animate-pulse text-brain">🧠 Analizando fuentes y filtrando accesos...</p>
+            <p className="text-xs text-muted-foreground mt-1">Generando respuesta libre de filtraciones de datos sensibles.</p>
+          </motion.div>
+        ) : query ? (
+          <motion.div
+            key="results"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="rounded-lg border border-border bg-surface p-5 space-y-4"
+          >
+            <div className="flex justify-between items-center border-b border-border pb-3">
+              <div className="flex items-center gap-2">
+                <Brain className="size-5 text-brain" />
+                <h3 className="font-semibold">Respuesta de JANA Brain (RAG Asistido)</h3>
+              </div>
+              <span className="text-[10px] bg-success/20 text-success px-2 py-0.5 rounded font-mono">✓ RAG Seguro</span>
+            </div>
+            
+            <div className="text-sm leading-relaxed text-foreground-muted">
+              {query.toLowerCase().includes("notas") || query.toLowerCase().includes("canto") ? (
+                activeRole === "alumno" ? (
+                  <p>Has solicitado información sobre notas. Según tus registros de alumno, tienes un **8.5** en Técnica Vocal. Sin embargo, no tienes permisos para acceder a las notas detalladas ni comentarios privados del resto de los alumnos de tu clase.</p>
+                ) : activeRole === "profesor" || activeRole === "direccion" ? (
+                  <p>Analizando la clase de canto en la sede **Madrid Centro**. Alumna **Sofía García** ha progresado notablemente, consolidando un **8.5** en afinación y respiración lírica. Se aconseja agendar un ensayo focalizado para reforzar su timbre vocal.</p>
+                ) : (
+                  <p>Permisos insuficientes para consultar evaluaciones de alumnos. Como administrador, puedes gestionar las aulas y asistencias globales en el Backstage Panel.</p>
+                )
+              ) : query.toLowerCase().includes("finanzas") || query.toLowerCase().includes("gastos") ? (
+                activeRole === "direccion" ? (
+                  <p>El resumen comercial de la sede **Madrid Centro** para el Q2 indica un ingreso total de **14,200€** con un margen de beneficio saludable. La tasa de morosidad se mantiene controlada en un **2.1%**.</p>
+                ) : (
+                  <p className="text-error flex items-center gap-2 font-medium">
+                    <Lock className="size-4" /> Acceso denegado. Este documento tiene una clasificación **CONFIDENTIAL** y requiere un nivel de acceso directivo.
+                  </p>
+                )
+              ) : (
+                <p>He procesado tu búsqueda &quot;{query}&quot; en la sede **{activeSede}**. He recuperado 3 documentos públicos e internos autorizados para tu rol. Se sugiere consultar el Backstage Aula para informes en vivo o hablar con el profesor en el canal de chat.</p>
+              )}
+            </div>
+          </motion.div>
+        ) : (
+          <div className="text-center p-8 border border-dashed border-border rounded-lg bg-surface/30">
+            <HelpCircle className="size-8 mx-auto text-muted-foreground mb-2" />
+            <p className="text-sm font-semibold">Realiza una consulta para poner a prueba el RAG Seguro</p>
+            <p className="text-xs text-muted-foreground mt-1">
+              Escribe &apos;notas de canto&apos; o &apos;finanzas de madrid&apos; y cambia los roles en la cabecera para ver cómo se filtran los datos.
+            </p>
+          </div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+/* 1.5 BACKSTAGE CHAT (Communication & Real-time AI Analysis) */
+function ChatView({ activeRole, activeSede }: { activeRole: JanaRole; activeSede: string }) {
+  const { chatMessages, sendChatMessage, updateStudentSkill } = useMockData();
+  const [newChatText, setNewChatText] = useState("");
+  const [showAppliedAlert, setShowAppliedAlert] = useState(false);
+
   const handleSendChat = (e: FormEvent) => {
     e.preventDefault();
     if (!newChatText.trim()) return;
@@ -440,176 +589,43 @@ function BrainView({ activeRole, activeSede }: { activeRole: JanaRole; activeSed
     setNewChatText("");
   };
 
+  const handleApplyAIPromotion = () => {
+    updateStudentSkill("s1", "Técnica vocal", 8);
+    setShowAppliedAlert(true);
+    setTimeout(() => setShowAppliedAlert(false), 3000);
+  };
+
+  const hasAIPromotionSuggestion = useMemo(() => {
+    return chatMessages.some(m => m.sender.includes("Brain") && m.text.toLowerCase().includes("sugerencia"));
+  }, [chatMessages]);
+
   return (
     <div className="grid gap-6 xl:grid-cols-[1fr_400px]">
-      <div className="space-y-6">
-        
-        {/* RAG SEARCH BOX */}
-        <Card className="rounded-lg bg-surface/90 border-border">
-          <CardHeader>
-            <CardTitle className="text-xl font-bold flex items-center gap-2">
-              <Brain className="size-5 text-brain" />
-              Simulador de Consultas RAG Seguro
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="flex gap-2">
-              <div className="relative flex-1">
-                <Search className="absolute left-3 top-3.5 size-4 text-muted-foreground" />
-                <Input
-                  placeholder="Busca por notas, finanzas, metodologías, alumnos..."
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  className="pl-9 h-11"
-                  onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                />
-              </div>
-              <Button onClick={handleSearch} className="h-11 bg-jana-primary hover:bg-jana-primary-hover">
-                Consultar RAG
-              </Button>
-            </div>
-
-            {/* RAG SIMULATOR METADATA */}
-            {query && (
-              <div className="mt-4 rounded-lg bg-black/40 p-4 border border-border space-y-3">
-                <p className="text-xs font-semibold text-muted-foreground">LOG DE SEGURIDAD RAG (Filtros en tiempo real):</p>
-                {isSearching ? (
-                  <div className="flex items-center gap-2 text-sm text-brain font-medium animate-pulse">
-                    <Sparkles className="size-4 animate-spin" />
-                    Generando respuesta contextual del JANA Brain...
-                  </div>
-                ) : (
-                  <div className="space-y-2 text-xs">
-                    <p className="text-success flex items-center gap-1.5">
-                      <CheckCircle className="size-3.5" />
-                      Filtro de Sede activo: <span className="font-bold">{activeSede}</span> (Excluye otras sedes)
-                    </p>
-                    <p className="text-info flex items-center gap-1.5">
-                      <CheckCircle className="size-3.5" />
-                      Rol activo: <span className="font-bold uppercase">{activeRole}</span>
-                    </p>
-                    
-                    <div className="border-t border-border mt-3 pt-3">
-                      <p className="font-semibold mb-2">Estado de Documentos Vectoriales recuperados:</p>
-                      <div className="grid gap-2">
-                        {searchDatabase.map((doc, idx) => {
-                          const hasSedeAccess = doc.Sede === activeSede;
-                          // Custom permission logic:
-                          // direccion can access anything.
-                          // admin can access CONFIDENTIAL, INTERNAL, PUBLIC.
-                          // profesor can access RESTRICTED, INTERNAL, PUBLIC.
-                          // alumno can access PUBLIC (or restricted if owner, simplified here).
-                          let hasRoleAccess = false;
-                          if (activeRole === "direccion") hasRoleAccess = true;
-                          else if (activeRole === "admin" && ["CONFIDENTIAL", "INTERNAL", "PUBLIC"].includes(doc.sensitivity)) hasRoleAccess = true;
-                          else if (activeRole === "profesor" && ["RESTRICTED", "INTERNAL", "PUBLIC"].includes(doc.sensitivity)) hasRoleAccess = true;
-                          else if (activeRole === "alumno" && doc.sensitivity === "PUBLIC") hasRoleAccess = true;
-
-                          const isAuthorized = hasSedeAccess && hasRoleAccess;
-
-                          return (
-                            <div key={idx} className={cn("p-2 rounded border text-xs flex justify-between items-center", isAuthorized ? "bg-surface/50 border-border" : "bg-error/5 border-error/20 opacity-70")}>
-                              <div>
-                                <span className="font-semibold block">{doc.title}</span>
-                                <span className="text-[10px] text-muted-foreground">{doc.Sede} · Sensibilidad: <span className="font-bold">{doc.sensitivity}</span></span>
-                              </div>
-                              {isAuthorized ? (
-                                <span className="text-success text-[10px] flex items-center gap-1"><Unlock className="size-3" /> Incluido</span>
-                              ) : (
-                                <span className="text-error text-[10px] flex items-center gap-1"><Lock className="size-3" /> Filtrado</span>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </CardContent>
-        </Card>
-
-        {/* MOCK SEARCH RESULTS OR INTRO */}
-        <AnimatePresence mode="wait">
-          {isSearching ? (
-            <motion.div
-              key="searching"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="flex flex-col items-center justify-center p-12 rounded-lg border border-border bg-surface/50"
-            >
-              <div className="size-14 rounded-full bg-brain/10 flex items-center justify-center animate-bounce mb-4">
-                <Brain className="size-8 text-brain animate-pulse" />
-              </div>
-              <p className="font-display font-semibold text-lg animate-pulse text-brain">🧠 Analizando fuentes y filtrando accesos...</p>
-              <p className="text-xs text-muted-foreground mt-1">Generando respuesta libre de filtraciones de datos sensibles.</p>
-            </motion.div>
-          ) : query ? (
-            <motion.div
-              key="results"
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="rounded-lg border border-border bg-surface p-5 space-y-4"
-            >
-              <div className="flex justify-between items-center border-b border-border pb-3">
-                <div className="flex items-center gap-2">
-                  <Brain className="size-5 text-brain" />
-                  <h3 className="font-semibold">Respuesta de JANA Brain (RAG Asistido)</h3>
-                </div>
-                <span className="text-[10px] bg-success/20 text-success px-2 py-0.5 rounded font-mono">✓ RAG Seguro</span>
-              </div>
-              
-              <div className="text-sm leading-relaxed text-foreground-muted">
-                {query.toLowerCase().includes("notas") || query.toLowerCase().includes("canto") ? (
-                  activeRole === "alumno" ? (
-                    <p>Has solicitado información sobre notas. Según tus registros de alumno, tienes un **8.5** en Técnica Vocal. Sin embargo, no tienes permisos para acceder a las notas detalladas ni comentarios privados del resto de los alumnos de tu clase.</p>
-                  ) : activeRole === "profesor" || activeRole === "direccion" ? (
-                    <p>Analizando la clase de canto en la sede **Madrid Centro**. Alumna **Sofía García** ha progresado notablemente, consolidando un **8.5** en afinación y respiración lírica. Se aconseja agendar un ensayo focalizado para reforzar su timbre vocal.</p>
-                  ) : (
-                    <p>Permisos insuficientes para consultar evaluaciones de alumnos. Como administrador, puedes gestionar las aulas y asistencias globales en el Backstage Panel.</p>
-                  )
-                ) : query.toLowerCase().includes("finanzas") || query.toLowerCase().includes("gastos") ? (
-                  activeRole === "direccion" ? (
-                    <p>El resumen comercial de la sede **Madrid Centro** para el Q2 indica un ingreso total de **14,200€** con un margen de beneficio saludable. La tasa de morosidad se mantiene controlada en un **2.1%**.</p>
-                  ) : (
-                    <p className="text-error flex items-center gap-2 font-medium">
-                      <Lock className="size-4" /> Acceso denegado. Este documento tiene una clasificación **CONFIDENTIAL** y requiere un nivel de acceso directivo.
-                    </p>
-                  )
-                ) : (
-                  <p>He procesado tu búsqueda &quot;{query}&quot; en la sede **{activeSede}**. He recuperado 3 documentos públicos e internos autorizados para tu rol. Se sugiere consultar el Backstage Aula para informes en vivo o hablar con el profesor en el canal de chat.</p>
-                )}
-              </div>
-            </motion.div>
-          ) : (
-            <div className="text-center p-8 border border-dashed border-border rounded-lg bg-surface/30">
-              <HelpCircle className="size-8 mx-auto text-muted-foreground mb-2" />
-              <p className="text-sm font-semibold">Realiza una consulta para poner a prueba el RAG Seguro</p>
-              <p className="text-xs text-muted-foreground mt-1">
-                Escribe &apos;notas de canto&apos; o &apos;finanzas de madrid&apos; y cambia los roles en la cabecera para ver cómo se filtran los datos.
-              </p>
-            </div>
-          )}
-        </AnimatePresence>
-      </div>
-
-      {/* CHAT INTERACTIVE PANEL (Real-time analysis) */}
-      <Card className="rounded-lg bg-surface/90 border-border flex flex-col h-[500px]">
+      {/* MAIN CHAT AREA */}
+      <Card className="rounded-lg bg-surface/90 border-border flex flex-col h-[550px]">
         <CardHeader className="pb-3 border-b border-border flex flex-row items-center justify-between">
           <CardTitle className="text-sm font-semibold flex items-center gap-2">
             <Activity className="size-4 text-jana-primary-accessible animate-pulse" />
-            Canal de Ensayos (Madrid)
+            Canal de Ensayos ({activeSede})
           </CardTitle>
-          <span className="text-[10px] text-muted-foreground capitalize font-bold">{activeRole}</span>
+          <span className="text-[10px] text-muted-foreground capitalize font-bold">Rol: {activeRole}</span>
         </CardHeader>
         
         <div className="flex-1 overflow-y-auto p-4 space-y-3">
           {chatMessages.map((msg) => {
             const isAI = msg.sender.includes("Brain");
             return (
-              <div key={msg.id} className={cn("max-w-[85%] rounded-lg p-3 text-xs leading-normal", isAI ? "bg-brain/10 border border-brain/20 text-brain-accessible ml-0" : msg.role === activeRole ? "bg-jana-primary/15 text-foreground ml-auto border border-jana-primary/10" : "bg-surface-elevated text-foreground-muted mr-auto border border-border")}>
+              <div
+                key={msg.id}
+                className={cn(
+                  "max-w-[85%] rounded-lg p-3 text-xs leading-normal",
+                  isAI
+                    ? "bg-brain/10 border border-brain/20 text-brain-accessible ml-0"
+                    : msg.role === activeRole
+                    ? "bg-jana-primary/15 text-foreground ml-auto border border-jana-primary/10"
+                    : "bg-surface-elevated text-foreground-muted mr-auto border border-border"
+                )}
+              >
                 <div className="flex justify-between items-center gap-2 mb-1">
                   <span className="font-bold text-[10px]">{msg.sender}</span>
                   <span className="text-[9px] text-muted-foreground">{msg.timestamp}</span>
@@ -622,7 +638,7 @@ function BrainView({ activeRole, activeSede }: { activeRole: JanaRole; activeSed
 
         <form onSubmit={handleSendChat} className="p-3 border-t border-border flex gap-2">
           <Input
-            placeholder="Escribe un mensaje al grupo..."
+            placeholder="Escribe un mensaje al canal de ensayos..."
             value={newChatText}
             onChange={(e) => setNewChatText(e.target.value)}
             className="flex-1 text-xs"
@@ -632,6 +648,92 @@ function BrainView({ activeRole, activeSede }: { activeRole: JanaRole; activeSed
           </Button>
         </form>
       </Card>
+
+      {/* JANA BRAIN REAL-TIME CO-PILOT ANALYSIS */}
+      <div className="space-y-6">
+        <Card className="rounded-lg bg-surface/90 border-border">
+          <CardHeader>
+            <CardTitle className="text-sm font-semibold flex items-center gap-2">
+              <Brain className="size-4 text-brain" />
+              Copiloto IA - JANA Brain
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4 text-xs">
+            <div className="bg-black/30 p-3 rounded-lg border border-border space-y-2">
+              <p className="font-semibold text-muted-foreground">ANÁLISIS EN TIEMPO REAL:</p>
+              <div className="flex justify-between text-[11px]">
+                <span className="text-muted-foreground">Sentimiento:</span>
+                <span className="text-success font-semibold">Constructivo / Enfocado</span>
+              </div>
+              <div className="flex justify-between text-[11px]">
+                <span className="text-muted-foreground">Participación:</span>
+                <span className="text-foreground font-semibold">4 miembros activos</span>
+              </div>
+              <div className="flex justify-between text-[11px]">
+                <span className="text-muted-foreground">Hilos temáticos:</span>
+                <span className="text-brain-accessible font-semibold">#TécnicaVocal, #Ritmo</span>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <p className="font-semibold text-muted-foreground">SUGERENCIAS OPERATIVAS:</p>
+              
+              {hasAIPromotionSuggestion ? (
+                <div className="p-3 rounded-lg border border-brain/30 bg-brain/5 space-y-2">
+                  <p className="font-medium text-foreground">
+                    Actualización de Habilidad Recomendada
+                  </p>
+                  <p className="text-[11px] text-muted-foreground">
+                    El asistente ha detectado que **Sofía García** ha progresado en afinación y técnica vocal.
+                  </p>
+                  
+                  {activeRole === "profesor" || activeRole === "direccion" ? (
+                    <div className="pt-2">
+                      <Button
+                        size="sm"
+                        onClick={handleApplyAIPromotion}
+                        className="w-full bg-brain text-white hover:bg-brain/90 text-[11px] h-8"
+                      >
+                        Aplicar Mejora a Talent Graph
+                      </Button>
+                    </div>
+                  ) : (
+                    <p className="text-[10px] text-warning flex items-center gap-1">
+                      <Lock className="size-3" /> Inicia sesión como Profesor para aplicar esta mejora.
+                    </p>
+                  )}
+                </div>
+              ) : (
+                <div className="p-3 rounded-lg border border-border bg-black/10 text-center text-muted-foreground">
+                  Ninguna acción pendiente. 
+                  <p className="text-[10px] mt-1">
+                    (Tip: Envía un chat que diga &apos;vocal&apos; y &apos;excelente&apos; con rol de Profesor para forzar la sugerencia de la IA).
+                  </p>
+                </div>
+              )}
+
+              {showAppliedAlert && (
+                <div className="p-2 rounded text-center text-success bg-success/15 border border-success/30 text-[11px] animate-pulse">
+                  ✓ Habilidad de Sofía actualizada exitosamente a nivel 8 en el Talent Graph.
+                </div>
+              )}
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="rounded-lg bg-surface/90 border-border">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-xs font-semibold text-muted-foreground flex items-center gap-1.5">
+              <Activity className="size-3 text-talent" />
+              Sede e Integración
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="text-[11px] text-foreground-muted space-y-1">
+            <p>Canal encriptado de sede: **{activeSede}**</p>
+            <p>Los análisis cognitivos se guardan de forma anónima en el log seguro para cumplir con la protección de datos artísticos de menores.</p>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   );
 }
@@ -1324,6 +1426,25 @@ function PanelView({
           </CardContent>
         </Card>
 
+        {/* REMOTION PRODUCTION PLAYER CARD */}
+        <Card className="rounded-lg bg-surface/90 border-border">
+          <CardHeader className="pb-3 border-b border-border flex flex-row justify-between items-center">
+            <CardTitle className="text-sm font-semibold flex items-center gap-2">
+              <Clapperboard className="size-4 text-jana-primary" aria-hidden="true" />
+              Previsualización Remotion
+            </CardTitle>
+            <span className="text-[10px] bg-jana-primary/10 text-jana-primary-accessible px-2 py-0.5 rounded font-mono font-bold">Luz/Voz/Movimiento</span>
+          </CardHeader>
+          <CardContent className="pt-4 space-y-3">
+            <p className="text-xs text-muted-foreground leading-normal">
+              Previsualizador dinámico de ensayos del backstage de producciones.
+            </p>
+            <div className="overflow-hidden rounded-lg border border-border">
+              <ProductionPlayer />
+            </div>
+          </CardContent>
+        </Card>
+
         {/* CRM SYNC METRICS CARD */}
         <Card className="rounded-lg bg-surface/90 border-border">
           <CardHeader>
@@ -1365,20 +1486,397 @@ function PanelView({
 
 function BrandBlock() {
   return (
-    <div className="flex items-center gap-3">
-      <BrandMark />
-      <div>
-        <p className="font-display text-lg font-semibold tracking-wide">JANA OS</p>
-        <p className="text-[10px] text-foreground-muted uppercase tracking-wider">Creative Stage System</p>
-      </div>
+    <div className="flex items-center justify-start py-1">
+      <JanaLogo className="h-9 w-auto" />
     </div>
   );
 }
 
-function BrandMark() {
+function LoginForm({
+  email,
+  setEmail,
+  password,
+  setPassword,
+  login,
+  handleLogin,
+  selectMockUser,
+}: {
+  email: string;
+  setEmail: (email: string) => void;
+  password: string;
+  setPassword: (password: string) => void;
+  login: { status: "idle" | "loading" | "success" | "error"; message: string };
+  handleLogin: (event: FormEvent<HTMLFormElement>) => void;
+  selectMockUser: (role: JanaRole, userEmail: string) => void;
+}) {
   return (
-    <div className="grid size-11 place-items-center rounded-lg bg-jana-primary text-primary-foreground shadow-card transition-transform hover:scale-105">
-      <Sparkles className="size-5" aria-hidden="true" />
+    <form className="space-y-4 text-left" onSubmit={handleLogin}>
+      <div className="space-y-2">
+        <label className="text-sm font-medium" htmlFor="login-email">
+          Usuario
+        </label>
+        <Input
+          id="login-email"
+          type="email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+          className="h-11"
+        />
+      </div>
+      <div className="space-y-2">
+        <label className="text-sm font-medium" htmlFor="login-password">
+          Contraseña
+        </label>
+        <Input
+          id="login-password"
+          type="password"
+          value={password}
+          onChange={(event) => setPassword(event.target.value)}
+          className="h-11"
+        />
+      </div>
+      <Button type="submit" className="h-11 w-full bg-jana-primary hover:bg-jana-primary-hover font-semibold" disabled={login.status === "loading"}>
+        {login.status === "loading" ? "Validando..." : "Iniciar Sesión"}
+      </Button>
+      <p
+        className={cn(
+          "rounded-lg border px-3 py-2 text-sm transition-all",
+          login.status === "success" && "border-success/50 text-success bg-success/10",
+          login.status === "error" && "border-error/50 text-error bg-error/10",
+          login.status !== "success" &&
+            login.status !== "error" &&
+            "border-border text-muted-foreground"
+        )}
+        role="status"
+      >
+        {login.message}
+      </p>
+
+      <div className="mt-4 border-t border-border pt-3">
+        <p className="text-xs font-semibold text-muted-foreground mb-2">Simular Plantilla de Credenciales:</p>
+        <div className="grid grid-cols-2 gap-2">
+          {rolesList.map(r => (
+            <button
+              key={r.role}
+              type="button"
+              onClick={() => selectMockUser(r.role as JanaRole, r.user)}
+              className="text-left text-xs p-2 rounded border border-border hover:border-jana-primary bg-surface/50 truncate cursor-pointer transition"
+            >
+              <span className="font-semibold block">{r.label}</span>
+              <span className="text-muted-foreground block text-[10px] truncate">{r.user}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    </form>
+  );
+}
+
+/* ==========================================================================
+   PUBLIC LANDING PAGE (Escuela JANA + JANA Producciones)
+   ========================================================================== */
+type LandingPageProps = {
+  resolvedTheme: string | undefined;
+  setTheme: (theme: string) => void;
+  email: string;
+  setEmail: (email: string) => void;
+  password: string;
+  setPassword: (password: string) => void;
+  login: { status: "idle" | "loading" | "success" | "error"; message: string };
+  setLogin: React.Dispatch<React.SetStateAction<{ status: "idle" | "loading" | "success" | "error"; message: string }>>;
+  handleLogin: (event: FormEvent<HTMLFormElement>) => void;
+  selectMockUser: (role: JanaRole, userEmail: string) => void;
+};
+
+function LandingPage({
+  resolvedTheme,
+  setTheme,
+  email,
+  setEmail,
+  password,
+  setPassword,
+  login,
+  handleLogin,
+  selectMockUser,
+}: LandingPageProps) {
+  const isLight = resolvedTheme === "light";
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const megaMenu = {
+    Formación: ["Cursos Anuales", "Nuestras Sedes", "Colegios", "Campamentos de Verano", "Inscripción Online"],
+    Escenario: ["Musicales en Cartel", "Microconciertos JANA", "Compra de Entradas", "Giras Nacionales"],
+    Comunidad: ["Profesorado", "Espacios Escénicos", "Agenda de Ensayos", "Noticias JANA"],
+    Nosotros: ["Quiénes Somos", "Historia JANA", "Bolsa de Empleo", "Contactar"],
+  };
+
+  return (
+    <div className="min-h-screen bg-background text-foreground flex flex-col antialiased">
+      {/* PUBLIC HEADER */}
+      <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur-xl py-3 px-4 md:px-8">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
+          <div className="flex items-center gap-2">
+            <JanaLogo className="h-10 w-auto" />
+          </div>
+
+          {/* DESKTOP MEGA-MENU */}
+          <nav className="hidden lg:flex items-center gap-6 text-sm font-semibold">
+            {Object.entries(megaMenu).map(([category, items]) => (
+              <div key={category} className="relative group py-2">
+                <button className="text-foreground-muted hover:text-foreground flex items-center gap-1 cursor-pointer transition">
+                  {category}
+                  <span className="text-[10px] opacity-65 transition-transform group-hover:rotate-180">▼</span>
+                </button>
+                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 rounded-xl border border-border bg-surface-elevated/95 p-3 shadow-xl backdrop-blur-md opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200">
+                  <div className="space-y-1">
+                    <p className="text-[10px] font-bold text-jana-primary-accessible uppercase tracking-wider px-2 pb-1 border-b border-border/40 mb-1">
+                      {category} JANA
+                    </p>
+                    {items.map((item) => (
+                      <a
+                        key={item}
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                        className="block rounded-lg px-2 py-1.5 text-xs text-foreground-muted hover:text-foreground hover:bg-accent/40 transition"
+                      >
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </nav>
+
+          {/* ACTIONS */}
+          <div className="flex items-center gap-3">
+            {/* Theme toggle */}
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  onClick={() => setTheme(isLight ? "dark" : "light")}
+                  className="flex size-10 items-center justify-center rounded-lg border border-border bg-surface hover:bg-accent/30 transition cursor-pointer"
+                  aria-label="Alternar tema claro y oscuro"
+                >
+                  {isLight ? (
+                    <Moon className="size-4 text-foreground-muted" />
+                  ) : (
+                    <Sun className="size-4 text-foreground-muted" />
+                  )}
+                </button>
+              </TooltipTrigger>
+              <TooltipContent>Alternar Tema</TooltipContent>
+            </Tooltip>
+
+            {/* Backstage Access */}
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button className="h-11 px-5 bg-jana-primary text-primary-foreground hover:bg-jana-primary-hover font-semibold rounded-lg shadow-md cursor-pointer transition-all hover:shadow-jana-primary/20">
+                  Acceso Backstage
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="glass-panel sm:max-w-md text-foreground">
+                <DialogHeader>
+                  <DialogTitle>Acceso Credenciales .env.local</DialogTitle>
+                  <DialogDescription>
+                    Inicia sesión por rol para acceder al simulador Backstage JANA OS.
+                  </DialogDescription>
+                </DialogHeader>
+                <LoginForm
+                  email={email}
+                  setEmail={setEmail}
+                  password={password}
+                  setPassword={setPassword}
+                  login={login}
+                  handleLogin={handleLogin}
+                  selectMockUser={selectMockUser}
+                />
+              </DialogContent>
+            </Dialog>
+
+            {/* MOBILE NAVIGATION MENU TRIGGER */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden flex size-10 items-center justify-center rounded-lg border border-border bg-surface hover:bg-accent/30 transition cursor-pointer"
+              aria-label="Abrir navegación móvil"
+            >
+              <Menu className="size-5" />
+            </button>
+          </div>
+        </div>
+
+        {/* MOBILE MENU PANEL */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden mt-3 border-t border-border pt-3 space-y-4">
+            <nav className="space-y-3">
+              {Object.entries(megaMenu).map(([category, items]) => (
+                <div key={category} className="space-y-1">
+                  <p className="text-xs font-bold text-jana-primary-accessible uppercase px-2">{category}</p>
+                  <div className="grid grid-cols-2 gap-1 pl-2">
+                    {items.map((item) => (
+                      <a
+                        key={item}
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                        className="block rounded px-2 py-1 text-xs text-foreground-muted hover:text-foreground hover:bg-accent/20"
+                      >
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </nav>
+          </div>
+        )}
+      </header>
+
+      {/* HERO SECTION */}
+      <section className="relative py-20 px-4 md:px-8 text-center max-w-6xl mx-auto space-y-8 flex-1 flex flex-col justify-center">
+        <div className="absolute inset-0 -z-10 flex items-center justify-center overflow-hidden">
+          <div className="h-80 w-80 rounded-full bg-jana-primary/10 blur-[110px]" />
+          <div className="h-80 w-80 rounded-full bg-brain/10 blur-[130px] translate-x-24" />
+        </div>
+        
+        <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-6xl tracking-tight leading-none bg-gradient-to-r from-foreground via-foreground to-jana-primary-accessible bg-clip-text text-transparent">
+          El escenario donde se <br />
+          forma el talento artístico
+        </h1>
+        <p className="text-foreground-muted text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+          Unificando **JANA Producciones** (musicales galardonados, teatro de alto nivel y giras nacionales) y **Escuela JANA** (formación artística en Canto, Danza e Interpretación).
+        </p>
+
+        <div className="flex flex-wrap justify-center gap-4 pt-4">
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button className="h-12 px-8 bg-jana-primary hover:bg-jana-primary-hover text-white text-sm font-semibold rounded-xl shadow-lg transition-transform hover:scale-105 cursor-pointer">
+                Iniciar Backstage OS
+              </Button>
+            </DialogTrigger>
+            <DialogContent className="glass-panel sm:max-w-md text-foreground">
+              <DialogHeader>
+                <DialogTitle>Acceso Credenciales .env.local</DialogTitle>
+                <DialogDescription>
+                  Inicia sesión para ver la simulación de paneles por rol.
+                </DialogDescription>
+              </DialogHeader>
+              <LoginForm
+                email={email}
+                setEmail={setEmail}
+                password={password}
+                setPassword={setPassword}
+                login={login}
+                handleLogin={handleLogin}
+                selectMockUser={selectMockUser}
+              />
+            </DialogContent>
+          </Dialog>
+
+          <Button variant="outline" className="h-12 px-8 border-border text-foreground hover:bg-accent/40 text-sm font-semibold rounded-xl transition-transform hover:scale-105 cursor-pointer">
+            Ver Catálogo de Cursos
+          </Button>
+        </div>
+      </section>
+
+      {/* GRID DE SERVICIOS CON EFECTO DE IMÁGENES EN ENLACE (GRAYSCALE TO COLOR HOVER) */}
+      <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto w-full space-y-12">
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl md:text-3xl font-bold font-heading">Nuestras Áreas de Excelencia</h2>
+          <p className="text-xs text-foreground-muted max-w-md mx-auto">
+            Cada imagen actúa como un enlace. Pasa el cursor por encima para revelar su color y magia artística.
+          </p>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-2">
+          {/* Card JANA Producciones */}
+          <a
+            href="#producciones"
+            onClick={(e) => e.preventDefault()}
+            className="group block overflow-hidden rounded-2xl border border-border bg-surface/50 shadow-md transition hover:border-jana-primary/50"
+          >
+            <div className="relative overflow-hidden h-64 bg-black/40">
+              <img
+                src="/production_la_bella.png"
+                alt="JANA Producciones - Musical La Bella y la Bestia"
+                className="w-full h-full object-cover group-hover:scale-102 transition-all duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 text-left">
+                <span className="text-[9px] bg-jana-primary text-white font-bold px-2 py-0.5 rounded font-mono uppercase tracking-wider">
+                  Producciones
+                </span>
+                <h3 className="text-lg md:text-xl font-bold text-white mt-1">Giras y Musicales Nacionales</h3>
+              </div>
+            </div>
+            <div className="p-5 space-y-2 text-left">
+              <p className="text-xs text-foreground-muted leading-relaxed">
+                Desde grandes producciones musicales de Broadway en España hasta obras teatrales galardonadas a nivel nacional.
+              </p>
+              <span className="text-xs text-jana-primary-accessible font-bold group-hover:underline flex items-center gap-1">
+                Conoce las producciones en cartelera →
+              </span>
+            </div>
+          </a>
+
+          {/* Card Escuela JANA */}
+          <a
+            href="#escuela"
+            onClick={(e) => e.preventDefault()}
+            className="group block overflow-hidden rounded-2xl border border-border bg-surface/50 shadow-md transition hover:border-jana-primary/50"
+          >
+            <div className="relative overflow-hidden h-64 bg-black/40">
+              <img
+                src="/escuela_canto.png"
+                alt="Escuela JANA - Alumnos en clase de Canto"
+                className="w-full h-full object-cover group-hover:scale-102 transition-all duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 text-left">
+                <span className="text-[9px] bg-talent text-white font-bold px-2 py-0.5 rounded font-mono uppercase tracking-wider">
+                  Escuela JANA
+                </span>
+                <h3 className="text-lg md:text-xl font-bold text-white mt-1">Formación Artística</h3>
+              </div>
+            </div>
+            <div className="p-5 space-y-2 text-left">
+              <p className="text-xs text-foreground-muted leading-relaxed">
+                Escuela líder especializada en Canto, Danza, Interpretación y Música para niños, jóvenes y adultos.
+              </p>
+              <span className="text-xs text-talent font-bold group-hover:underline flex items-center gap-1">
+                Descubre nuestros planes formativos →
+              </span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      {/* SECCIÓN REMOTION PREVIEW */}
+      <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto w-full space-y-8">
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl font-bold font-heading flex items-center justify-center gap-2">
+            <Clapperboard className="size-5 text-jana-primary" />
+            Vista Previa de Ensayos Generales (Remotion Player)
+          </h2>
+          <p className="text-xs md:text-sm text-foreground-muted max-w-md mx-auto">
+            Demostración visual interactiva usando las capacidades de Remotion integradas.
+          </p>
+        </div>
+
+        <div className="relative overflow-hidden rounded-xl border border-border shadow-lg">
+          <ProductionPlayer />
+        </div>
+      </section>
+
+      {/* PUBLIC FOOTER */}
+      <footer className="border-t border-border bg-black/20 py-8 px-4 text-center text-xs text-foreground-muted">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p>© 2026 JANA Producciones & Escuela JANA. Todos los derechos reservados.</p>
+          <div className="flex gap-4">
+            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Políticas de Privacidad</a>
+            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Términos de Uso</a>
+            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Accesibilidad WCAG 2.2</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

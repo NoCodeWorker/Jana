@@ -203,5 +203,170 @@
     "mtime": 1781271638.6962302,
     "ast_hash": "b10d61b57693aee68a2f717cf392d0a2",
     "semantic_hash": ""
+  },
+  "app/api/auth/route.ts": {
+    "mtime": 1781274746.4918904,
+    "ast_hash": "ba328923effa46ec96724172018c554e",
+    "semantic_hash": ""
+  },
+  "app/api/backstage/route.ts": {
+    "mtime": 1781274755.0232706,
+    "ast_hash": "fc3c122cac179982529af77fd26632e5",
+    "semantic_hash": ""
+  },
+  "app/layout.tsx": {
+    "mtime": 1781275149.5051234,
+    "ast_hash": "4d6b3dbc749386bb3c6b0cdee0b205f2",
+    "semantic_hash": ""
+  },
+  "app/page.tsx": {
+    "mtime": 1781274948.3359525,
+    "ast_hash": "97ce81b173f0e62826bcce29d93cbb6d",
+    "semantic_hash": ""
+  },
+  "components.json": {
+    "mtime": 1781274531.6553292,
+    "ast_hash": "a0238eb4ceb9341a82b6e3640ca96743",
+    "semantic_hash": ""
+  },
+  "components/app-providers.tsx": {
+    "mtime": 1781274760.0449574,
+    "ast_hash": "bf7324db65c5def6ba6e3dad6045ff4a",
+    "semantic_hash": ""
+  },
+  "components/jana-stage.tsx": {
+    "mtime": 1781274936.2014327,
+    "ast_hash": "16fd26b738d07c6976e12e25c431ed03",
+    "semantic_hash": ""
+  },
+  "components/remotion/production-player.tsx": {
+    "mtime": 1781275187.3695295,
+    "ast_hash": "86d1b0acfa07fbce42bc7a1807abe7ac",
+    "semantic_hash": ""
+  },
+  "components/remotion/stage-composition.tsx": {
+    "mtime": 1781274836.2914515,
+    "ast_hash": "12104759d564fdde44e248713bd3e5e9",
+    "semantic_hash": ""
+  },
+  "components/ui/accordion.tsx": {
+    "mtime": 1781274559.3759267,
+    "ast_hash": "920ce9582ece6b7dc4ee3d162b8333ad",
+    "semantic_hash": ""
+  },
+  "components/ui/avatar.tsx": {
+    "mtime": 1781274559.4426167,
+    "ast_hash": "b48244919ef33575fecf5509063b7310",
+    "semantic_hash": ""
+  },
+  "components/ui/button.tsx": {
+    "mtime": 1781274547.334015,
+    "ast_hash": "37ff09090166aa7d6fae96e0b081e492",
+    "semantic_hash": ""
+  },
+  "components/ui/card.tsx": {
+    "mtime": 1781274559.275755,
+    "ast_hash": "bd5f88ad2d983dd6c4561d63824c80ba",
+    "semantic_hash": ""
+  },
+  "components/ui/dialog.tsx": {
+    "mtime": 1781274559.7340508,
+    "ast_hash": "e01132db6e9067b7b8cc2e322fdd34ff",
+    "semantic_hash": ""
+  },
+  "components/ui/input.tsx": {
+    "mtime": 1781274559.6476996,
+    "ast_hash": "2b0e9e810580f227dd255d9b78a83835",
+    "semantic_hash": ""
+  },
+  "components/ui/sheet.tsx": {
+    "mtime": 1781274559.8263428,
+    "ast_hash": "136091919ca01aa135e9413cc05b2d23",
+    "semantic_hash": ""
+  },
+  "components/ui/switch.tsx": {
+    "mtime": 1781274559.5759969,
+    "ast_hash": "5cc42175a3e9b6f20f1d48960bd55158",
+    "semantic_hash": ""
+  },
+  "components/ui/tooltip.tsx": {
+    "mtime": 1781274559.5092797,
+    "ast_hash": "b0b931c1a15ec3924fa5fecebaa15685",
+    "semantic_hash": ""
+  },
+  "eslint.config.mjs": {
+    "mtime": 1781275258.8125634,
+    "ast_hash": "c9395aa89c1352b034ac85299b0e8f33",
+    "semantic_hash": ""
+  },
+  "lib/jana-auth.ts": {
+    "mtime": 1781274737.4342263,
+    "ast_hash": "410aa31121dbe3ca02fb83b89bcc7cb7",
+    "semantic_hash": ""
+  },
+  "lib/utils.ts": {
+    "mtime": 1781274547.4340706,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": ""
+  },
+  "next-env.d.ts": {
+    "mtime": 1781275171.0725515,
+    "ast_hash": "ba64ff7d54714a8f64db89b1003207d8",
+    "semantic_hash": ""
+  },
+  "next.config.ts": {
+    "mtime": 1781270807.5340202,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1781275034.290491,
+    "ast_hash": "d7f3c3ea007f60cc187159420c042161",
+    "semantic_hash": ""
+  },
+  "postcss.config.mjs": {
+    "mtime": 1781270807.445666,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": ""
+  },
+  "remotion/Root.tsx": {
+    "mtime": 1781274848.1172302,
+    "ast_hash": "ecd6eea013d3602551287bec3304e29b",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1781275171.0725515,
+    "ast_hash": "67ea5617093dfaa6f16469d2ba8bff60",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1781270807.3839164,
+    "ast_hash": "f15aaa42d5d299d091b1171097ea56ad",
+    "semantic_hash": ""
+  },
+  "public/file.svg": {
+    "mtime": 1781270807.445666,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "public/globe.svg": {
+    "mtime": 1781270807.4623477,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "public/next.svg": {
+    "mtime": 1781270807.4842646,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "public/vercel.svg": {
+    "mtime": 1781270807.4959645,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "public/window.svg": {
+    "mtime": 1781270807.5110905,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
   }
 }
