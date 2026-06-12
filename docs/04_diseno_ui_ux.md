@@ -2,7 +2,7 @@
 
 ## Versión
 
-1.0
+1.1
 
 ---
 
@@ -14,7 +14,7 @@ JANA OS no es un ERP.
 
 JANA OS no es un LMS.
 
-JANA OS es el ecosistema digital donde vive el talento artístico.
+JANA OS es el "Backstage" digital donde vive el talento artístico.
 
 La experiencia debe transmitir:
 
@@ -23,6 +23,18 @@ La experiencia debe transmitir:
 * Producción
 * Evolución
 * Inteligencia
+
+---
+
+# Denominación de Dashboards (Backstage)
+
+Los paneles de control o dashboards según el rol se denominan bajo el concepto de "Backstage" (Detrás del escenario):
+
+* **Backstage Aula:** Gestión académica, clases, asistencias y evaluaciones.
+* **Backstage Chat:** Comunicación en tiempo real entre alumnos, profesores y dirección.
+* **Backstage Brain:** Búsqueda global, analítica e interacción con el motor cognitivo de IA.
+* **Backstage Talent Graph:** Visualización interactiva y tabla accesible de evolución de habilidades.
+* **Backstage Panel:** Administración general, configuración, finanzas e integraciones de la sede.
 
 ---
 
@@ -41,6 +53,15 @@ Wide: 1536px+
 
 ---
 
+# Temas (Dark & Light)
+
+El sistema soporta de forma nativa tanto el tema oscuro (Dark) como el tema claro (Light), con opción de alternar entre ambos mediante un control accesible en la interfaz.
+
+* **Tema Dark (Principal):** Emula la atmósfera del teatro a oscuras antes de comenzar la función.
+* **Tema Light (Claro):** Emula la iluminación total de los focos sobre el escenario.
+
+---
+
 # Accesibilidad
 
 Objetivo obligatorio:
@@ -51,11 +72,11 @@ WCAG 2.2 AA
 
 Requisitos:
 
-* Contraste mínimo 4.5:1
-* Navegación completa por teclado
-* Compatibilidad Screen Readers
-* prefers-reduced-motion
-* Focus visible obligatorio
+* Contraste mínimo de 4.5:1 en textos estándar y 3:1 en textos grandes o elementos de interfaz.
+* Navegación completa por teclado.
+* Compatibilidad total con lectores de pantalla (Screen Readers).
+* Soporte para `prefers-reduced-motion`.
+* Foco visible y de alto contraste obligatorio (`outline`).
 
 ---
 
@@ -67,10 +88,9 @@ Outfit
 
 Uso:
 
-* Branding
-* Títulos
-* Sidebar
-* Navegación
+* Branding / Logotipos
+* Títulos y encabezados
+* Sidebar / Menú de navegación
 
 ---
 
@@ -80,10 +100,10 @@ Inter
 
 Uso:
 
-* Tablas
+* Tablas de datos
 * Formularios
-* Dashboards
-* Contenido denso
+* Dashboards y KPIs
+* Bloques de texto denso
 
 ---
 
@@ -102,98 +122,64 @@ Uso:
 
 # Sistema de Color
 
-## Background
+El color primario del sistema es el naranja JANA (`#ec690c`), acompañado de variaciones tonales para estados e interacciones, blanco (`#ffffff`), negro (`#000000`), y los colores auxiliares necesarios para una accesibilidad y contraste perfectos.
+
+## Variables CSS por Tema
+
+### Tema Oscuro (Dark Theme)
 
 ```css
-#121417
+:root[class="dark"] {
+  --background: #121417;
+  --surface: #1A1E24;
+  --surface-elevated: #232A33;
+  --foreground: #F5F7FA;
+  --foreground-muted: #9EADB0;
+  
+  --jana-primary: #ec690c;
+  --jana-primary-hover: #f07e24;
+  --jana-primary-active: #d15c0a;
+  --jana-primary-accessible: #f28533; /* Contraste optimizado para fondo oscuro */
+
+  --brain: #7C5CFF;
+  --talent: #1FBF75;
+  --production: #F5B74F;
+
+  --success: #1FBF75;
+  --warning: #F5B74F;
+  --error: #E5484D;
+  --info: #4C8DFF;
+  
+  --border: rgba(255, 255, 255, 0.08);
+}
 ```
 
----
-
-## Surface
+### Tema Claro (Light Theme)
 
 ```css
-#1A1E24
-```
+:root[class="light"] {
+  --background: #F5F7FA;
+  --surface: #FFFFFF;
+  --surface-elevated: #EAEFF5;
+  --foreground: #121417;
+  --foreground-muted: #5C6A79;
 
----
+  --jana-primary: #ec690c;
+  --jana-primary-hover: #d15c0a;
+  --jana-primary-active: #b54f08;
+  --jana-primary-accessible: #ec690c; /* Contraste optimizado para fondo claro */
 
-## Elevated Surface
+  --brain: #643DFF;
+  --talent: #189e60;
+  --production: #d9992b;
 
-```css
-#232A33
-```
+  --success: #189e60;
+  --warning: #d9992b;
+  --error: #c92a2a;
+  --info: #1c7ed6;
 
----
-
-## JANA Primary
-
-```css
-#D56A1C
-```
-
----
-
-## JANA Primary Accessible
-
-```css
-#E67A2A
-```
-
----
-
-## Brain
-
-```css
-#7C5CFF
-```
-
----
-
-## Talent
-
-```css
-#1FBF75
-```
-
----
-
-## Production
-
-```css
-#F5B74F
-```
-
----
-
-## Success
-
-```css
-#1FBF75
-```
-
----
-
-## Warning
-
-```css
-#F5B74F
-```
-
----
-
-## Error
-
-```css
-#E5484D
-```
-
----
-
-## Info
-
-```css
-#4C8DFF
+  --border: rgba(0, 0, 0, 0.08);
+}
 ```
 
 ---
@@ -231,7 +217,10 @@ Muy sutiles.
 Evitar aspecto corporativo pesado.
 
 ```css
-0 4px 12px rgba(0,0,0,0.15)
+/* Oscuro */
+--shadow-card: 0 4px 12px rgba(0,0,0,0.3);
+/* Claro */
+--shadow-card: 0 4px 12px rgba(0,0,0,0.06);
 ```
 
 ---
@@ -244,10 +233,10 @@ Permitido únicamente en:
 
 * Paneles flotantes
 * Modales
-* Talent Graph overlays
-* Paneles IA
+* Overlays de Backstage Talent Graph
+* Paneles IA (Backstage Brain)
 
-Configuración:
+Configuración (en tema oscuro):
 
 ```css
 background: rgba(255,255,255,0.04);
@@ -291,11 +280,11 @@ Siempre incluir:
 * Estado error
 * Estado éxito
 
-Nunca depender únicamente del color.
+Nunca depender únicamente del color para transmitir estados (usar iconos explicativos).
 
 ---
 
-# Sidebar
+# Sidebar (Navegación del Backstage)
 
 Desktop:
 
@@ -304,11 +293,11 @@ Desktop:
 
 Mobile:
 
-* Drawer
+* Drawer / Bottom Sheet
 
 Elemento activo:
 
-* Barra lateral naranja JANA
+* Barra lateral izquierda con el naranja JANA (`#ec690c`).
 
 ---
 
@@ -336,11 +325,11 @@ Alumnos y profesorado.
 
 ## Production Card
 
-Producciones y eventos.
+Producciones, espectáculos y eventos.
 
 ---
 
-# Estados IA
+# Estados IA (Backstage Brain)
 
 ## Thinking
 
@@ -414,9 +403,9 @@ Compleja:
 
 ---
 
-# Talent Graph
+# Backstage Talent Graph
 
-Animaciones permitidas:
+Animaciones de nodos permitidas:
 
 * Reagrupación
 * Clustering
@@ -424,16 +413,14 @@ Animaciones permitidas:
 
 Debe existir:
 
-* Vista Grafo
-* Vista Tabla
+* Vista Grafo (Visual)
+* Vista Tabla (Accesible)
 
 ---
 
-# Dark Mode
+# Dark Mode & Light Mode (Alternancia)
 
-Modo principal del sistema.
-
-No se implementará Light Mode en MVP.
+El sistema arranca en tema oscuro (`dark`) por defecto, pero respeta el estado del interruptor de tema (`Theme Toggle`) guardando la preferencia del usuario en almacenamiento local (`localStorage`) para futuras sesiones.
 
 ---
 

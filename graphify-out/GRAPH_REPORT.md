@@ -1,16 +1,16 @@
 # Graph Report - JANA  (2026-06-12)
 
 ## Corpus Check
-- 39 files · ~24,618 words
+- 41 files · ~24,914 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 304 nodes · 274 edges · 38 communities (28 shown, 10 thin omitted)
+- 315 nodes · 283 edges · 40 communities (33 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `55839840`
+- Built from commit: `5bdcc50d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -53,6 +53,8 @@
 - [[_COMMUNITY_Community 35|Community 35]]
 - [[_COMMUNITY_Community 36|Community 36]]
 - [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Sistema de Color` - 13 edges
@@ -72,19 +74,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (38 total, 10 thin omitted)
+## Communities (40 total, 7 thin omitted)
 
 ### Community 0 - "Estructura Operativa & Sedes"
-Cohesion: 0.07
-Nodes (29): Accesibilidad, Bordes, Botones, Cards destacadas, Complete, Dark Mode, Duraciones, Escala Tipográfica (+21 more)
+Cohesion: 0.06
+Nodes (34): Accesibilidad, Bordes, Botones, Cards, Cards destacadas, Complete, Dark Mode, Duraciones (+26 more)
 
 ### Community 1 - "FastAPI Backend & Comunicación"
 Cohesion: 0.08
 Nodes (23): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+15 more)
 
 ### Community 2 - "Configuración de Herramientas & Reglas del Agente"
-Cohesion: 0.08
-Nodes (22): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación (+14 more)
+Cohesion: 0.12
+Nodes (14): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1.1 Transparencia Total sobre Costes y Condiciones, 1.2 Respeto a la Autonomía del Usuario (No Guilt-Tripping) (+6 more)
 
 ### Community 3 - "Orquestación & Agentes de Contenido"
 Cohesion: 0.14
@@ -119,7 +121,7 @@ Cohesion: 0.17
 Nodes (11): 1.1 Sedes y Usuarios, 1.2 Clases y Evaluaciones, 1.3 Finanzas y Verifactu, 1. Esquema Relacional (PostgreSQL), 2.1 Metadatos de las Relaciones, 2.2 Taxonomía de Skills, 2. Grafo Vivo (JANA TALENT GRAPH), 3.1 Estructura de la Tabla de Embeddings (+3 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): 1.1 Bottom Line Up Front (BLUF) / Respuesta Rápida, 1.2 Estructura de Contenido Atómico y Preguntas Conversacionales, 1.3 Señales de Autoridad y Citas de Fuentes (E-E-A-T para IA), 1.4 Bloques de Señales Semánticas Invisibles (Semantic Signal Blocks), 1. GEO / AIO (Optimización para Motores de Inteligencia Artificial), 2.1 Schema JSON-LD en Formato `@graph`, 2. Estructuración Técnica de Metadatos y Schema, 3.1 Metadata Dinámica en Next.js (+3 more)
 
 ### Community 12 - "Community 12"
@@ -178,33 +180,53 @@ Nodes (3): Answer, Q: Why does Tabla Embeddings pgvector connect Grafo de Talent
 Cohesion: 0.50
 Nodes (3): Answer, Q: Why does Tabla Sedes connect Estructura Operativa & Sedes to Grafo de Talento & Skills?, Source Nodes
 
+### Community 31 - "Community 31"
+Cohesion: 0.50
+Nodes (3): graphify, remotion-skills, shadcn-init
+
+### Community 32 - "Community 32"
+Cohesion: 0.50
+Nodes (3): graphify, remotion-skills, shadcn-init
+
+### Community 33 - "Community 33"
+Cohesion: 0.50
+Nodes (3): graphify, remotion-skills, shadcn-init
+
 ### Community 36 - "Community 36"
 Cohesion: 0.29
 Nodes (6): 1. Initialization (Init), 2. Adding Components (Add), 3. Verification & Troubleshooting, shadcn-init Skill, Templates Available:, Usage
 
 ### Community 37 - "Community 37"
-Cohesion: 0.40
-Nodes (5): Cards, Insight Card, Production Card, Standard Card, Talent Card
+Cohesion: 0.22
+Nodes (8): 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación, 2.2 Frameworks de Conversión Clásicos, 2. Principios y Frameworks de Redacción, 3.1 Claridad sobre Ingenio (Clarity Over Cleverness), 3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí"), 3. Copywriting Accesible (Inclusive & Plain Language), Regla del Agente: Redacción Persuasiva y Accesible (Copywriting)
+
+### Community 38 - "Community 38"
+Cohesion: 0.50
+Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
+
+### Community 39 - "Community 39"
+Cohesion: 0.50
+Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
 
 ## Knowledge Gaps
-- **193 isolated node(s):** `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos`, `3.1 Claridad sobre Ingenio (Clarity Over Cleverness)`, `3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí")` (+188 more)
+- **198 isolated node(s):** `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos`, `3.1 Claridad sobre Ingenio (Clarity Over Cleverness)`, `3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí")` (+193 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `JANA OS - Especificación del Sistema de Diseño (UI/UX)` connect `pgvector & Seguridad RAG` to `Estructura Operativa & Sedes`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **Why does `1. Principios Fundamentales` connect `pgvector & Seguridad RAG` to `Landing Corporativa`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `Sistema de Color` connect `Grafo de Talento & Skills` to `Estructura Operativa & Sedes`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos` to the rest of the system?**
-  _193 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _198 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Estructura Operativa & Sedes` be split into smaller, more focused modules?**
-  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `FastAPI Backend & Comunicación` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Configuración de Herramientas & Reglas del Agente` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
