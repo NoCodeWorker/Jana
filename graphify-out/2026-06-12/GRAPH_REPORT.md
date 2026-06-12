@@ -1,16 +1,16 @@
 # Graph Report - JANA  (2026-06-12)
 
 ## Corpus Check
-- 41 files · ~25,239 words
+- 41 files · ~25,306 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 308 nodes · 276 edges · 38 communities (31 shown, 7 thin omitted)
+- 309 nodes · 277 edges · 39 communities (32 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `26459ab8`
+- Built from commit: `8ae3251e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -19,6 +19,7 @@
 - [[_COMMUNITY_FastAPI Backend & Comunicación|FastAPI Backend & Comunicación]]
 - [[_COMMUNITY_Configuración de Herramientas & Reglas del Agente|Configuración de Herramientas & Reglas del Agente]]
 - [[_COMMUNITY_Orquestación & Agentes de Contenido|Orquestación & Agentes de Contenido]]
+- [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_pgvector & Seguridad RAG|pgvector & Seguridad RAG]]
 - [[_COMMUNITY_Landing Corporativa|Landing Corporativa]]
 - [[_COMMUNITY_Next.js Frontend|Next.js Frontend]]
@@ -72,23 +73,27 @@
 ## Import Cycles
 - None detected.
 
-## Communities (38 total, 7 thin omitted)
+## Communities (39 total, 7 thin omitted)
 
 ### Community 0 - "Estructura Operativa & Sedes"
 Cohesion: 0.05
-Nodes (40): Accesibilidad, Backstage Talent Graph, Bordes, Botones, Cards, Cards destacadas, Complete, Dark Mode & Light Mode (Alternancia) (+32 more)
+Nodes (41): Accesibilidad, Backstage Talent Graph, Bordes, Botones, Cards, Cards destacadas, Complete, Dark Mode & Light Mode (Alternancia) (+33 more)
 
 ### Community 1 - "FastAPI Backend & Comunicación"
 Cohesion: 0.08
 Nodes (23): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+15 more)
 
 ### Community 2 - "Configuración de Herramientas & Reglas del Agente"
-Cohesion: 0.08
-Nodes (22): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación (+14 more)
+Cohesion: 0.12
+Nodes (14): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1.1 Transparencia Total sobre Costes y Condiciones, 1.2 Respeto a la Autonomía del Usuario (No Guilt-Tripping) (+6 more)
 
 ### Community 3 - "Orquestación & Agentes de Contenido"
 Cohesion: 0.14
 Nodes (14): Part A - Structural extraction for code files, Part B - Semantic extraction (parallel subagents), Part C - Merge AST + semantic into final extraction, Step 0 - GitHub repos and multi-path merge (only if a URL or several paths), Step 1 - Ensure graphify is installed, Step 2.5 - Video and audio (only if video files detected), Step 2 - Detect files, Step 3 - Extract entities and relationships (+6 more)
+
+### Community 4 - "Community 4"
+Cohesion: 0.22
+Nodes (8): 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación, 2.2 Frameworks de Conversión Clásicos, 2. Principios y Frameworks de Redacción, 3.1 Claridad sobre Ingenio (Clarity Over Cleverness), 3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí"), 3. Copywriting Accesible (Inclusive & Plain Language), Regla del Agente: Redacción Persuasiva y Accesible (Copywriting)
 
 ### Community 5 - "pgvector & Seguridad RAG"
 Cohesion: 0.09
@@ -115,7 +120,7 @@ Cohesion: 0.17
 Nodes (11): 1.1 Sedes y Usuarios, 1.2 Clases y Evaluaciones, 1.3 Finanzas y Verifactu, 1. Esquema Relacional (PostgreSQL), 2.1 Metadatos de las Relaciones, 2.2 Taxonomía de Skills, 2. Grafo Vivo (JANA TALENT GRAPH), 3.1 Estructura de la Tabla de Embeddings (+3 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): 1.1 Bottom Line Up Front (BLUF) / Respuesta Rápida, 1.2 Estructura de Contenido Atómico y Preguntas Conversacionales, 1.3 Señales de Autoridad y Citas de Fuentes (E-E-A-T para IA), 1.4 Bloques de Señales Semánticas Invisibles (Semantic Signal Blocks), 1. GEO / AIO (Optimización para Motores de Inteligencia Artificial), 2.1 Schema JSON-LD en Formato `@graph`, 2. Estructuración Técnica de Metadatos y Schema, 3.1 Metadata Dinámica en Next.js (+3 more)
 
 ### Community 12 - "Community 12"
@@ -199,7 +204,7 @@ Cohesion: 0.50
 Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
 
 ## Knowledge Gaps
-- **190 isolated node(s):** `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos`, `3.1 Claridad sobre Ingenio (Clarity Over Cleverness)`, `3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí")` (+185 more)
+- **191 isolated node(s):** `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos`, `3.1 Claridad sobre Ingenio (Clarity Over Cleverness)`, `3.2 Enlaces Descriptivos (Prohibición de "Haz Clic Aquí")` (+186 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -207,16 +212,16 @@ Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `JANA OS - Especificación del Sistema de Diseño (UI/UX)` connect `pgvector & Seguridad RAG` to `Estructura Operativa & Sedes`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **Why does `1. Principios Fundamentales` connect `pgvector & Seguridad RAG` to `Landing Corporativa`?**
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **What connects `1. Tono y Voz de JANA OS`, `2.1 Enfoque en Beneficios y Transformación`, `2.2 Frameworks de Conversión Clásicos` to the rest of the system?**
-  _190 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _191 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Estructura Operativa & Sedes` be split into smaller, more focused modules?**
-  _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `FastAPI Backend & Comunicación` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Configuración de Herramientas & Reglas del Agente` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Orquestación & Agentes de Contenido` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

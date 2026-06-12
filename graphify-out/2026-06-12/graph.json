@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting",
-      "community": 2,
+      "community": 4,
       "norm_label": "copywriting.md"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
-      "community": 2,
+      "community": 4,
       "norm_label": "regla del agente: redaccion persuasiva y accesible (copywriting)"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "rules_copywriting_1_tono_y_voz_de_jana_os",
-      "community": 2,
+      "community": 4,
       "norm_label": "1. tono y voz de jana os"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n",
-      "community": 2,
+      "community": 4,
       "norm_label": "2. principios y frameworks de redaccion"
     },
     {
@@ -50,7 +50,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "rules_copywriting_2_1_enfoque_en_beneficios_y_transformaci\u00f3n",
-      "community": 2,
+      "community": 4,
       "norm_label": "2.1 enfoque en beneficios y transformacion"
     },
     {
@@ -60,7 +60,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "rules_copywriting_2_2_frameworks_de_conversi\u00f3n_cl\u00e1sicos",
-      "community": 2,
+      "community": 4,
       "norm_label": "2.2 frameworks de conversion clasicos"
     },
     {
@@ -70,7 +70,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language",
-      "community": 2,
+      "community": 4,
       "norm_label": "3. copywriting accesible (inclusive & plain language)"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "rules_copywriting_3_1_claridad_sobre_ingenio_clarity_over_cleverness",
-      "community": 2,
+      "community": 4,
       "norm_label": "3.1 claridad sobre ingenio (clarity over cleverness)"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "rules_copywriting_3_2_enlaces_descriptivos_prohibici\u00f3n_de_haz_clic_aqu\u00ed",
-      "community": 2,
+      "community": 4,
       "norm_label": "3.2 enlaces descriptivos (prohibicion de \"haz clic aqui\")"
     },
     {
@@ -210,7 +210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_seo_geo_aio",
-      "community": 11,
+      "community": 2,
       "norm_label": "seo_geo_aio.md"
     },
     {
@@ -2804,10 +2804,20 @@
       "norm_label": "dark mode & light mode (alternancia)"
     },
     {
-      "label": "Principio Final",
+      "label": "Im\u00e1genes con Enlace (Efecto Esc\u00e9nico)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L427",
+      "_origin": "ast",
+      "id": "docs_04_diseno_ui_ux_im\u00e1genes_con_enlace_efecto_esc\u00e9nico",
+      "community": 0,
+      "norm_label": "imagenes con enlace (efecto escenico)"
+    },
+    {
+      "label": "Principio Final",
+      "file_type": "document",
+      "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L437",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_principio_final",
       "community": 0,
@@ -5248,9 +5258,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L406",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_backstage_talent_graph",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_backstage_talent_graph"
     },
     {
       "relation": "contains",
@@ -5288,9 +5298,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L421",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_dark_mode_light_mode_alternancia",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_dark_mode_light_mode_alternancia"
     },
     {
       "relation": "contains",
@@ -5298,9 +5308,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_denominaci\u00f3n_de_dashboards_backstage",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_denominaci\u00f3n_de_dashboards_backstage"
     },
     {
       "relation": "contains",
@@ -5328,9 +5338,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L332",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_estados_ia_backstage_brain"
     },
     {
       "relation": "contains",
@@ -5356,11 +5366,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L274",
+      "source_location": "L427",
       "weight": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_inputs_274",
+      "target": "docs_04_diseno_ui_ux_im\u00e1genes_con_enlace_efecto_esc\u00e9nico",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L274",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_04_diseno_ui_ux",
+      "target": "docs_04_diseno_ui_ux_inputs_274"
     },
     {
       "relation": "contains",
@@ -5418,9 +5438,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L287",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_sidebar_navegaci\u00f3n_del_backstage",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_sidebar_navegaci\u00f3n_del_backstage"
     },
     {
       "relation": "contains",
@@ -5448,9 +5468,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_temas_dark_light",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_temas_dark_light"
     },
     {
       "relation": "contains",
@@ -5508,9 +5528,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_variables_css_por_tema",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_variables_css_por_tema"
     },
     {
       "relation": "contains",
@@ -5518,9 +5538,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_variables_css_por_tema",
-      "target": "docs_04_diseno_ui_ux_tema_claro_light_theme",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_tema_claro_light_theme"
     },
     {
       "relation": "contains",
@@ -5528,9 +5548,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_variables_css_por_tema",
-      "target": "docs_04_diseno_ui_ux_tema_oscuro_dark_theme",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_tema_oscuro_dark_theme"
     },
     {
       "relation": "contains",
@@ -5608,9 +5628,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L346",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
-      "target": "docs_04_diseno_ui_ux_complete",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_complete"
     },
     {
       "relation": "contains",
@@ -5618,9 +5638,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L354",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
-      "target": "docs_04_diseno_ui_ux_review",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_review"
     },
     {
       "relation": "contains",
@@ -5628,9 +5648,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L334",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
-      "target": "docs_04_diseno_ui_ux_thinking",
-      "confidence_score": 1.0
+      "target": "docs_04_diseno_ui_ux_thinking"
     },
     {
       "relation": "contains",
@@ -5814,5 +5834,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "26459ab894fdaa6066c68402dacc177b10357533"
+  "built_at_commit": "8ae3251e629adeae22698018f5c09a565a4ea08c"
 }
