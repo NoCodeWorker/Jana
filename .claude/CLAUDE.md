@@ -5,3 +5,7 @@ When the user types `/graphify`, invoke the Skill tool with `skill: "graphify"` 
 # shadcn-init
 - **shadcn-init** (`.claude/skills/shadcn/SKILL.md`) - initialize shadcn/ui and add components.
 
+# remotion-skills
+- **remotion-skills** (`.claude/skills/remotion-skills/SKILL.md`) - add skills from remotion-dev/skills.
+
+

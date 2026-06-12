@@ -1944,6 +1944,16 @@
       "norm_label": "graphify"
     },
     {
+      "label": "shadcn-init",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "agents_shadcn_init",
+      "community": 31,
+      "norm_label": "shadcn-init"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -1962,6 +1972,16 @@
       "id": "claude_graphify",
       "community": 32,
       "norm_label": "graphify"
+    },
+    {
+      "label": "shadcn-init",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "claude_shadcn_init",
+      "community": 32,
+      "norm_label": "shadcn-init"
     },
     {
       "label": "01_vision_arquitectonica.md",
@@ -3669,9 +3689,9 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude",
-      "target": "claude_claude_shadcn_init",
-      "confidence_score": 1.0
+      "target": "claude_claude_shadcn_init"
     },
     {
       "relation": "contains",
@@ -4169,9 +4189,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill"
     },
     {
       "relation": "contains",
@@ -4179,9 +4199,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_usage"
     },
     {
       "relation": "contains",
@@ -4189,9 +4209,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init"
     },
     {
       "relation": "contains",
@@ -4199,9 +4219,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add"
     },
     {
       "relation": "contains",
@@ -4209,9 +4229,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting"
     },
     {
       "relation": "contains",
@@ -4219,9 +4239,9 @@
       "source_file": ".claude/skills/shadcn/SKILL.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
-      "target": "claude_skills_shadcn_skill_md_shadcn_skill_templates_available",
-      "confidence_score": 1.0
+      "target": "claude_skills_shadcn_skill_md_shadcn_skill_templates_available"
     },
     {
       "relation": "contains",
@@ -4699,9 +4719,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill"
     },
     {
       "relation": "contains",
@@ -4709,9 +4729,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill_shadcn_init_skill",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_usage"
     },
     {
       "relation": "contains",
@@ -4719,9 +4739,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init"
     },
     {
       "relation": "contains",
@@ -4729,9 +4749,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_2_adding_components_add"
     },
     {
       "relation": "contains",
@@ -4739,9 +4759,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill_usage",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_3_verification_troubleshooting"
     },
     {
       "relation": "contains",
@@ -4749,9 +4769,9 @@
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_shadcn_skill_md_shadcn_skill_1_initialization_init",
-      "target": "codex_skills_shadcn_skill_md_shadcn_skill_templates_available",
-      "confidence_score": 1.0
+      "target": "codex_skills_shadcn_skill_md_shadcn_skill_templates_available"
     },
     {
       "relation": "contains",
@@ -4766,12 +4786,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "agents",
+      "target": "agents_shadcn_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "claude",
       "target": "claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_shadcn_init",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5714,5 +5754,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eace69065f8b2e1db6593f10f8926b3d147fee2e"
+  "built_at_commit": "5583984011d13f303b674059d194eea40b893bf5"
 }

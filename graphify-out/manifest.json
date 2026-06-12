@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1781248497.0580666,
-    "ast_hash": "752aa83aa64361ac32860f882dcff932",
+    "mtime": 1781271590.7832935,
+    "ast_hash": "9286778e027cea135de3716af657f629",
     "semantic_hash": ""
   },
   "docs/01_vision_arquitectonica.md": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781254550.392598,
-    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "mtime": 1781271595.0883787,
+    "ast_hash": "daa053598c5146e511a151a08529d1b7",
     "semantic_hash": ""
   },
   ".claude/skills/shadcn/SKILL.md": {

@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1781254550.3855722,
-    "ast_hash": "817fe671013b35ae0bc9301dfe449a87",
+    "mtime": 1781271543.4439752,
+    "ast_hash": "deeba8f992df4b3295d0f5204b5c3145",
     "semantic_hash": ""
   },
   ".claude/skills/graphify/SKILL.md": {
@@ -182,6 +182,16 @@
   "CLAUDE.md": {
     "mtime": 1781254550.392598,
     "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  ".claude/skills/shadcn/SKILL.md": {
+    "mtime": 1781271536.7902067,
+    "ast_hash": "442bf2fd54618b934a78f549626bb7e6",
+    "semantic_hash": ""
+  },
+  ".codex/skills/shadcn/SKILL.md": {
+    "mtime": 1781271532.5233328,
+    "ast_hash": "442bf2fd54618b934a78f549626bb7e6",
     "semantic_hash": ""
   }
 }

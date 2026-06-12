@@ -14,3 +14,10 @@ Initialize shadcn/ui components using:
 - **shadcn-init** (`.codex/skills/shadcn/SKILL.md`) - initialize shadcn/ui and add components.
 When installing shadcn components or initializing UI, refer to this skill.
 
+## remotion-skills
+
+Add remotion-dev skills using:
+- **remotion-skills** (`.codex/skills/remotion-skills/SKILL.md`) - add skills from remotion-dev/skills.
+When importing specialized agent skills, refer to this skill.
+
+
