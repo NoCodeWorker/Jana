@@ -1889,20 +1889,113 @@ function LandingPage({
         </div>
       </section>
 
-      {/* SECCIÓN REMOTION PREVIEW */}
-      <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto w-full space-y-8">
-        <div className="text-center space-y-2">
-          <h2 className="text-2xl font-bold font-heading flex items-center justify-center gap-2">
-            <Clapperboard className="size-5 text-jana-primary" />
-            Vista Previa de Ensayos Generales (Remotion Player)
-          </h2>
-          <p className="text-xs md:text-sm text-foreground-muted max-w-md mx-auto">
-            Demostración visual interactiva usando las capacidades de Remotion integradas.
-          </p>
+      {/* SOCIAL PROOF + CRO SECTION */}
+      <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto w-full">
+        {/* Testimonials */}
+        <div className="text-center space-y-2 mb-12">
+          <p className="text-[11px] font-bold text-foreground-muted uppercase tracking-widest">Lo que dicen quienes ya lo usan</p>
+          <h2 className="text-2xl md:text-3xl font-black font-heading">Resultados reales en escuelas reales</h2>
         </div>
 
-        <div className="relative overflow-hidden rounded-xl border border-border shadow-lg">
-          <ProductionPlayer />
+        <div className="grid gap-5 md:grid-cols-3 mb-16">
+          {[
+            {
+              quote: "Antes gestionaba las notas en Excel. Ahora el profesor puntúa desde el aula y la dirección lo ve en tiempo real. Hemos reducido el tiempo de administración un 60%.",
+              name: "Carmen Vega",
+              role: "Directora · Escuela de Teatro Vega",
+              initial: "CV",
+              color: "text-jana-primary-accessible",
+              border: "border-jana-primary/20",
+            },
+            {
+              quote: "El RAG seguro fue el argumento definitivo para el RGPD. Podemos demostrar ante auditoría que ningún alumno accede a datos de otro. Eso no tiene precio.",
+              name: "Alejandro Fuentes",
+              role: "Director Digital · Compañía Danza Sur",
+              initial: "AF",
+              color: "text-brain",
+              border: "border-brain/20",
+            },
+            {
+              quote: "Las familias preguntan menos porque el alumno ya puede ver su progreso. El Talent Graph ha reducido las llamadas de padres a la mitad.",
+              name: "Lucía Romero",
+              role: "Coordinadora · Academia Musical Romero",
+              initial: "LR",
+              color: "text-talent",
+              border: "border-talent/20",
+            },
+          ].map((t) => (
+            <div key={t.name} className={`rounded-2xl border ${t.border} bg-surface/60 p-6 space-y-4 flex flex-col`}>
+              <p className="text-sm text-foreground-muted leading-relaxed flex-1">
+                &ldquo;{t.quote}&rdquo;
+              </p>
+              <div className="flex items-center gap-3 pt-2 border-t border-border">
+                <div className={`size-9 rounded-full bg-surface-elevated flex items-center justify-center text-xs font-black ${t.color}`}>
+                  {t.initial}
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-foreground">{t.name}</p>
+                  <p className="text-[10px] text-foreground-muted">{t.role}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA BLOCK */}
+        <div className="relative overflow-hidden rounded-3xl border border-jana-primary/30 bg-gradient-to-br from-jana-primary/10 via-surface to-brain/10 p-10 md:p-14 text-center space-y-6">
+          {/* Glow */}
+          <div className="absolute inset-0 -z-10 flex items-center justify-center pointer-events-none">
+            <div className="h-64 w-64 rounded-full bg-jana-primary/15 blur-[80px]" />
+          </div>
+
+          <div className="space-y-3">
+            <span className="inline-block rounded-full border border-jana-primary/40 bg-jana-primary/10 px-4 py-1.5 text-[11px] font-bold text-jana-primary-accessible uppercase tracking-widest">
+              Demo gratuita · Sin compromiso
+            </span>
+            <h2 className="text-3xl md:text-4xl font-black font-heading">
+              ¿Tu escuela merece una gestión<br className="hidden md:block" /> del siglo XXI?
+            </h2>
+            <p className="text-foreground-muted text-sm md:text-base max-w-lg mx-auto leading-relaxed">
+              Solicita una demo personalizada. Configuramos JANA OS con los datos reales de tu escuela en menos de 48h.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4">
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button className="h-13 px-10 bg-jana-primary hover:bg-jana-primary-hover text-white text-sm font-bold rounded-xl shadow-lg shadow-jana-primary/30 hover:shadow-jana-primary/50 transition-all hover:scale-105 cursor-pointer">
+                  🎭 Solicitar Demo Backstage
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="glass-panel sm:max-w-md text-foreground">
+                <DialogHeader>
+                  <DialogTitle>Acceso Demo · JANA OS</DialogTitle>
+                  <DialogDescription>
+                    Usa las credenciales de demo para explorar todos los paneles por rol.
+                  </DialogDescription>
+                </DialogHeader>
+                <LoginForm
+                  email={email}
+                  setEmail={setEmail}
+                  password={password}
+                  setPassword={setPassword}
+                  login={login}
+                  handleLogin={handleLogin}
+                  selectMockUser={selectMockUser}
+                />
+              </DialogContent>
+            </Dialog>
+            <Button variant="outline" className="h-13 px-8 border-border text-foreground hover:bg-accent/40 text-sm font-semibold rounded-xl transition-all hover:scale-105 cursor-pointer">
+              Ver Módulos del Sistema →
+            </Button>
+          </div>
+
+          {/* Trust badges */}
+          <div className="flex flex-wrap justify-center gap-6 pt-4 text-[11px] text-foreground-muted">
+            {["✓ RGPD Cumplimiento total", "✓ Sin contrato de permanencia", "✓ Soporte en español 24/7", "✓ Migración de datos incluida"].map(b => (
+              <span key={b} className="font-medium">{b}</span>
+            ))}
+          </div>
         </div>
       </section>
 
