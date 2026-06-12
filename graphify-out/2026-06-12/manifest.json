@@ -1,82 +1,57 @@
 {
-  ".codex/hooks.json": {
+  "D:\\JANA\\.codex\\hooks.json": {
     "mtime": 1781248497.1317475,
     "ast_hash": "a70001d8c9b5af7806fa4ce6d46cfde5",
     "semantic_hash": "a70001d8c9b5af7806fa4ce6d46cfde5"
   },
-  ".agents/rules/graphify.md": {
+  "D:\\JANA\\.agents\\rules\\graphify.md": {
     "mtime": 1781248350.4523625,
     "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
     "semantic_hash": "a0e4d192b9e2e17256124dbfc8e24e6a"
   },
-  ".agents/workflows/graphify.md": {
+  "D:\\JANA\\.agents\\workflows\\graphify.md": {
     "mtime": 1781250837.764638,
     "ast_hash": "478f9e730416c392365f4c65bf72587c",
     "semantic_hash": "478f9e730416c392365f4c65bf72587c"
   },
-  "AGENTS.md": {
+  "D:\\JANA\\AGENTS.md": {
     "mtime": 1781248497.0580666,
     "ast_hash": "752aa83aa64361ac32860f882dcff932",
     "semantic_hash": "752aa83aa64361ac32860f882dcff932"
   },
-  "docs/01_vision_arquitectonica.md": {
+  "D:\\JANA\\docs\\01_vision_arquitectonica.md": {
     "mtime": 1781249860.1651318,
     "ast_hash": "baf35e46febae7964edd7a11f42068dc",
     "semantic_hash": "baf35e46febae7964edd7a11f42068dc"
   },
-  "docs/02_modelos_de_datos.md": {
+  "D:\\JANA\\docs\\02_modelos_de_datos.md": {
     "mtime": 1781249625.371463,
     "ast_hash": "40061fd08341c9a890a39b946fb64da9",
     "semantic_hash": "40061fd08341c9a890a39b946fb64da9"
   },
-  "docs/03_requisitos_funcionales.md": {
+  "D:\\JANA\\docs\\03_requisitos_funcionales.md": {
     "mtime": 1781249867.38265,
     "ast_hash": "19a254f3777718520e4d17b095bab10d",
     "semantic_hash": "19a254f3777718520e4d17b095bab10d"
   },
-  "docs/04_diseno_ui_ux.md": {
+  "D:\\JANA\\docs\\04_diseno_ui_ux.md": {
     "mtime": 1781250557.1961129,
     "ast_hash": "5a5b895e94a1f7841c18507adf1d1575",
     "semantic_hash": "5a5b895e94a1f7841c18507adf1d1575"
   },
-  "graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md": {
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md": {
     "mtime": 1781250002.9925518,
     "ast_hash": "1d10e1cc72d3fb4a7c3dfe0594ddf744",
     "semantic_hash": "1d10e1cc72d3fb4a7c3dfe0594ddf744"
   },
-  "graphify-out/memory/query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md": {
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md": {
     "mtime": 1781250002.9930942,
     "ast_hash": "e8cb1c99e912a7a7f70567942f598a0c",
     "semantic_hash": "e8cb1c99e912a7a7f70567942f598a0c"
   },
-  "graphify-out/memory/query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md": {
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md": {
     "mtime": 1781250002.9936352,
     "ast_hash": "a614ca1b82fca2d67412334a812ba698",
     "semantic_hash": "a614ca1b82fca2d67412334a812ba698"
-  },
-  ".agents/rules/copywriting.md": {
-    "mtime": 1781251478.3406904,
-    "ast_hash": "c9cdb241dff69529c161a2ea9344de2c",
-    "semantic_hash": ""
-  },
-  ".agents/rules/ethical_cro.md": {
-    "mtime": 1781251473.1690285,
-    "ast_hash": "7400833dda73448691f6a4691edba1f3",
-    "semantic_hash": ""
-  },
-  ".agents/rules/seo_geo_aio.md": {
-    "mtime": 1781251462.3818715,
-    "ast_hash": "f2a7d26d6d6ccd7501a84c24241ad7d4",
-    "semantic_hash": ""
-  },
-  ".agents/rules/ux_design.md": {
-    "mtime": 1781251468.0019758,
-    "ast_hash": "5380f5506abd14cd94678b7c33074ff9",
-    "semantic_hash": ""
-  },
-  ".agents/rules/wcag_accessibility.md": {
-    "mtime": 1781251455.9035275,
-    "ast_hash": "ccf6e639d533dc90c0c42aa23b473f3b",
-    "semantic_hash": ""
   }
 }
