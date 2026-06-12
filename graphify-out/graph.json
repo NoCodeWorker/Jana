@@ -13,7 +13,7 @@
       "author": null,
       "contributor": null,
       "id": "codex_hooks_pretooluse",
-      "community": 4,
+      "community": 3,
       "norm_label": "codex pretooluse hook"
     },
     {
@@ -26,7 +26,7 @@
       "author": null,
       "contributor": null,
       "id": "rules_graphify_knowledge_graph",
-      "community": 4,
+      "community": 3,
       "norm_label": "graphify knowledge graph rule"
     },
     {
@@ -39,21 +39,8 @@
       "author": null,
       "contributor": null,
       "id": "rules_graphify_update_rule",
-      "community": 4,
+      "community": 3,
       "norm_label": "graphify update rule"
-    },
-    {
-      "label": "Graphify Workflow",
-      "file_type": "document",
-      "source_file": "D:/JANA/.agents/workflows/graphify.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "workflows_graphify_workflow",
-      "community": 4,
-      "norm_label": "graphify workflow"
     },
     {
       "label": "Graphify Codex Integration",
@@ -65,7 +52,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_codex_integration",
-      "community": 4,
+      "community": 3,
       "norm_label": "graphify codex integration"
     },
     {
@@ -91,7 +78,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_geo_landings",
-      "community": 0,
+      "community": 1,
       "norm_label": "landings geo por sede"
     },
     {
@@ -104,7 +91,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_nextjs_frontend",
-      "community": 3,
+      "community": 4,
       "norm_label": "next.js frontend"
     },
     {
@@ -169,7 +156,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_postgresql",
-      "community": 3,
+      "community": 0,
       "norm_label": "postgresql database"
     },
     {
@@ -182,7 +169,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_pgvector",
-      "community": 1,
+      "community": 0,
       "norm_label": "pgvector"
     },
     {
@@ -208,7 +195,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_jana_orchestrator",
-      "community": 1,
+      "community": 0,
       "norm_label": "jana orchestrator"
     },
     {
@@ -221,7 +208,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_specialized_agents",
-      "community": 1,
+      "community": 0,
       "norm_label": "agentes especializados ia"
     },
     {
@@ -234,7 +221,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_01_vision_arquitectonica_knowledge_service",
-      "community": 1,
+      "community": 0,
       "norm_label": "knowledge service"
     },
     {
@@ -247,7 +234,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_sedes_table",
-      "community": 0,
+      "community": 1,
       "norm_label": "tabla sedes"
     },
     {
@@ -260,7 +247,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_usuarios_table",
-      "community": 0,
+      "community": 1,
       "norm_label": "tabla usuarios"
     },
     {
@@ -273,7 +260,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_clases_table",
-      "community": 0,
+      "community": 1,
       "norm_label": "tabla clases"
     },
     {
@@ -286,7 +273,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_evaluaciones_table",
-      "community": 0,
+      "community": 1,
       "norm_label": "tabla evaluaciones"
     },
     {
@@ -299,7 +286,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_eventos_financieros_table",
-      "community": 0,
+      "community": 1,
       "norm_label": "tabla eventos financieros"
     },
     {
@@ -312,7 +299,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_jana_talent_graph",
-      "community": 3,
+      "community": 0,
       "norm_label": "jana talent graph"
     },
     {
@@ -325,7 +312,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_skills_taxonomy",
-      "community": 3,
+      "community": 0,
       "norm_label": "taxonomia de skills"
     },
     {
@@ -351,7 +338,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_02_modelos_de_datos_rag_security",
-      "community": 1,
+      "community": 0,
       "norm_label": "seguridad y privacidad rag"
     },
     {
@@ -364,7 +351,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_03_requisitos_funcionales_rag_flow",
-      "community": 1,
+      "community": 0,
       "norm_label": "flujo rag seguro"
     },
     {
@@ -403,7 +390,7 @@
       "author": null,
       "contributor": null,
       "id": "docs_03_requisitos_funcionales_verifactu_adapter",
-      "community": 0,
+      "community": 1,
       "norm_label": "adaptador verifactu"
     },
     {
@@ -416,21 +403,21 @@
       "author": null,
       "contributor": null,
       "id": "docs_04_diseno_ui_ux_spec",
-      "community": 3,
+      "community": 4,
       "norm_label": "especificacion sistema de diseno"
     },
     {
-      "label": "index.css (Tema Tailwind v4)",
+      "label": "app/globals.css (Tema Tailwind v4)",
       "file_type": "code",
-      "source_file": "index.css",
+      "source_file": "app/globals.css",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "index_global_css",
-      "community": 3,
-      "norm_label": "index.css (tema tailwind v4)"
+      "id": "app_globals_css",
+      "community": 4,
+      "norm_label": "app/globals.css (tema tailwind v4)"
     }
   ],
   "links": [
@@ -462,16 +449,6 @@
       "source_location": null,
       "weight": 1.0,
       "source": "rules_graphify_update_rule",
-      "target": "rules_graphify_knowledge_graph"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "D:/JANA/.agents/workflows/graphify.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "workflows_graphify_workflow",
       "target": "rules_graphify_knowledge_graph"
     },
     {
@@ -768,12 +745,13 @@
       "relation": "implements",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
-      "source_file": "index.css",
+      "source_file": "app/globals.css",
       "source_location": null,
       "weight": 1.0,
-      "source": "index_global_css",
+      "source": "app_globals_css",
       "target": "docs_04_diseno_ui_ux_spec"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "2ad3378fb7db63d549e3f401ffa9c416f1e4f945"
 }
