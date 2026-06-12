@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fondo y Superficies */
+  --color-background: #121417;
+  --color-surface: #1A1E24;
+  --color-surface-elevated: #232A33;
+
+  /* JANA Orange (Corporativo) */
+  --color-jana-primary: #D56A1C;
+  --color-jana-primary-accessible: #E67A2A;
+
+  /* JANA Brain (Inteligencia Artificial) */
+  --color-brain: #7C5CFF;
+  --color-brain-accessible: #8C70FF;
+
+  /* Talent Green (Grafo de Talento) */
+  --color-talent: #1FBF75;
+  --color-talent-accessible: #2FD98A;
+
+  /* Stage Amber (Producciones) */
+  --color-production: #F5B74F;
+
+  /* Colores de Estado */
+  --color-success: #1FBF75;
+  --color-warning: #F5B74F;
+  --color-error: #E5484D;
+  --color-info: #4C8DFF;
+
+  /* Tipografías */
+  --font-sans: "Outfit", "Inter", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Bordes y Radios */
+  --radius-card: 12px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: #f3f4f6; /* Slate 100 para un texto suave sobre fondo oscuro */
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  /* Asegurar tamaño táctil mínimo e interactividad accesible */
+  button, 
+  a, 
+  input, 
+  select, 
+  textarea {
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+
+  /* Foco visible para navegación por teclado */
+  *:focus-visible {
+    outline: 2px solid var(--color-jana-primary-accessible);
+    outline-offset: 2px;
+  }
+
+  /* Soporte obligatorio para usuarios con reducción de movimiento */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

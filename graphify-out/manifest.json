@@ -1,0 +1,57 @@
+{
+  "D:\\JANA\\.codex\\hooks.json": {
+    "mtime": 1781248497.1317475,
+    "ast_hash": "a70001d8c9b5af7806fa4ce6d46cfde5",
+    "semantic_hash": "a70001d8c9b5af7806fa4ce6d46cfde5"
+  },
+  "D:\\JANA\\.agents\\rules\\graphify.md": {
+    "mtime": 1781248350.4523625,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": "a0e4d192b9e2e17256124dbfc8e24e6a"
+  },
+  "D:\\JANA\\.agents\\workflows\\graphify.md": {
+    "mtime": 1781248350.4529328,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": "637776aa6f7496d069afe7520c845c8a"
+  },
+  "D:\\JANA\\AGENTS.md": {
+    "mtime": 1781248497.0580666,
+    "ast_hash": "752aa83aa64361ac32860f882dcff932",
+    "semantic_hash": "752aa83aa64361ac32860f882dcff932"
+  },
+  "D:\\JANA\\docs\\01_vision_arquitectonica.md": {
+    "mtime": 1781249860.1651318,
+    "ast_hash": "baf35e46febae7964edd7a11f42068dc",
+    "semantic_hash": "baf35e46febae7964edd7a11f42068dc"
+  },
+  "D:\\JANA\\docs\\02_modelos_de_datos.md": {
+    "mtime": 1781249625.371463,
+    "ast_hash": "40061fd08341c9a890a39b946fb64da9",
+    "semantic_hash": "40061fd08341c9a890a39b946fb64da9"
+  },
+  "D:\\JANA\\docs\\03_requisitos_funcionales.md": {
+    "mtime": 1781249867.38265,
+    "ast_hash": "19a254f3777718520e4d17b095bab10d",
+    "semantic_hash": "19a254f3777718520e4d17b095bab10d"
+  },
+  "D:\\JANA\\docs\\04_diseno_ui_ux.md": {
+    "mtime": 1781250557.1961129,
+    "ast_hash": "5a5b895e94a1f7841c18507adf1d1575",
+    "semantic_hash": "5a5b895e94a1f7841c18507adf1d1575"
+  },
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md": {
+    "mtime": 1781250002.9925518,
+    "ast_hash": "1d10e1cc72d3fb4a7c3dfe0594ddf744",
+    "semantic_hash": "1d10e1cc72d3fb4a7c3dfe0594ddf744"
+  },
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_tabla_embeddings_pgvector_connect_grafo_d.md": {
+    "mtime": 1781250002.9930942,
+    "ast_hash": "e8cb1c99e912a7a7f70567942f598a0c",
+    "semantic_hash": "e8cb1c99e912a7a7f70567942f598a0c"
+  },
+  "D:\\JANA\\graphify-out\\memory\\query_20260612_074002_why_does_tabla_sedes_connect_estructura_operativa.md": {
+    "mtime": 1781250002.9936352,
+    "ast_hash": "a614ca1b82fca2d67412334a812ba698",
+    "semantic_hash": "a614ca1b82fca2d67412334a812ba698"
+  }
+}

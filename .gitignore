@@ -1,0 +1,22 @@
+# JANA OS Git Ignore
+
+# Graphify temporary/cache files
+graphify-out/cache/
+graphify-out/.*
+
+# Node/Next.js/FastAPI builds
+node_modules/
+.next/
+out/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.venv/
+env/
+venv/
+.DS_Store
