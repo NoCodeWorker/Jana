@@ -1152,14 +1152,14 @@ function TalentGraphView({ students }: { students: Student[] }) {
                 {/* DRAW NODES (CIRCLES) */}
                 {nodes.map((node) => {
                   const isSelected = selectedNodeId === node.id;
-                  let colorClass = "fill-jana-primary";
+                  let nodeColor = "#ec690c"; // jana-primary
                   let size = 10;
 
                   if (node.type === "center") {
-                    colorClass = "fill-brain";
+                    nodeColor = "#7c5cff"; // brain
                     size = 22;
                   } else if (node.type === "skill") {
-                    colorClass = "fill-talent";
+                    nodeColor = "#1fbf75"; // talent
                     size = 15;
                   }
 
@@ -1169,7 +1169,10 @@ function TalentGraphView({ students }: { students: Student[] }) {
                         cx={node.x}
                         cy={node.y}
                         r={size}
-                        className={cn(colorClass, "stroke-background stroke-[2px] transition-transform hover:scale-110")}
+                        fill={nodeColor}
+                        stroke="#121417"
+                        strokeWidth="2"
+                        className="transition-transform hover:scale-110"
                         onMouseDown={() => handleMouseDown(node.id)}
                       />
                       {isSelected && (
@@ -1731,25 +1734,46 @@ function LandingPage({
       </header>
 
       {/* HERO SECTION */}
-      <section className="relative py-20 px-4 md:px-8 text-center max-w-6xl mx-auto space-y-8 flex-1 flex flex-col justify-center">
-        <div className="absolute inset-0 -z-10 flex items-center justify-center overflow-hidden">
-          <div className="h-80 w-80 rounded-full bg-jana-primary/10 blur-[110px]" />
-          <div className="h-80 w-80 rounded-full bg-brain/10 blur-[130px] translate-x-24" />
+      <section className="relative py-16 md:py-24 px-4 md:px-8 text-center max-w-6xl mx-auto space-y-10 flex-1 flex flex-col justify-center">
+        {/* Ambient glow background */}
+        <div className="absolute inset-0 -z-10 flex items-center justify-center overflow-hidden pointer-events-none">
+          <div className="h-96 w-96 rounded-full bg-jana-primary/12 blur-[120px] -translate-y-8" />
+          <div className="h-80 w-80 rounded-full bg-brain/10 blur-[140px] translate-x-32 translate-y-16" />
+          <div className="h-60 w-60 rounded-full bg-talent/8 blur-[100px] -translate-x-32 translate-y-20" />
         </div>
-        
-        <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-6xl tracking-tight leading-none bg-gradient-to-r from-foreground via-foreground to-jana-primary-accessible bg-clip-text text-transparent">
-          El escenario donde se <br />
-          forma el talento artístico
-        </h1>
-        <p className="text-foreground-muted text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-          Unificando **JANA Producciones** (musicales galardonados, teatro de alto nivel y giras nacionales) y **Escuela JANA** (formación artística en Canto, Danza e Interpretación).
-        </p>
 
-        <div className="flex flex-wrap justify-center gap-4 pt-4">
+        {/* Sede pills */}
+        <div className="flex flex-wrap justify-center gap-2">
+          {["Madrid Centro", "Alcalá de Henares", "Majadahonda"].map(sede => (
+            <span key={sede} className="inline-flex items-center gap-1.5 rounded-full border border-jana-primary/30 bg-jana-primary/8 px-3 py-1 text-[11px] font-semibold text-jana-primary-accessible">
+              <span className="size-1.5 rounded-full bg-jana-primary-accessible animate-pulse" />
+              {sede}
+            </span>
+          ))}
+        </div>
+
+        <div className="space-y-6">
+          <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight leading-[1.05]">
+            <span className="bg-gradient-to-r from-foreground via-foreground/90 to-jana-primary-accessible bg-clip-text text-transparent">
+              El escenario donde se
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-jana-primary via-jana-primary-accessible to-foreground bg-clip-text text-transparent">
+              forma el talento artístico
+            </span>
+          </h1>
+          <p className="text-foreground-muted text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+            Unificando <strong className="text-foreground">JANA Producciones</strong> — musicales galardonados, teatro de alto nivel y giras nacionales — con{" "}
+            <strong className="text-foreground">Escuela JANA</strong> — formación artística en Canto, Danza e Interpretación.
+          </p>
+        </div>
+
+        {/* CTA buttons */}
+        <div className="flex flex-wrap justify-center gap-4">
           <Dialog>
             <DialogTrigger asChild>
-              <Button className="h-12 px-8 bg-jana-primary hover:bg-jana-primary-hover text-white text-sm font-semibold rounded-xl shadow-lg transition-transform hover:scale-105 cursor-pointer">
-                Iniciar Backstage OS
+              <Button className="h-13 px-8 bg-jana-primary hover:bg-jana-primary-hover text-white text-sm font-bold rounded-xl shadow-lg shadow-jana-primary/25 transition-all hover:scale-105 hover:shadow-jana-primary/40 cursor-pointer">
+                🎭 Iniciar Backstage OS
               </Button>
             </DialogTrigger>
             <DialogContent className="glass-panel sm:max-w-md text-foreground">
@@ -1771,11 +1795,27 @@ function LandingPage({
             </DialogContent>
           </Dialog>
 
-          <Button variant="outline" className="h-12 px-8 border-border text-foreground hover:bg-accent/40 text-sm font-semibold rounded-xl transition-transform hover:scale-105 cursor-pointer">
+          <Button variant="outline" className="h-13 px-8 border-border text-foreground hover:bg-accent/40 text-sm font-semibold rounded-xl transition-all hover:scale-105 cursor-pointer">
             Ver Catálogo de Cursos
           </Button>
         </div>
+
+        {/* KPI Stats strip */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-border/50">
+          {[
+            { value: "15+", label: "Años de Trayectoria", color: "text-jana-primary-accessible" },
+            { value: "3", label: "Sedes Activas", color: "text-brain" },
+            { value: "400+", label: "Alumnos Matriculados", color: "text-talent" },
+            { value: "50+", label: "Producciones Escénicas", color: "text-production" },
+          ].map(stat => (
+            <div key={stat.label} className="text-center space-y-1 p-4 rounded-xl bg-surface/50 border border-border hover:border-jana-primary/30 transition">
+              <p className={`text-3xl font-black font-heading ${stat.color}`}>{stat.value}</p>
+              <p className="text-[11px] text-foreground-muted font-medium leading-tight">{stat.label}</p>
+            </div>
+          ))}
+        </div>
       </section>
+
 
       {/* GRID DE SERVICIOS CON EFECTO DE IMÁGENES EN ENLACE (GRAYSCALE TO COLOR HOVER) */}
       <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto w-full space-y-12">
@@ -1866,14 +1906,113 @@ function LandingPage({
         </div>
       </section>
 
+      {/* JANA OS FEATURE MODULES SECTION */}
+      <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto w-full space-y-10">
+        <div className="text-center space-y-3">
+          <span className="inline-block rounded-full border border-brain/40 bg-brain/10 px-4 py-1.5 text-[11px] font-bold text-brain uppercase tracking-widest">
+            JANA OS · Backstage Intelligence Platform
+          </span>
+          <h2 className="text-2xl md:text-3xl font-black font-heading">
+            Un ecosistema completo para la gestión artística
+          </h2>
+          <p className="text-sm text-foreground-muted max-w-xl mx-auto">
+            5 módulos integrados con IA que cubren todo el ciclo de vida de la escuela y las producciones.
+          </p>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              icon: "🧠", name: "Backstage Brain", color: "border-brain/30 bg-brain/5",
+              badge: "IA · RAG Seguro", badgeColor: "bg-brain/15 text-brain",
+              desc: "Motor de búsqueda semántica con seguridad por roles y sedes. Nunca filtra datos confidenciales al rol incorrecto.",
+              roles: ["Dirección", "Profesorado", "Admin"]
+            },
+            {
+              icon: "🎓", name: "Backstage Aula", color: "border-talent/30 bg-talent/5",
+              badge: "Pedagogía · Evaluaciones", badgeColor: "bg-talent/15 text-talent",
+              desc: "Gestión de clases, calificaciones artísticas y seguimiento individual de alumnos con historial completo.",
+              roles: ["Profesorado", "Dirección"]
+            },
+            {
+              icon: "💬", name: "Backstage Chat", color: "border-jana-primary/30 bg-jana-primary/5",
+              badge: "Comunicación · IA Copiloto", badgeColor: "bg-jana-primary/15 text-jana-primary-accessible",
+              desc: "Canal de ensayos en tiempo real con análisis cognitivo de JANA Brain y sugerencias pedagógicas automáticas.",
+              roles: ["Todos los roles"]
+            },
+            {
+              icon: "🕸️", name: "Talent Graph", color: "border-production/30 bg-production/5",
+              badge: "SVG Interactivo · WCAG AA", badgeColor: "bg-production/15 text-production",
+              desc: "Grafo visual de habilidades y conexiones entre alumnos, disciplinas y niveles. Arrastrable y exportable.",
+              roles: ["Dirección", "Admin"]
+            },
+            {
+              icon: "📊", name: "Backstage Panel", color: "border-info/30 bg-info/5",
+              badge: "CRM · Verifactu · Finanzas", badgeColor: "bg-info/15 text-info",
+              desc: "Dashboard financiero integrado con CRM, emisión de facturas digitales Verifactu y métricas de rentabilidad por sede.",
+              roles: ["Dirección", "Admin"]
+            },
+            {
+              icon: "🎬", name: "Remotion Studio", color: "border-brain/20 bg-gradient-to-br from-brain/5 to-jana-primary/5",
+              badge: "Video · Animación", badgeColor: "bg-jana-primary/15 text-jana-primary-accessible",
+              desc: "Previsualizador dinámico de producciones con animaciones profesionales integradas en el flujo de trabajo.",
+              roles: ["Producción"]
+            },
+          ].map(mod => (
+            <div key={mod.name} className={`rounded-2xl border p-5 space-y-3 transition hover:scale-[1.02] ${mod.color}`}>
+              <div className="flex items-start justify-between gap-2">
+                <span className="text-3xl">{mod.icon}</span>
+                <span className={`text-[10px] font-bold px-2 py-1 rounded-full ${mod.badgeColor}`}>{mod.badge}</span>
+              </div>
+              <h3 className="font-bold text-base text-foreground">{mod.name}</h3>
+              <p className="text-xs text-foreground-muted leading-relaxed">{mod.desc}</p>
+              <div className="flex flex-wrap gap-1 pt-1">
+                {mod.roles.map(r => (
+                  <span key={r} className="text-[10px] font-medium bg-surface-elevated px-2 py-0.5 rounded border border-border">{r}</span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* PUBLIC FOOTER */}
-      <footer className="border-t border-border bg-black/20 py-8 px-4 text-center text-xs text-foreground-muted">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 JANA Producciones & Escuela JANA. Todos los derechos reservados.</p>
-          <div className="flex gap-4">
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Políticas de Privacidad</a>
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Términos de Uso</a>
-            <a href="#" onClick={(e) => e.preventDefault()} className="hover:text-foreground">Accesibilidad WCAG 2.2</a>
+      <footer className="border-t border-border bg-black/30 py-12 px-4">
+        <div className="max-w-7xl mx-auto space-y-8">
+          <div className="flex flex-col md:flex-row gap-8 justify-between items-start">
+            <div className="space-y-3">
+              <JanaLogo className="h-10 w-auto" />
+              <p className="text-xs text-foreground-muted max-w-xs leading-relaxed">
+                Plataforma de gestión artística inteligente para escuelas y compañías de artes escénicas.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-xs">
+              <div className="space-y-2">
+                <p className="font-bold text-foreground uppercase tracking-wider text-[10px]">Formación</p>
+                {["Cursos Anuales", "Nuestras Sedes", "Campamentos", "Inscripción"].map(l => (
+                  <a key={l} href="#" onClick={e => e.preventDefault()} className="block text-foreground-muted hover:text-jana-primary-accessible transition">{l}</a>
+                ))}
+              </div>
+              <div className="space-y-2">
+                <p className="font-bold text-foreground uppercase tracking-wider text-[10px]">Producciones</p>
+                {["Musicales", "Microconciertos", "Entradas", "Giras"].map(l => (
+                  <a key={l} href="#" onClick={e => e.preventDefault()} className="block text-foreground-muted hover:text-jana-primary-accessible transition">{l}</a>
+                ))}
+              </div>
+              <div className="space-y-2">
+                <p className="font-bold text-foreground uppercase tracking-wider text-[10px]">Legal</p>
+                {["Privacidad", "Términos", "WCAG 2.2", "Contactar"].map(l => (
+                  <a key={l} href="#" onClick={e => e.preventDefault()} className="block text-foreground-muted hover:text-jana-primary-accessible transition">{l}</a>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-border pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[11px] text-foreground-muted">
+            <p>© 2026 JANA Producciones &amp; Escuela JANA. Todos los derechos reservados.</p>
+            <div className="flex items-center gap-2">
+              <span className="size-1.5 rounded-full bg-success animate-pulse" />
+              <span>JANA OS v1.0 · Sistema Operativo Artístico</span>
+            </div>
           </div>
         </div>
       </footer>

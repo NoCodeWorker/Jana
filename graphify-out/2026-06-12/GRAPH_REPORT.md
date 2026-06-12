@@ -1,16 +1,16 @@
 # Graph Report - JANA  (2026-06-12)
 
 ## Corpus Check
-- 69 files · ~30,274 words
+- 70 files · ~35,203 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 496 nodes · 549 edges · 51 communities (41 shown, 10 thin omitted)
+- 518 nodes · 584 edges · 48 communities (38 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `62e01340`
+- Built from commit: `d678699c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,12 +21,10 @@
 - [[_COMMUNITY_Orquestación & Agentes de Contenido|Orquestación & Agentes de Contenido]]
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_pgvector & Seguridad RAG|pgvector & Seguridad RAG]]
-- [[_COMMUNITY_Landing Corporativa|Landing Corporativa]]
 - [[_COMMUNITY_Next.js Frontend|Next.js Frontend]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
-- [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
@@ -59,7 +57,6 @@
 - [[_COMMUNITY_Community 41|Community 41]]
 - [[_COMMUNITY_Community 42|Community 42]]
 - [[_COMMUNITY_Community 43|Community 43]]
-- [[_COMMUNITY_Community 44|Community 44]]
 - [[_COMMUNITY_Community 45|Community 45]]
 - [[_COMMUNITY_Community 46|Community 46]]
 - [[_COMMUNITY_Community 47|Community 47]]
@@ -93,7 +90,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (51 total, 10 thin omitted)
+## Communities (48 total, 10 thin omitted)
 
 ### Community 0 - "Estructura Operativa & Sedes"
 Cohesion: 0.05
@@ -104,32 +101,28 @@ Cohesion: 0.08
 Nodes (23): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+15 more)
 
 ### Community 2 - "Configuración de Herramientas & Reglas del Agente"
-Cohesion: 0.08
-Nodes (22): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación (+14 more)
+Cohesion: 0.05
+Nodes (33): 1. Búsqueda Global Segura (pgvector + RAG), 2.1 Detalle del Flujo de Trabajo, 2. Generación de Contenido Automática (JANA Content Engine), 3. Mensajería en Tiempo Real (JANA Chat), 4. Adaptador Verifactu y Finanzas, JANA OS - Especificación de Requisitos Funcionales y Procesos de IA, 1. Tono y Voz de JANA OS, 2.1 Enfoque en Beneficios y Transformación (+25 more)
 
 ### Community 3 - "Orquestación & Agentes de Contenido"
 Cohesion: 0.08
 Nodes (25): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+17 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.07
-Nodes (46): JanaStage(), LoginState, navItems, roles, signals, cn(), Accordion(), AccordionContent() (+38 more)
+Cohesion: 0.06
+Nodes (51): AulaView(), BrainView(), JanaStage(), navItems, PanelView(), rolesList, sedes, SVGNode (+43 more)
 
 ### Community 5 - "pgvector & Seguridad RAG"
-Cohesion: 0.09
-Nodes (21): 1. Principios Fundamentales, 2.1 Variables CSS del Tema (Tailwind CSS v4), 2. Paleta de Colores y Tokens CSS, 3. Tipografía y Escala, 4.1 Áreas Táctiles y Controles, 4.2 Lectores de Pantalla y Accesibilidad Web, 4.3 Motion Design (Movimiento con Significado), 4. Pautas de Accesibilidad e Interacción (+13 more)
-
-### Community 6 - "Landing Corporativa"
-Cohesion: 0.15
-Nodes (12): 1.1 Tamaño del Objetivo de Pulsación / Target Size (Mínimo) [Criterio 2.5.8 - AA], 1.2 Apariencia del Foco / Focus Appearance [Criterio 2.4.13 - AA], 1.3 Foco No Obstruido / Focus Not Obscured (Mínimo/Mejorado) [Criterios 2.4.11 - A & 2.4.12 - AA], 1.4 Alternativa a Movimientos de Arrastre / Dragging Movements [Criterio 2.5.7 - AA], 1.5 Autenticación Accesible / Accessible Authentication (Mínimo) [Criterio 3.3.8 - A], 1.6 Entrada Redundante / Redundant Entry [Criterio 3.3.7 - A], 1. Nuevos Criterios de WCAG 2.2 AA (Implementación Obligatoria), 2.1 Alternativas Accesibles para Visualizaciones Complejas (+4 more)
+Cohesion: 0.06
+Nodes (33): 1. Principios Fundamentales, 2.1 Variables CSS del Tema (Tailwind CSS v4), 2. Paleta de Colores y Tokens CSS, 3. Tipografía y Escala, 4.1 Áreas Táctiles y Controles, 4.2 Lectores de Pantalla y Accesibilidad Web, 4.3 Motion Design (Movimiento con Significado), 4. Pautas de Accesibilidad e Interacción (+25 more)
 
 ### Community 7 - "Next.js Frontend"
 Cohesion: 0.24
 Nodes (8): 1. Inicializar repositorio git si no existe, 2. Agregar archivos actuales y realizar commit inicial, 3. Instalar los ganchos de post-commit de Graphify, graphify, 1. Inicialización del Repositorio de Control de Cambios, 2. El Ciclo de Desarrollo Guiado por Grafo (Workflow Loop), 3. Comandos de Emergencia y Mantenimiento, Contrato de Flujo de Trabajo: Iteración Dinámica del Grafo
 
 ### Community 8 - "Community 8"
-Cohesion: 0.08
-Nodes (23): devDependencies, eslint, eslint-config-next, @eslint/js, globals, @next/eslint-plugin-next, tailwindcss, @tailwindcss/postcss (+15 more)
+Cohesion: 0.15
+Nodes (13): devDependencies, eslint, eslint-config-next, @eslint/js, globals, @next/eslint-plugin-next, tailwindcss, @tailwindcss/postcss (+5 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.17
@@ -138,10 +131,6 @@ Nodes (11): 1. Estructura de Capas del Sistema (Arquitectura Desacoplada), 2.1 F
 ### Community 10 - "Community 10"
 Cohesion: 0.17
 Nodes (11): 1.1 Sedes y Usuarios, 1.2 Clases y Evaluaciones, 1.3 Finanzas y Verifactu, 1. Esquema Relacional (PostgreSQL), 2.1 Metadatos de las Relaciones, 2.2 Taxonomía de Skills, 2. Grafo Vivo (JANA TALENT GRAPH), 3.1 Estructura de la Tabla de Embeddings (+3 more)
-
-### Community 11 - "Community 11"
-Cohesion: 0.17
-Nodes (11): 1.1 Bottom Line Up Front (BLUF) / Respuesta Rápida, 1.2 Estructura de Contenido Atómico y Preguntas Conversacionales, 1.3 Señales de Autoridad y Citas de Fuentes (E-E-A-T para IA), 1.4 Bloques de Señales Semánticas Invisibles (Semantic Signal Blocks), 1. GEO / AIO (Optimización para Motores de Inteligencia Artificial), 2.1 Schema JSON-LD en Formato `@graph`, 2. Estructuración Técnica de Metadatos y Schema, 3.1 Metadata Dinámica en Next.js (+3 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.29
@@ -232,20 +221,16 @@ Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
 ### Community 41 - "Community 41"
-Cohesion: 0.12
-Nodes (16): dependencies, class-variance-authority, clsx, framer-motion, lucide-react, next, next-themes, radix-ui (+8 more)
+Cohesion: 0.07
+Nodes (26): dependencies, class-variance-authority, clsx, framer-motion, lucide-react, next, next-themes, radix-ui (+18 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.33
-Nodes (7): GET(), POST(), JanaRole, JanaRoleProfile, publicRoles(), roleProfiles, validateRoleLogin()
+Cohesion: 0.08
+Nodes (25): metadata, GET(), POST(), AppProviders(), ChatMessage, CRMInvoice, initialChats, initialInvoices (+17 more)
 
 ### Community 43 - "Community 43"
 Cohesion: 0.38
 Nodes (3): ProductionPlayer(), StageComposition(), StageCompositionProps
-
-### Community 44 - "Community 44"
-Cohesion: 0.40
-Nodes (3): metadata, AppProviders(), TooltipProvider()
 
 ### Community 45 - "Community 45"
 Cohesion: 0.40
@@ -256,7 +241,7 @@ Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
 ## Knowledge Gaps
-- **282 isolated node(s):** `backstageSystems`, `metadata`, `$schema`, `style`, `rsc` (+277 more)
+- **294 isolated node(s):** `backstageSystems`, `metadata`, `$schema`, `style`, `rsc` (+289 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -264,16 +249,16 @@ Nodes (3): Deploy on Vercel, Getting Started, Learn More
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `JANA OS - Especificación del Sistema de Diseño (UI/UX)` connect `pgvector & Seguridad RAG` to `Estructura Operativa & Sedes`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `1. Principios Fundamentales` connect `pgvector & Seguridad RAG` to `Landing Corporativa`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **What connects `backstageSystems`, `metadata`, `$schema` to the rest of the system?**
-  _282 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _294 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Estructura Operativa & Sedes` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `FastAPI Backend & Comunicación` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Configuración de Herramientas & Reglas del Agente` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `Orquestación & Agentes de Contenido` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+- **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.0647887323943662 - nodes in this community are weakly interconnected._

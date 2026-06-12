@@ -235,8 +235,8 @@
     "semantic_hash": ""
   },
   "components/jana-stage.tsx": {
-    "mtime": 1781283373.487091,
-    "ast_hash": "59d44767a88b1e2cd9656efa2af9ba92",
+    "mtime": 1781284213.6116965,
+    "ast_hash": "f547716068c76853957a930f0ff82055",
     "semantic_hash": ""
   },
   "components/remotion/production-player.tsx": {
@@ -372,6 +372,21 @@
   "components/mock-data-context.tsx": {
     "mtime": 1781283387.6530745,
     "ast_hash": "fafdd316c1cd0b1b73da9ebe3424d37f",
+    "semantic_hash": ""
+  },
+  "components/jana-logo.tsx": {
+    "mtime": 1781284061.8914678,
+    "ast_hash": "9a65592a468ddb7d2486ed594fe5e844",
+    "semantic_hash": ""
+  },
+  "public/escuela_canto.png": {
+    "mtime": 1781284100.1246512,
+    "ast_hash": "6a0b36f7df54eb2c96ab670e368b17c5",
+    "semantic_hash": ""
+  },
+  "public/production_la_bella.png": {
+    "mtime": 1781284087.0793839,
+    "ast_hash": "b5a584c2c4a3ae8f1bd25f09bf0288be",
     "semantic_hash": ""
   }
 }
