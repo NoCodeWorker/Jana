@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting",
-      "community": 2,
+      "community": 37,
       "norm_label": "copywriting.md"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
-      "community": 2,
+      "community": 37,
       "norm_label": "regla del agente: redaccion persuasiva y accesible (copywriting)"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "rules_copywriting_1_tono_y_voz_de_jana_os",
-      "community": 2,
+      "community": 37,
       "norm_label": "1. tono y voz de jana os"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n",
-      "community": 2,
+      "community": 37,
       "norm_label": "2. principios y frameworks de redaccion"
     },
     {
@@ -50,7 +50,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "rules_copywriting_2_1_enfoque_en_beneficios_y_transformaci\u00f3n",
-      "community": 2,
+      "community": 37,
       "norm_label": "2.1 enfoque en beneficios y transformacion"
     },
     {
@@ -60,7 +60,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "rules_copywriting_2_2_frameworks_de_conversi\u00f3n_cl\u00e1sicos",
-      "community": 2,
+      "community": 37,
       "norm_label": "2.2 frameworks de conversion clasicos"
     },
     {
@@ -70,7 +70,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language",
-      "community": 2,
+      "community": 37,
       "norm_label": "3. copywriting accesible (inclusive & plain language)"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "rules_copywriting_3_1_claridad_sobre_ingenio_clarity_over_cleverness",
-      "community": 2,
+      "community": 37,
       "norm_label": "3.1 claridad sobre ingenio (clarity over cleverness)"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "rules_copywriting_3_2_enlaces_descriptivos_prohibici\u00f3n_de_haz_clic_aqu\u00ed",
-      "community": 2,
+      "community": 37,
       "norm_label": "3.2 enlaces descriptivos (prohibicion de \"haz clic aqui\")"
     },
     {
@@ -210,7 +210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_seo_geo_aio",
-      "community": 11,
+      "community": 2,
       "norm_label": "seo_geo_aio.md"
     },
     {
@@ -642,6 +642,16 @@
       "id": "claude_claude_shadcn_init",
       "community": 33,
       "norm_label": "shadcn-init"
+    },
+    {
+      "label": "remotion-skills",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "claude_claude_remotion_skills",
+      "community": 33,
+      "norm_label": "remotion-skills"
     },
     {
       "label": "SKILL.md",
@@ -1222,6 +1232,46 @@
       "id": "claude_skills_graphify_references_update_md_references_update_for_cluster_only",
       "community": 19,
       "norm_label": "for --cluster-only"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_remotion_skills_skill_md_remotion_skills_skill",
+      "community": 38,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "remotion-skills Skill",
+      "file_type": "document",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "community": 38,
+      "norm_label": "remotion-skills skill"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "community": 38,
+      "norm_label": "usage"
+    },
+    {
+      "label": "Explanation of Flags:",
+      "file_type": "document",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
+      "community": 38,
+      "norm_label": "explanation of flags:"
     },
     {
       "label": "SKILL.md",
@@ -1856,6 +1906,46 @@
     {
       "label": "SKILL.md",
       "file_type": "document",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "codex_skills_remotion_skills_skill_md_remotion_skills_skill",
+      "community": 39,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "remotion-skills Skill",
+      "file_type": "document",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "community": 39,
+      "norm_label": "remotion-skills skill"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "community": 39,
+      "norm_label": "usage"
+    },
+    {
+      "label": "Explanation of Flags:",
+      "file_type": "document",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
+      "community": 39,
+      "norm_label": "explanation of flags:"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1954,6 +2044,16 @@
       "norm_label": "shadcn-init"
     },
     {
+      "label": "remotion-skills",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "agents_remotion_skills",
+      "community": 31,
+      "norm_label": "remotion-skills"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -1982,6 +2082,16 @@
       "id": "claude_shadcn_init",
       "community": 32,
       "norm_label": "shadcn-init"
+    },
+    {
+      "label": "remotion-skills",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "claude_remotion_skills",
+      "community": 32,
+      "norm_label": "remotion-skills"
     },
     {
       "label": "01_vision_arquitectonica.md",
@@ -2630,7 +2740,7 @@
       "source_location": "L315",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_cards",
-      "community": 37,
+      "community": 0,
       "norm_label": "cards"
     },
     {
@@ -2640,7 +2750,7 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_standard_card",
-      "community": 37,
+      "community": 0,
       "norm_label": "standard card"
     },
     {
@@ -2650,7 +2760,7 @@
       "source_location": "L325",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_insight_card",
-      "community": 37,
+      "community": 0,
       "norm_label": "insight card"
     },
     {
@@ -2660,7 +2770,7 @@
       "source_location": "L331",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_talent_card",
-      "community": 37,
+      "community": 0,
       "norm_label": "talent card"
     },
     {
@@ -2670,7 +2780,7 @@
       "source_location": "L337",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_production_card",
-      "community": 37,
+      "community": 0,
       "norm_label": "production card"
     },
     {
@@ -3687,6 +3797,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/CLAUDE.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "claude_claude",
+      "target": "claude_claude_remotion_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4182,6 +4302,36 @@
       "confidence_score": 1.0,
       "source": "claude_skills_graphify_references_update_md_references_update_graphify_reference_incremental_update_and_cluster_only",
       "target": "claude_skills_graphify_references_update_md_references_update_for_update_incremental_re_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill",
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/remotion-skills/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4716,6 +4866,36 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill",
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".codex/skills/remotion-skills/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".codex/skills/shadcn/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
@@ -4787,11 +4967,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "AGENTS.md",
-      "source_location": "L14",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "agents",
-      "target": "agents_shadcn_init",
+      "target": "agents_remotion_skills",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents",
+      "target": "agents_shadcn_init"
     },
     {
       "relation": "contains",
@@ -4807,11 +4997,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L11",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "claude",
-      "target": "claude_shadcn_init",
+      "target": "claude_remotion_skills",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "claude_shadcn_init"
     },
     {
       "relation": "contains",
@@ -5754,5 +5954,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5583984011d13f303b674059d194eea40b893bf5"
+  "built_at_commit": "5bdcc50dd6e8ccff7c69289a8b0735ff962fdf4c"
 }

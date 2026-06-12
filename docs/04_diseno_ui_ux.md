@@ -424,6 +424,16 @@ El sistema arranca en tema oscuro (`dark`) por defecto, pero respeta el estado d
 
 ---
 
+# Imágenes con Enlace (Efecto Escénico)
+
+Cualquier imagen que esté envuelta en un enlace (`<a>` o `<Link>`) debe tener un comportamiento visual interactivo para denotar su función clicable:
+
+* **Estado por Defecto:** Escala de grises (blanco y negro) al 100% (`filter: grayscale(100%)`).
+* **Estado Hover/Focus:** Transición suave a color total (`filter: grayscale(0%)`), evidenciando que actúa como un enlace activo.
+* **Transición:** `filter var(--duration-normal) var(--ease-standard)` (duración normal).
+
+---
+
 # Principio Final
 
 Cada pantalla debe responder:

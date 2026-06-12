@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1781271590.7832935,
-    "ast_hash": "9286778e027cea135de3716af657f629",
+    "mtime": 1781271657.1682236,
+    "ast_hash": "67286393c36c97cad89cdf23f197f379",
     "semantic_hash": ""
   },
   "docs/01_vision_arquitectonica.md": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1781271543.4439752,
-    "ast_hash": "deeba8f992df4b3295d0f5204b5c3145",
+    "mtime": 1781271647.7525053,
+    "ast_hash": "c8c3c016439a2e9e1e5cec502ce2ca6c",
     "semantic_hash": ""
   },
   ".claude/skills/graphify/SKILL.md": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781271595.0883787,
-    "ast_hash": "daa053598c5146e511a151a08529d1b7",
+    "mtime": 1781271652.8676698,
+    "ast_hash": "0c34fa269558d830da5917cb228a36c3",
     "semantic_hash": ""
   },
   ".claude/skills/shadcn/SKILL.md": {
@@ -192,6 +192,16 @@
   ".codex/skills/shadcn/SKILL.md": {
     "mtime": 1781271532.5233328,
     "ast_hash": "442bf2fd54618b934a78f549626bb7e6",
+    "semantic_hash": ""
+  },
+  ".claude/skills/remotion-skills/SKILL.md": {
+    "mtime": 1781271643.1922178,
+    "ast_hash": "b10d61b57693aee68a2f717cf392d0a2",
+    "semantic_hash": ""
+  },
+  ".codex/skills/remotion-skills/SKILL.md": {
+    "mtime": 1781271638.6962302,
+    "ast_hash": "b10d61b57693aee68a2f717cf392d0a2",
     "semantic_hash": ""
   }
 }

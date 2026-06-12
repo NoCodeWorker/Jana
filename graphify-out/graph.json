@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting",
-      "community": 37,
+      "community": 2,
       "norm_label": "copywriting.md"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_copywriting_regla_del_agente_redacci\u00f3n_persuasiva_y_accesible_copywriting",
-      "community": 37,
+      "community": 2,
       "norm_label": "regla del agente: redaccion persuasiva y accesible (copywriting)"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "rules_copywriting_1_tono_y_voz_de_jana_os",
-      "community": 37,
+      "community": 2,
       "norm_label": "1. tono y voz de jana os"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "rules_copywriting_2_principios_y_frameworks_de_redacci\u00f3n",
-      "community": 37,
+      "community": 2,
       "norm_label": "2. principios y frameworks de redaccion"
     },
     {
@@ -50,7 +50,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "rules_copywriting_2_1_enfoque_en_beneficios_y_transformaci\u00f3n",
-      "community": 37,
+      "community": 2,
       "norm_label": "2.1 enfoque en beneficios y transformacion"
     },
     {
@@ -60,7 +60,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "rules_copywriting_2_2_frameworks_de_conversi\u00f3n_cl\u00e1sicos",
-      "community": 37,
+      "community": 2,
       "norm_label": "2.2 frameworks de conversion clasicos"
     },
     {
@@ -70,7 +70,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "rules_copywriting_3_copywriting_accesible_inclusive_plain_language",
-      "community": 37,
+      "community": 2,
       "norm_label": "3. copywriting accesible (inclusive & plain language)"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "rules_copywriting_3_1_claridad_sobre_ingenio_clarity_over_cleverness",
-      "community": 37,
+      "community": 2,
       "norm_label": "3.1 claridad sobre ingenio (clarity over cleverness)"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "rules_copywriting_3_2_enlaces_descriptivos_prohibici\u00f3n_de_haz_clic_aqu\u00ed",
-      "community": 37,
+      "community": 2,
       "norm_label": "3.2 enlaces descriptivos (prohibicion de \"haz clic aqui\")"
     },
     {
@@ -210,7 +210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rules_seo_geo_aio",
-      "community": 2,
+      "community": 11,
       "norm_label": "seo_geo_aio.md"
     },
     {
@@ -2454,20 +2454,40 @@
       "norm_label": "principio principal"
     },
     {
-      "label": "Mobile First",
+      "label": "Denominaci\u00f3n de Dashboards (Backstage)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_04_diseno_ui_ux_denominaci\u00f3n_de_dashboards_backstage",
+      "community": 0,
+      "norm_label": "denominacion de dashboards (backstage)"
+    },
+    {
+      "label": "Mobile First",
+      "file_type": "document",
+      "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_mobile_first",
       "community": 0,
       "norm_label": "mobile first"
     },
     {
+      "label": "Temas (Dark & Light)",
+      "file_type": "document",
+      "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_04_diseno_ui_ux_temas_dark_light",
+      "community": 0,
+      "norm_label": "temas (dark & light)"
+    },
+    {
       "label": "Accesibilidad",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L44",
+      "source_location": "L65",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_accesibilidad",
       "community": 0,
@@ -2477,7 +2497,7 @@
       "label": "Tipograf\u00eda",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L62",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_tipograf\u00eda",
       "community": 0,
@@ -2487,7 +2507,7 @@
       "label": "Primaria",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L64",
+      "source_location": "L85",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_primaria",
       "community": 0,
@@ -2497,7 +2517,7 @@
       "label": "Secundaria",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L77",
+      "source_location": "L97",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_secundaria",
       "community": 0,
@@ -2507,7 +2527,7 @@
       "label": "Escala Tipogr\u00e1fica",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L90",
+      "source_location": "L110",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_escala_tipogr\u00e1fica",
       "community": 0,
@@ -2517,137 +2537,47 @@
       "label": "Sistema de Color",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L103",
+      "source_location": "L123",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_sistema_de_color",
-      "community": 4,
+      "community": 0,
       "norm_label": "sistema de color"
     },
     {
-      "label": "Background",
+      "label": "Variables CSS por Tema",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L105",
+      "source_location": "L127",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_background",
-      "community": 4,
-      "norm_label": "background"
+      "id": "docs_04_diseno_ui_ux_variables_css_por_tema",
+      "community": 0,
+      "norm_label": "variables css por tema"
     },
     {
-      "label": "Surface",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L113",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_surface",
-      "community": 4,
-      "norm_label": "surface"
-    },
-    {
-      "label": "Elevated Surface",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L121",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_elevated_surface",
-      "community": 4,
-      "norm_label": "elevated surface"
-    },
-    {
-      "label": "JANA Primary",
+      "label": "Tema Oscuro (Dark Theme)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L129",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_jana_primary",
-      "community": 4,
-      "norm_label": "jana primary"
+      "id": "docs_04_diseno_ui_ux_tema_oscuro_dark_theme",
+      "community": 0,
+      "norm_label": "tema oscuro (dark theme)"
     },
     {
-      "label": "JANA Primary Accessible",
+      "label": "Tema Claro (Light Theme)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L137",
+      "source_location": "L157",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_jana_primary_accessible",
-      "community": 4,
-      "norm_label": "jana primary accessible"
-    },
-    {
-      "label": "Brain",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L145",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_brain",
-      "community": 4,
-      "norm_label": "brain"
-    },
-    {
-      "label": "Talent",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L153",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_talent",
-      "community": 4,
-      "norm_label": "talent"
-    },
-    {
-      "label": "Production",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L161",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_production",
-      "community": 4,
-      "norm_label": "production"
-    },
-    {
-      "label": "Success",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L169",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_success",
-      "community": 4,
-      "norm_label": "success"
-    },
-    {
-      "label": "Warning",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L177",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_warning",
-      "community": 4,
-      "norm_label": "warning"
-    },
-    {
-      "label": "Error",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L185",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_error",
-      "community": 4,
-      "norm_label": "error"
-    },
-    {
-      "label": "Info",
-      "file_type": "document",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L193",
-      "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_info",
-      "community": 4,
-      "norm_label": "info"
+      "id": "docs_04_diseno_ui_ux_tema_claro_light_theme",
+      "community": 0,
+      "norm_label": "tema claro (light theme)"
     },
     {
       "label": "Bordes",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L201",
+      "source_location": "L187",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_bordes",
       "community": 0,
@@ -2657,7 +2587,7 @@
       "label": "Radio est\u00e1ndar",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L203",
+      "source_location": "L189",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_radio_est\u00e1ndar",
       "community": 0,
@@ -2667,7 +2597,7 @@
       "label": "Inputs",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L211",
+      "source_location": "L197",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_inputs",
       "community": 0,
@@ -2677,7 +2607,7 @@
       "label": "Cards destacadas",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L219",
+      "source_location": "L205",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_cards_destacadas",
       "community": 0,
@@ -2687,7 +2617,7 @@
       "label": "Sombras",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L227",
+      "source_location": "L213",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_sombras",
       "community": 0,
@@ -2697,7 +2627,7 @@
       "label": "Glassmorphism",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L239",
+      "source_location": "L228",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_glassmorphism",
       "community": 0,
@@ -2707,7 +2637,7 @@
       "label": "Botones",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L260",
+      "source_location": "L249",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_botones",
       "community": 0,
@@ -2717,27 +2647,27 @@
       "label": "Inputs",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L285",
+      "source_location": "L274",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_inputs_285",
+      "id": "docs_04_diseno_ui_ux_inputs_274",
       "community": 0,
       "norm_label": "inputs"
     },
     {
-      "label": "Sidebar",
+      "label": "Sidebar (Navegaci\u00f3n del Backstage)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L298",
+      "source_location": "L287",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_sidebar",
+      "id": "docs_04_diseno_ui_ux_sidebar_navegaci\u00f3n_del_backstage",
       "community": 0,
-      "norm_label": "sidebar"
+      "norm_label": "sidebar (navegacion del backstage)"
     },
     {
       "label": "Cards",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L315",
+      "source_location": "L304",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_cards",
       "community": 0,
@@ -2747,7 +2677,7 @@
       "label": "Standard Card",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L319",
+      "source_location": "L308",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_standard_card",
       "community": 0,
@@ -2757,7 +2687,7 @@
       "label": "Insight Card",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L325",
+      "source_location": "L314",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_insight_card",
       "community": 0,
@@ -2767,7 +2697,7 @@
       "label": "Talent Card",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L331",
+      "source_location": "L320",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_talent_card",
       "community": 0,
@@ -2777,27 +2707,27 @@
       "label": "Production Card",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L337",
+      "source_location": "L326",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_production_card",
       "community": 0,
       "norm_label": "production card"
     },
     {
-      "label": "Estados IA",
+      "label": "Estados IA (Backstage Brain)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L343",
+      "source_location": "L332",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_estados_ia",
+      "id": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
       "community": 0,
-      "norm_label": "estados ia"
+      "norm_label": "estados ia (backstage brain)"
     },
     {
       "label": "Thinking",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L345",
+      "source_location": "L334",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_thinking",
       "community": 0,
@@ -2807,7 +2737,7 @@
       "label": "Complete",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L357",
+      "source_location": "L346",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_complete",
       "community": 0,
@@ -2817,7 +2747,7 @@
       "label": "Review",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L365",
+      "source_location": "L354",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_review",
       "community": 0,
@@ -2827,7 +2757,7 @@
       "label": "Motion Design",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L373",
+      "source_location": "L362",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_motion_design",
       "community": 0,
@@ -2837,7 +2767,7 @@
       "label": "Principios",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L383",
+      "source_location": "L372",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_principios",
       "community": 0,
@@ -2847,37 +2777,37 @@
       "label": "Duraciones",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L391",
+      "source_location": "L380",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_duraciones",
       "community": 0,
       "norm_label": "duraciones"
     },
     {
-      "label": "Talent Graph",
+      "label": "Backstage Talent Graph",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L417",
+      "source_location": "L406",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_talent_graph",
+      "id": "docs_04_diseno_ui_ux_backstage_talent_graph",
       "community": 0,
-      "norm_label": "talent graph"
+      "norm_label": "backstage talent graph"
     },
     {
-      "label": "Dark Mode",
+      "label": "Dark Mode & Light Mode (Alternancia)",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L432",
+      "source_location": "L421",
       "_origin": "ast",
-      "id": "docs_04_diseno_ui_ux_dark_mode",
+      "id": "docs_04_diseno_ui_ux_dark_mode_light_mode_alternancia",
       "community": 0,
-      "norm_label": "dark mode"
+      "norm_label": "dark mode & light mode (alternancia)"
     },
     {
       "label": "Principio Final",
       "file_type": "document",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L440",
+      "source_location": "L427",
       "_origin": "ast",
       "id": "docs_04_diseno_ui_ux_principio_final",
       "community": 0,
@@ -3799,9 +3729,9 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude",
-      "target": "claude_claude_remotion_skills",
-      "confidence_score": 1.0
+      "target": "claude_claude_remotion_skills"
     },
     {
       "relation": "contains",
@@ -4309,9 +4239,9 @@
       "source_file": ".claude/skills/remotion-skills/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill",
-      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
-      "confidence_score": 1.0
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill"
     },
     {
       "relation": "contains",
@@ -4319,9 +4249,9 @@
       "source_file": ".claude/skills/remotion-skills/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
-      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
-      "confidence_score": 1.0
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage"
     },
     {
       "relation": "contains",
@@ -4329,9 +4259,9 @@
       "source_file": ".claude/skills/remotion-skills/SKILL.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
-      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
-      "confidence_score": 1.0
+      "target": "claude_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags"
     },
     {
       "relation": "contains",
@@ -4869,9 +4799,9 @@
       "source_file": ".codex/skills/remotion-skills/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill",
-      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
-      "confidence_score": 1.0
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill"
     },
     {
       "relation": "contains",
@@ -4879,9 +4809,9 @@
       "source_file": ".codex/skills/remotion-skills/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_remotion_skills_skill",
-      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
-      "confidence_score": 1.0
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage"
     },
     {
       "relation": "contains",
@@ -4889,9 +4819,9 @@
       "source_file": ".codex/skills/remotion-skills/SKILL.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_usage",
-      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags",
-      "confidence_score": 1.0
+      "target": "codex_skills_remotion_skills_skill_md_remotion_skills_skill_explanation_of_flags"
     },
     {
       "relation": "contains",
@@ -4969,9 +4899,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents",
-      "target": "agents_remotion_skills",
-      "confidence_score": 1.0
+      "target": "agents_remotion_skills"
     },
     {
       "relation": "contains",
@@ -4999,9 +4929,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_remotion_skills",
-      "confidence_score": 1.0
+      "target": "claude_remotion_skills"
     },
     {
       "relation": "contains",
@@ -5316,6 +5246,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L406",
+      "weight": 1.0,
+      "source": "docs_04_diseno_ui_ux",
+      "target": "docs_04_diseno_ui_ux_backstage_talent_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L201",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5346,11 +5286,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L432",
+      "source_location": "L421",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_dark_mode"
+      "target": "docs_04_diseno_ui_ux_dark_mode_light_mode_alternancia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/04_diseno_ui_ux.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_04_diseno_ui_ux",
+      "target": "docs_04_diseno_ui_ux_denominaci\u00f3n_de_dashboards_backstage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5376,11 +5326,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L343",
+      "source_location": "L332",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_estados_ia"
+      "target": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5406,11 +5356,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L285",
+      "source_location": "L274",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_inputs_285"
+      "target": "docs_04_diseno_ui_ux_inputs_274",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5466,11 +5416,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L298",
+      "source_location": "L287",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_sidebar"
+      "target": "docs_04_diseno_ui_ux_sidebar_navegaci\u00f3n_del_backstage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5496,11 +5446,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L417",
+      "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux",
-      "target": "docs_04_diseno_ui_ux_talent_graph"
+      "target": "docs_04_diseno_ui_ux_temas_dark_light",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5556,51 +5506,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L105",
+      "source_location": "L127",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_background"
+      "target": "docs_04_diseno_ui_ux_variables_css_por_tema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L145",
+      "source_location": "L157",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_brain"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_elevated_surface"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L185",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_error"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L193",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_info"
+      "source": "docs_04_diseno_ui_ux_variables_css_por_tema",
+      "target": "docs_04_diseno_ui_ux_tema_claro_light_theme",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5608,69 +5528,9 @@
       "source_file": "docs/04_diseno_ui_ux.md",
       "source_location": "L129",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_jana_primary"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L137",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_jana_primary_accessible"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L161",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_production"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L169",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_success"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L113",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_surface"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L153",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_talent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L177",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_sistema_de_color",
-      "target": "docs_04_diseno_ui_ux_warning"
+      "source": "docs_04_diseno_ui_ux_variables_css_por_tema",
+      "target": "docs_04_diseno_ui_ux_tema_oscuro_dark_theme",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5746,31 +5606,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L357",
+      "source_location": "L346",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_complete"
+      "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
+      "target": "docs_04_diseno_ui_ux_complete",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L365",
+      "source_location": "L354",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_review"
+      "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
+      "target": "docs_04_diseno_ui_ux_review",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/04_diseno_ui_ux.md",
-      "source_location": "L345",
+      "source_location": "L334",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_04_diseno_ui_ux_estados_ia",
-      "target": "docs_04_diseno_ui_ux_thinking"
+      "source": "docs_04_diseno_ui_ux_estados_ia_backstage_brain",
+      "target": "docs_04_diseno_ui_ux_thinking",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5954,5 +5814,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5bdcc50dd6e8ccff7c69289a8b0735ff962fdf4c"
+  "built_at_commit": "26459ab894fdaa6066c68402dacc177b10357533"
 }
