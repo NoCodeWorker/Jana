@@ -970,262 +970,347 @@ type SVGNode = {
   type: "center" | "skill" | "student";
   x: number;
   y: number;
+  discipline?: string;
+};
+
+// Discipline color palette
+const DISC_COLORS: Record<string, string> = {
+  Canto: "#ec690c",
+  Danza: "#7c5cff",
+  Interpretación: "#1fbf75",
+  Música: "#f5b74f",
+  Dinámica: "#4c8dff",
+  center: "#7c5cff",
 };
 
 function TalentGraphView({ students }: { students: Student[] }) {
   const [viewType, setViewType] = useState<"graph" | "table">("graph");
   const [selectedNodeId, setSelectedNodeId] = useState<string>("center");
   const [draggedNodeId, setDraggedNodeId] = useState<string | null>(null);
-
-  // SVG coordinate dimensions
-  const svgWidth = 600;
-  const svgHeight = 400;
-
-  // Initialize nodes
-  const [nodes, setNodes] = useState<SVGNode[]>([
-    { id: "center", label: "Talento JANA", type: "center", x: 300, y: 200 },
-    
-    // Skills
-    { id: "canto", label: "Canto", type: "skill", x: 150, y: 120 },
-    { id: "danza", label: "Danza", type: "skill", x: 450, y: 120 },
-    { id: "interpretacion", label: "Interpretación", type: "skill", x: 150, y: 280 },
-    { id: "dinamica", label: "Dinámica", type: "skill", x: 450, y: 280 },
-
-    // Top students
-    { id: "stu1", label: "Sofía G.", type: "student", x: 90, y: 80 },
-    { id: "stu2", label: "Mateo R.", type: "student", x: 180, y: 60 },
-    { id: "stu3", label: "Valentina G.", type: "student", x: 380, y: 60 },
-    { id: "stu4", label: "Santiago F.", type: "student", x: 500, y: 80 },
-    { id: "stu5", label: "Isabella L.", type: "student", x: 90, y: 320 },
-    { id: "stu6", label: "Sebastián M.", type: "student", x: 180, y: 340 },
-    { id: "stu7", label: "Lucía G.", type: "student", x: 380, y: 340 },
-    { id: "stu8", label: "Matías P.", type: "student", x: 500, y: 320 }
-  ]);
-
-  // Edges mapping
-  const edges = [
-    { from: "center", to: "canto" },
-    { from: "center", to: "danza" },
-    { from: "center", to: "interpretacion" },
-    { from: "center", to: "dinamica" },
-
-    // Student connections to major skills
-    { from: "stu1", to: "canto" },
-    { from: "stu2", to: "canto" },
-    { from: "stu3", to: "danza" },
-    { from: "stu4", to: "danza" },
-    { from: "stu5", to: "interpretacion" },
-    { from: "stu6", to: "interpretacion" },
-    { from: "stu7", to: "dinamica" },
-    { from: "stu8", to: "dinamica" }
-  ];
-
   const svgRef = useRef<SVGSVGElement>(null);
 
-  const handleMouseDown = (nodeId: string) => {
+  // ViewBox dimensions — SVG internal coordinate space (never changes)
+  const VB_W = 700;
+  const VB_H = 420;
+
+  // Discipline hubs in a pentagon layout around center
+  const skillNodes: SVGNode[] = [
+    { id: "canto",         label: "Canto",         type: "skill", x: 230, y: 105, discipline: "Canto" },
+    { id: "danza",         label: "Danza",         type: "skill", x: 490, y: 105, discipline: "Danza" },
+    { id: "interpretacion",label: "Interpretación",type: "skill", x: 560, y: 290, discipline: "Interpretación" },
+    { id: "musica",        label: "Música",        type: "skill", x: 350, y: 370, discipline: "Música" },
+    { id: "dinamica",      label: "Dinámica",      type: "skill", x: 140, y: 290, discipline: "Dinámica" },
+  ];
+
+  // Map students to disciplines cyclically
+  const disciplineKeys = ["Canto", "Danza", "Interpretación", "Música", "Dinámica"];
+  const studentNodes: SVGNode[] = students.slice(0, 15).map((s, i) => {
+    const disc = disciplineKeys[i % disciplineKeys.length];
+    const hub = skillNodes.find(n => n.label === disc)!;
+    // Orbit the hub
+    const angle = (i / Math.max(1, Math.floor(students.slice(0, 15).length / 5))) * 2 * Math.PI + (disciplineKeys.indexOf(disc) * (2 * Math.PI / 5));
+    const orbitR = 70 + (i % 3) * 18;
+    return {
+      id: s.id,
+      label: s.name.split(" ")[0] + " " + s.name.split(" ").slice(-1)[0]?.[0] + ".",
+      type: "student" as const,
+      discipline: disc,
+      x: Math.max(25, Math.min(VB_W - 25, hub.x + Math.cos(angle) * orbitR)),
+      y: Math.max(25, Math.min(VB_H - 25, hub.y + Math.sin(angle) * orbitR)),
+    };
+  });
+
+  const centerNode: SVGNode = { id: "center", label: "Talento JANA", type: "center", x: VB_W / 2, y: VB_H / 2 - 10 };
+
+  const [nodes, setNodes] = useState<SVGNode[]>([centerNode, ...skillNodes, ...studentNodes]);
+
+  // Rebuild student nodes when students prop changes (sede filter)
+  useEffect(() => {
+    setNodes(prev => {
+      const nonStudent = prev.filter(n => n.type !== "student");
+      const newStudentNodes: SVGNode[] = students.slice(0, 15).map((s, i) => {
+        const disc = disciplineKeys[i % disciplineKeys.length];
+        const hub = nonStudent.find(n => n.label === disc) ?? nonStudent[0];
+        const angle = (i / 3) * 2 * Math.PI + i * 0.4;
+        const orbitR = 65 + (i % 3) * 20;
+        return {
+          id: s.id,
+          label: s.name.split(" ")[0] + " " + (s.name.split(" ").slice(-1)[0]?.[0] ?? "") + ".",
+          type: "student" as const,
+          discipline: disc,
+          x: Math.max(25, Math.min(VB_W - 25, hub.x + Math.cos(angle) * orbitR)),
+          y: Math.max(25, Math.min(VB_H - 25, hub.y + Math.sin(angle) * orbitR)),
+        };
+      });
+      return [...nonStudent, ...newStudentNodes];
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [students]);
+
+  // Edges: center → skills, skills → their students
+  const edges = useMemo(() => {
+    const result: { from: string; to: string; disc: string }[] = [];
+    skillNodes.forEach(s => result.push({ from: "center", to: s.id, disc: s.discipline! }));
+    studentNodes.forEach(st => {
+      const hub = skillNodes.find(s => s.discipline === st.discipline);
+      if (hub) result.push({ from: hub.id, to: st.id, disc: st.discipline! });
+    });
+    return result;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [nodes.length]);
+
+  // Convert mouse event to SVG viewBox coordinates
+  const toSVGCoords = (e: React.MouseEvent<SVGSVGElement>) => {
+    const svg = svgRef.current;
+    if (!svg) return null;
+    const rect = svg.getBoundingClientRect();
+    const scaleX = VB_W / rect.width;
+    const scaleY = VB_H / rect.height;
+    return {
+      x: Math.max(20, Math.min(VB_W - 20, (e.clientX - rect.left) * scaleX)),
+      y: Math.max(20, Math.min(VB_H - 20, (e.clientY - rect.top) * scaleY)),
+    };
+  };
+
+  const handleMouseDown = (e: React.MouseEvent, nodeId: string) => {
+    e.preventDefault();
     setDraggedNodeId(nodeId);
     setSelectedNodeId(nodeId);
   };
 
-  const handleMouseMove = (e: React.MouseEvent<SVGSVGElement, MouseEvent>) => {
-    if (!draggedNodeId || !svgRef.current) return;
-
-    const rect = svgRef.current.getBoundingClientRect();
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
-
-    // Cap boundaries
-    const cappedX = Math.max(20, Math.min(svgWidth - 20, mouseX));
-    const cappedY = Math.max(20, Math.min(svgHeight - 20, mouseY));
-
-    setNodes(prev =>
-      prev.map(node => (node.id === draggedNodeId ? { ...node, x: cappedX, y: cappedY } : node))
-    );
+  const handleMouseMove = (e: React.MouseEvent<SVGSVGElement>) => {
+    if (!draggedNodeId) return;
+    const coords = toSVGCoords(e);
+    if (!coords) return;
+    setNodes(prev => prev.map(n => n.id === draggedNodeId ? { ...n, x: coords.x, y: coords.y } : n));
   };
 
-  const handleMouseUp = () => {
-    setDraggedNodeId(null);
-  };
+  const handleMouseUp = () => setDraggedNodeId(null);
 
-  // Find info of the selected node
+  // Node detail panel
   const nodeDetails = useMemo(() => {
     const node = nodes.find(n => n.id === selectedNodeId);
     if (!node) return null;
-
     if (node.type === "student") {
-      // Find actual mock student data
-      const studentMap: Record<string, string> = {
-        stu1: "Sofía", stu2: "Mateo", stu3: "Valentina", stu4: "Santiago",
-        stu5: "Isabella", stu6: "Sebastián", stu7: "Lucía", stu8: "Matías"
-      };
-      const shortName = studentMap[node.id] || "Sofía";
-      const actual = students.find(s => s.name.startsWith(shortName));
+      const actual = students.find(s => s.id === node.id);
       return {
-        title: actual?.name || node.label,
+        title: actual?.name ?? node.label,
         type: "Ficha del Alumno",
         detail1: `Asistencia: ${actual?.attendance ?? 96}%`,
-        detail2: `Calificaciones: ${actual?.grades.length ?? 0} registradas`,
-        skills: actual?.skills.slice(0, 4) ?? []
+        detail2: `Evaluaciones: ${actual?.grades.length ?? 0} registradas`,
+        disc: node.discipline ?? "—",
+        skills: actual?.skills.slice(0, 4) ?? [],
+        color: DISC_COLORS[node.discipline ?? ""] ?? "#ec690c",
       };
     } else if (node.type === "skill") {
+      const count = nodes.filter(n => n.type === "student" && n.discipline === node.label).length;
       return {
         title: node.label,
-        type: "Habilidad Pedagógica",
-        detail1: "Categoría estática del modelo de JANA.",
-        detail2: "Influye en el análisis contextual de JANA Brain.",
-        skills: []
+        type: "Disciplina Artística",
+        detail1: `${count} alumnos conectados a esta disciplina`,
+        detail2: "Contribuye al análisis de JANA Brain RAG.",
+        disc: node.label,
+        skills: [],
+        color: DISC_COLORS[node.label] ?? "#1fbf75",
       };
     } else {
       return {
-        title: "Grafo Central de Talento JANA",
-        type: "Módulo Base",
-        detail1: "315 nodos de evolución y competencias interconectados.",
-        detail2: "Sincronizado con RAG seguro.",
-        skills: []
+        title: "Talento JANA",
+        type: "Nodo Central",
+        detail1: `${students.length} alumnos · 5 disciplinas conectadas`,
+        detail2: "Sincronizado con el RAG seguro por sede.",
+        disc: "—",
+        skills: [],
+        color: "#7c5cff",
       };
     }
   }, [selectedNodeId, nodes, students]);
 
   return (
-    <div className="space-y-6">
-      
-      {/* VIEW SELECTOR HEADER */}
-      <div className="flex justify-between items-center bg-surface border border-border p-3 rounded-lg">
+    <div className="space-y-5">
+
+      {/* HEADER */}
+      <div className="flex flex-wrap justify-between items-center gap-3 bg-surface border border-border p-3 rounded-xl">
         <div className="flex items-center gap-2">
           <Users className="size-5 text-talent" />
-          <h3 className="font-semibold">Mapeo del Grafo de Habilidades</h3>
+          <h3 className="font-semibold text-sm">Grafo de Habilidades · {students.length} alumnos</h3>
+          <div className="hidden sm:flex gap-2 ml-2">
+            {Object.entries(DISC_COLORS).filter(([k]) => k !== "center").map(([disc, color]) => (
+              <span key={disc} style={{ borderColor: color + "55", color }} className="text-[10px] font-bold border rounded-full px-2 py-0.5 bg-surface-elevated/50">
+                {disc}
+              </span>
+            ))}
+          </div>
         </div>
         <div className="flex gap-2">
-          <Button
-            size="sm"
-            variant={viewType === "graph" ? "default" : "outline"}
-            className={viewType === "graph" ? "bg-jana-primary hover:bg-jana-primary-hover" : ""}
-            onClick={() => setViewType("graph")}
-          >
+          <Button size="sm" variant={viewType === "graph" ? "default" : "outline"}
+            className={viewType === "graph" ? "bg-jana-primary hover:bg-jana-primary-hover text-xs" : "text-xs"}
+            onClick={() => setViewType("graph")}>
             Vista Grafo
           </Button>
-          <Button
-            size="sm"
-            variant={viewType === "table" ? "default" : "outline"}
-            className={viewType === "table" ? "bg-jana-primary hover:bg-jana-primary-hover" : ""}
-            onClick={() => setViewType("table")}
-          >
-            Vista Tabla (Accesible)
+          <Button size="sm" variant={viewType === "table" ? "default" : "outline"}
+            className={viewType === "table" ? "bg-jana-primary hover:bg-jana-primary-hover text-xs" : "text-xs"}
+            onClick={() => setViewType("table")}>
+            Vista Tabla
           </Button>
         </div>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-12">
-        
-        {/* GRAPH RENDER OR TABLE */}
-        <Card className="rounded-lg bg-surface/90 border-border lg:col-span-8 overflow-hidden min-h-[420px] flex flex-col justify-center items-center">
+      <div className="grid gap-5 lg:grid-cols-12">
+
+        {/* GRAPH OR TABLE */}
+        <Card className="rounded-xl bg-surface/90 border-border lg:col-span-8 overflow-hidden">
           {viewType === "graph" ? (
-            <div className="w-full overflow-x-auto p-4 flex justify-center">
+            <div className="w-full p-3">
               <svg
                 ref={svgRef}
-                width={svgWidth}
-                height={svgHeight}
+                viewBox={`0 0 ${VB_W} ${VB_H}`}
+                preserveAspectRatio="xMidYMid meet"
                 onMouseMove={handleMouseMove}
                 onMouseUp={handleMouseUp}
                 onMouseLeave={handleMouseUp}
-                className="bg-black/35 rounded-lg border border-border cursor-grab select-none max-w-full"
+                style={{ width: "100%", height: "auto", display: "block", cursor: draggedNodeId ? "grabbing" : "grab", userSelect: "none" }}
               >
-                {/* DRAW EDGES (LINES) */}
+                {/* Background */}
+                <rect width={VB_W} height={VB_H} rx="12" fill="rgba(0,0,0,0.35)" />
+
+                {/* Grid dots */}
+                {Array.from({ length: 12 }).map((_, row) =>
+                  Array.from({ length: 18 }).map((_, col) => (
+                    <circle key={`${row}-${col}`} cx={col * 42 + 21} cy={row * 36 + 18} r="1"
+                      fill="rgba(255,255,255,0.05)" />
+                  ))
+                )}
+
+                {/* EDGES */}
                 {edges.map((edge, idx) => {
-                  const fromNode = nodes.find(n => n.id === edge.from);
-                  const toNode = nodes.find(n => n.id === edge.to);
-                  if (!fromNode || !toNode) return null;
+                  const from = nodes.find(n => n.id === edge.from);
+                  const to = nodes.find(n => n.id === edge.to);
+                  if (!from || !to) return null;
+                  const isActive = selectedNodeId === edge.from || selectedNodeId === edge.to;
+                  const edgeColor = DISC_COLORS[edge.disc] ?? "#ffffff";
                   return (
-                    <line
-                      key={idx}
-                      x1={fromNode.x}
-                      y1={fromNode.y}
-                      x2={toNode.x}
-                      y2={toNode.y}
-                      stroke="rgba(255, 255, 255, 0.12)"
-                      strokeWidth={selectedNodeId === fromNode.id || selectedNodeId === toNode.id ? 2 : 1}
-                      strokeDasharray={selectedNodeId === fromNode.id || selectedNodeId === toNode.id ? "0" : "4 2"}
+                    <line key={idx}
+                      x1={from.x} y1={from.y} x2={to.x} y2={to.y}
+                      stroke={isActive ? edgeColor : "rgba(255,255,255,0.10)"}
+                      strokeWidth={isActive ? 2 : 1}
+                      strokeDasharray={isActive ? "none" : "4 3"}
+                      strokeOpacity={isActive ? 0.9 : 0.6}
                     />
                   );
                 })}
 
-                {/* DRAW NODES (CIRCLES) */}
-                {nodes.map((node) => {
+                {/* NODES */}
+                {nodes.map(node => {
                   const isSelected = selectedNodeId === node.id;
-                  let nodeColor = "#ec690c"; // jana-primary
-                  let size = 10;
-
-                  if (node.type === "center") {
-                    nodeColor = "#7c5cff"; // brain
-                    size = 22;
-                  } else if (node.type === "skill") {
-                    nodeColor = "#1fbf75"; // talent
-                    size = 15;
-                  }
+                  const color = node.type === "center" ? "#7c5cff"
+                    : node.type === "skill" ? (DISC_COLORS[node.label] ?? "#1fbf75")
+                    : (DISC_COLORS[node.discipline ?? ""] ?? "#ec690c");
+                  const r = node.type === "center" ? 24 : node.type === "skill" ? 16 : 9;
+                  const labelY = node.y - r - 7;
+                  const labelW = node.label.length * 5.5 + 10;
 
                   return (
-                    <g key={node.id} className="cursor-pointer">
-                      <circle
-                        cx={node.x}
-                        cy={node.y}
-                        r={size}
-                        fill={nodeColor}
-                        stroke="#121417"
-                        strokeWidth="2"
-                        className="transition-transform hover:scale-110"
-                        onMouseDown={() => handleMouseDown(node.id)}
-                      />
+                    <g key={node.id}
+                      style={{ cursor: "pointer" }}
+                      onMouseDown={e => handleMouseDown(e, node.id)}>
+
+                      {/* Selection ring */}
                       {isSelected && (
-                        <circle
-                          cx={node.x}
-                          cy={node.y}
-                          r={size + 6}
-                          fill="none"
-                          stroke="#ec690c"
-                          strokeWidth="1.5"
-                          className="animate-ping opacity-60"
-                        />
+                        <circle cx={node.x} cy={node.y} r={r + 8}
+                          fill="none" stroke={color} strokeWidth="2" strokeOpacity="0.5"
+                          strokeDasharray="4 2" />
                       )}
-                      <text
-                        x={node.x}
-                        y={node.y - size - 6}
-                        textAnchor="middle"
-                        fontSize="10px"
-                        fontWeight="600"
-                        fill="#F5F7FA"
-                        className="bg-black/80 px-1 rounded pointer-events-none"
-                      >
+
+                      {/* Glow */}
+                      <circle cx={node.x} cy={node.y} r={r + 4}
+                        fill={color} fillOpacity={isSelected ? 0.25 : 0.08} />
+
+                      {/* Main circle */}
+                      <circle cx={node.x} cy={node.y} r={r}
+                        fill={color} stroke="#121417" strokeWidth={isSelected ? 2.5 : 1.5}
+                        fillOpacity={node.type === "student" ? 0.85 : 1} />
+
+                      {/* Center icon text */}
+                      {node.type === "center" && (
+                        <text x={node.x} y={node.y + 5} textAnchor="middle"
+                          fontSize="14" fontWeight="900" fill="#fff" style={{ pointerEvents: "none" }}>
+                          ✦
+                        </text>
+                      )}
+
+                      {/* Label background */}
+                      {labelY > 5 && (
+                        <rect x={node.x - labelW / 2} y={labelY - 10} width={labelW} height={13}
+                          rx="3" fill="rgba(10,12,16,0.82)" />
+                      )}
+                      {/* Label text */}
+                      <text x={node.x} y={labelY} textAnchor="middle"
+                        fontSize={node.type === "skill" ? "10" : "9"}
+                        fontWeight={node.type === "skill" ? "700" : "500"}
+                        fill={node.type === "skill" ? color : "#e2e8f0"}
+                        style={{ pointerEvents: "none" }}>
                         {node.label}
                       </text>
                     </g>
                   );
                 })}
+
+                {/* Legend */}
+                <g transform={`translate(10, ${VB_H - 22})`}>
+                  <circle cx="6" cy="5" r="5" fill="#7c5cff" />
+                  <text x="15" y="9" fontSize="8" fill="rgba(255,255,255,0.5)" fontWeight="600">Centro</text>
+                  <circle cx="60" cy="5" r="4" fill="#1fbf75" />
+                  <text x="69" y="9" fontSize="8" fill="rgba(255,255,255,0.5)" fontWeight="600">Disciplina</text>
+                  <circle cx="124" cy="5" r="3" fill="#ec690c" fillOpacity="0.85" />
+                  <text x="131" y="9" fontSize="8" fill="rgba(255,255,255,0.5)" fontWeight="600">Alumno</text>
+                  <text x={VB_W - 140} y="9" fontSize="8" fill="rgba(255,255,255,0.3)">Arrastra los nodos para reposicionarlos</text>
+                </g>
               </svg>
             </div>
           ) : (
-            /* ACCESSIBLE TABULAR VIEW (WCAG 2.2 AA requirement) */
-            <div className="w-full p-4 overflow-x-auto">
+            /* ACCESSIBLE TABLE */
+            <div className="w-full overflow-x-auto">
               <table className="w-full text-left border-collapse text-xs">
                 <thead>
-                  <tr className="border-b border-border text-muted-foreground uppercase text-[10px] tracking-wider">
-                    <th className="p-3">Nombre Alumno</th>
+                  <tr className="border-b border-border text-muted-foreground uppercase text-[10px] tracking-wider bg-surface-elevated/40">
+                    <th className="p-3">Alumno</th>
+                    <th className="p-3">Disciplina</th>
                     <th className="p-3">Sede</th>
-                    <th className="p-3">Asistencia %</th>
-                    <th className="p-3">Skills Promedio</th>
-                    <th className="p-3">Notas Registradas</th>
+                    <th className="p-3">Asistencia</th>
+                    <th className="p-3">Nivel medio</th>
+                    <th className="p-3">Evaluaciones</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {students.map((student) => {
-                    const avgSkill = (
-                      student.skills.reduce((acc, curr) => acc + curr.level, 0) / student.skills.length
-                    ).toFixed(1);
+                  {students.map((student, i) => {
+                    const disc = disciplineKeys[i % disciplineKeys.length];
+                    const discColor = DISC_COLORS[disc] ?? "#ec690c";
+                    const avgSkill = student.skills.length
+                      ? (student.skills.reduce((a, c) => a + c.level, 0) / student.skills.length).toFixed(1)
+                      : "—";
                     return (
-                      <tr key={student.id} className="border-b border-border hover:bg-surface-elevated/40">
+                      <tr key={student.id}
+                        className={cn("border-b border-border transition cursor-pointer",
+                          selectedNodeId === student.id ? "bg-jana-primary/8" : "hover:bg-surface-elevated/40")}
+                        onClick={() => setSelectedNodeId(student.id)}>
                         <td className="p-3 font-semibold text-foreground">{student.name}</td>
+                        <td className="p-3">
+                          <span style={{ color: discColor, borderColor: discColor + "44" }}
+                            className="text-[10px] font-bold border rounded-full px-2 py-0.5 bg-surface-elevated/30">
+                            {disc}
+                          </span>
+                        </td>
                         <td className="p-3 text-foreground-muted">{student.sede}</td>
-                        <td className="p-3 font-mono text-talent font-bold">{student.attendance}%</td>
-                        <td className="p-3 font-mono text-brain-accessible font-bold">{avgSkill} / 10</td>
+                        <td className="p-3">
+                          <div className="flex items-center gap-2">
+                            <div className="h-1.5 w-16 rounded-full bg-surface-elevated overflow-hidden">
+                              <div className="h-full rounded-full bg-talent" style={{ width: `${student.attendance}%` }} />
+                            </div>
+                            <span className="font-mono text-talent font-bold">{student.attendance}%</span>
+                          </div>
+                        </td>
+                        <td className="p-3 font-mono text-foreground font-bold">{avgSkill}<span className="text-foreground-muted font-normal">/10</span></td>
                         <td className="p-3 text-foreground-muted">{student.grades.length}</td>
                       </tr>
                     );
@@ -1236,47 +1321,59 @@ function TalentGraphView({ students }: { students: Student[] }) {
           )}
         </Card>
 
-        {/* DETAILS SIDE PANEL */}
-        <Card className="rounded-lg bg-surface/90 border-border lg:col-span-4 p-5 space-y-4">
+        {/* DETAILS PANEL */}
+        <Card className="rounded-xl bg-surface/90 border-border lg:col-span-4 p-5 space-y-4">
           {nodeDetails ? (
             <div className="space-y-4">
-              <div>
-                <span className="text-[10px] bg-jana-primary/10 text-jana-primary-accessible px-2 py-0.5 rounded font-mono font-bold">
+              <div className="space-y-2">
+                <span style={{ color: nodeDetails.color, borderColor: nodeDetails.color + "44", backgroundColor: nodeDetails.color + "18" }}
+                  className="text-[10px] font-bold border rounded-full px-3 py-1 inline-block">
                   {nodeDetails.type}
                 </span>
-                <h4 className="text-xl font-bold mt-2">{nodeDetails.title}</h4>
+                <h4 className="text-lg font-bold leading-tight">{nodeDetails.title}</h4>
+                {nodeDetails.disc !== "—" && (
+                  <span className="text-[10px] text-foreground-muted">{nodeDetails.disc}</span>
+                )}
               </div>
-              
-              <div className="space-y-2 text-xs text-foreground-muted">
-                <p>{nodeDetails.detail1}</p>
-                <p>{nodeDetails.detail2}</p>
+
+              <div className="space-y-2 text-xs text-foreground-muted bg-black/20 rounded-lg p-3">
+                <p className="flex items-center gap-2">
+                  <Activity className="size-3 text-talent flex-shrink-0" />
+                  {nodeDetails.detail1}
+                </p>
+                <p className="flex items-center gap-2">
+                  <Activity className="size-3 text-brain flex-shrink-0" />
+                  {nodeDetails.detail2}
+                </p>
               </div>
 
               {nodeDetails.skills.length > 0 && (
-                <div className="space-y-2 mt-4 pt-4 border-t border-border">
-                  <h5 className="text-xs font-semibold text-muted-foreground">HABILIDADES ARTÍSTICAS:</h5>
-                  <div className="space-y-2">
-                    {nodeDetails.skills.map((s, idx) => (
-                      <div key={idx} className="space-y-1">
-                        <div className="flex justify-between text-[11px] font-medium">
-                          <span>{s.name} ({s.category})</span>
-                          <span>{s.level}/10</span>
-                        </div>
-                        <div className="h-2 w-full bg-accent rounded-full overflow-hidden">
-                          <div className="h-full bg-talent rounded-full" style={{ width: `${s.level * 10}%` }} />
-                        </div>
+                <div className="space-y-3 pt-2 border-t border-border">
+                  <h5 className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">Habilidades Artísticas</h5>
+                  {nodeDetails.skills.map((s, idx) => (
+                    <div key={idx} className="space-y-1.5">
+                      <div className="flex justify-between text-[11px] font-medium">
+                        <span className="text-foreground">{s.name}</span>
+                        <span style={{ color: nodeDetails.color }} className="font-bold">{s.level}/10</span>
                       </div>
-                    ))}
-                  </div>
+                      <div className="h-1.5 w-full rounded-full overflow-hidden bg-surface-elevated">
+                        <div className="h-full rounded-full transition-all duration-500"
+                          style={{ width: `${s.level * 10}%`, backgroundColor: nodeDetails.color }} />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               )}
 
-              <p className="text-[10px] text-muted-foreground border-t border-border pt-3">
-                Tip: Arrastra los nodos en el grafo para recolocar y reorganizar la vista.
+              <p className="text-[10px] text-foreground-muted/60 pt-2 border-t border-border/50">
+                Haz clic en cualquier nodo o fila para ver su detalle. Arrastra para reorganizar el grafo.
               </p>
             </div>
           ) : (
-            <p className="text-xs text-muted-foreground text-center">Selecciona un nodo para consultar su información.</p>
+            <div className="text-center py-8">
+              <Users className="size-8 mx-auto text-muted-foreground mb-2" />
+              <p className="text-xs text-muted-foreground">Selecciona un nodo del grafo para ver su información detallada.</p>
+            </div>
           )}
         </Card>
 
