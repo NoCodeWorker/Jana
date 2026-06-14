@@ -235,8 +235,8 @@
     "semantic_hash": ""
   },
   "components/jana-stage.tsx": {
-    "mtime": 1781462797.8731337,
-    "ast_hash": "80c762de385806094bb535fdd1399bb5",
+    "mtime": 1781463324.5350032,
+    "ast_hash": "d3904c89304091a6e8c020b2f2590058",
     "semantic_hash": ""
   },
   "components/remotion/production-player.tsx": {
@@ -370,8 +370,8 @@
     "semantic_hash": ""
   },
   "components/mock-data-context.tsx": {
-    "mtime": 1781461847.087685,
-    "ast_hash": "f8a045b976d4d208f3fe76b7bd4593bd",
+    "mtime": 1781463162.0056088,
+    "ast_hash": "b5a4d5d3986e83bdbd0d1543e9075f0a",
     "semantic_hash": ""
   },
   "components/jana-logo.tsx": {
@@ -415,13 +415,13 @@
     "semantic_hash": ""
   },
   "components/backstage/brain-view.tsx": {
-    "mtime": 1781462839.6444588,
-    "ast_hash": "ad79965e99f3d64589106337a647bf76",
+    "mtime": 1781463161.9924033,
+    "ast_hash": "20b8f6a14f94bcc85a6b5bfb70c1c91b",
     "semantic_hash": ""
   },
   "components/backstage/content-view.tsx": {
-    "mtime": 1781462850.627395,
-    "ast_hash": "ede98e3a255b51afd50dc8eb0bc03d45",
+    "mtime": 1781463162.0131693,
+    "ast_hash": "114398ec142dd1aee66f70f56bae588b",
     "semantic_hash": ""
   },
   "components/backstage/talent-graph-view.tsx": {
@@ -435,8 +435,8 @@
     "semantic_hash": ""
   },
   "components/backstage/chat-view.tsx": {
-    "mtime": 1781462859.351899,
-    "ast_hash": "2bb337194e9ef6a25779346b2d4cc877",
+    "mtime": 1781463162.0107224,
+    "ast_hash": "4ab92e0626b7278f8b6774d2e2b227e6",
     "semantic_hash": ""
   },
   "components/backstage/date-utils.ts": {
@@ -460,13 +460,13 @@
     "semantic_hash": ""
   },
   "components/backstage/executive-cockpit-view.tsx": {
-    "mtime": 1781462903.3945053,
-    "ast_hash": "1d8ec424e423eeb3c05f6172acf867d8",
+    "mtime": 1781463287.6618204,
+    "ast_hash": "bbd35529a12bec642727b0eb0b816daf",
     "semantic_hash": ""
   },
   "components/backstage/landing-page.tsx": {
-    "mtime": 1781462122.3816524,
-    "ast_hash": "1be6dd66a3e0fb92ce5d5d194b0f68de",
+    "mtime": 1781463162.0201178,
+    "ast_hash": "6da84c2992f165d1b5e1c6d48bb836fa",
     "semantic_hash": ""
   },
   "components/backstage/teacher-cockpit-view.tsx": {

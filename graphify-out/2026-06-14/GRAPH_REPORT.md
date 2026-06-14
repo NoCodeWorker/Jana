@@ -1,11 +1,11 @@
 # Graph Report - JANA  (2026-06-14)
 
 ## Corpus Check
-- 101 files · ~135,757 words
+- 101 files · ~136,014 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 699 nodes · 1028 edges · 70 communities (56 shown, 14 thin omitted)
+- 700 nodes · 1029 edges · 65 communities (52 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -65,14 +65,10 @@
 - [[_COMMUNITY_Community 47|Community 47]]
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
-- [[_COMMUNITY_Community 51|Community 51]]
 - [[_COMMUNITY_Community 52|Community 52]]
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 54|Community 54]]
-- [[_COMMUNITY_Community 55|Community 55]]
-- [[_COMMUNITY_Community 56|Community 56]]
 - [[_COMMUNITY_Community 57|Community 57]]
-- [[_COMMUNITY_Community 58|Community 58]]
 - [[_COMMUNITY_Community 59|Community 59]]
 - [[_COMMUNITY_Community 60|Community 60]]
 - [[_COMMUNITY_Community 61|Community 61]]
@@ -82,7 +78,6 @@
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
-- [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
 
 ## God Nodes (most connected - your core abstractions)
@@ -102,17 +97,17 @@
   components/backstage/infographics-view.tsx → lib/utils.ts
 - `InfographicCard()` --calls--> `cn()`  [EXTRACTED]
   components/backstage/infographics-view.tsx → lib/utils.ts
-- `SheetOverlay()` --calls--> `cn()`  [EXTRACTED]
-  components/ui/sheet.tsx → lib/utils.ts
-- `SheetFooter()` --calls--> `cn()`  [EXTRACTED]
-  components/ui/sheet.tsx → lib/utils.ts
 - `AulaView()` --calls--> `cn()`  [EXTRACTED]
   components/backstage/aula-view.tsx → lib/utils.ts
+- `ChatView()` --calls--> `cn()`  [EXTRACTED]
+  components/backstage/chat-view.tsx → lib/utils.ts
+- `ContentView()` --calls--> `cn()`  [EXTRACTED]
+  components/backstage/content-view.tsx → lib/utils.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (70 total, 14 thin omitted)
+## Communities (65 total, 13 thin omitted)
 
 ### Community 0 - "Estructura Operativa & Sedes"
 Cohesion: 0.05
@@ -139,8 +134,8 @@ Cohesion: 0.06
 Nodes (33): 1. Principios Fundamentales, 2.1 Variables CSS del Tema (Tailwind CSS v4), 2. Paleta de Colores y Tokens CSS, 3. Tipografía y Escala, 4.1 Áreas Táctiles y Controles, 4.2 Lectores de Pantalla y Accesibilidad Web, 4.3 Motion Design (Movimiento con Significado), 4. Pautas de Accesibilidad e Interacción (+25 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.20
-Nodes (9): AnimatedStat(), content, jsonLdGlobal, jsonLdMexico, LandingPage(), LandingPageProps, useCountUp(), useScrollReveal() (+1 more)
+Cohesion: 0.16
+Nodes (15): ChatContact, ChatContactFilter, ChatContactKind, chatFilterLabels, ChatMessageTag, chatMessageTags, ChatView(), createChatAgenda() (+7 more)
 
 ### Community 7 - "Next.js Frontend"
 Cohesion: 0.24
@@ -159,8 +154,8 @@ Cohesion: 0.17
 Nodes (11): 1.1 Sedes y Usuarios, 1.2 Clases y Evaluaciones, 1.3 CRM externo y señales económicas, 1. Esquema Relacional (PostgreSQL), 2.1 Metadatos de las Relaciones, 2.2 Taxonomía de Skills, 2. Grafo Vivo (JANA TALENT GRAPH), 3.1 Estructura de la Tabla de Embeddings (+3 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.11
-Nodes (42): ChatContact, ChatContactFilter, ChatContactKind, chatFilterLabels, ChatMessageTag, chatMessageTags, ChatView(), createChatAgenda() (+34 more)
+Cohesion: 0.06
+Nodes (81): AlumnoHomeView(), BrainView(), marketBySede, sedes, AnimatedStat(), content, jsonLdGlobal, jsonLdMexico (+73 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.29
@@ -255,8 +250,8 @@ Cohesion: 0.18
 Nodes (10): Affected systems, Backstage modularization, Blockers, Context, Decisions, Implementation plan, Objective, Risks (+2 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.08
-Nodes (25): metadata, AlumnoHomeView(), AppProviders(), ChatMessage, ContentArticle, ContentArticleStatus, ContentNotification, CRMInvoice (+17 more)
+Cohesion: 0.07
+Nodes (27): metadata, AppProviders(), ChatMessage, ContentArticleStatus, ContentNotification, CRMInvoice, generateInitialStudents(), initialArticles (+19 more)
 
 ### Community 43 - "Community 43"
 Cohesion: 0.22
@@ -274,10 +269,6 @@ Nodes (4): compat, __dirname, eslintConfig, __filename
 Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
-### Community 51 - "Community 51"
-Cohesion: 0.14
-Nodes (17): BrainView(), TeacherCockpitView(), allowedTabsByRole, alumnoNavLabels, demoPasswords, DropdownOption, navItems, rolesList (+9 more)
-
 ### Community 52 - "Community 52"
 Cohesion: 0.08
 Nodes (25): For /graphify add and --watch, For /graphify query, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files, Part B - Semantic extraction (parallel subagents) (+17 more)
@@ -287,24 +278,12 @@ Cohesion: 0.25
 Nodes (7): ADR-001 - Modularizacion incremental del Backstage, Alternatives considered, Consequences, Context, Decision, Status, Tradeoffs
 
 ### Community 54 - "Community 54"
-Cohesion: 0.12
-Nodes (16): AulaView(), ContentView(), getRelativeDateString(), ExecutiveCockpitView(), GalleryInfographicsView(), GENERATION_STEPS, InfographicCard(), InfographicsView() (+8 more)
-
-### Community 55 - "Community 55"
-Cohesion: 0.17
-Nodes (15): StudioView(), CustomDropdown(), cn(), Avatar(), AvatarBadge(), AvatarFallback(), AvatarGroup(), AvatarGroupCount() (+7 more)
-
-### Community 56 - "Community 56"
-Cohesion: 0.18
-Nodes (8): Sheet(), SheetContent(), SheetDescription(), SheetFooter(), SheetHeader(), SheetOverlay(), SheetTitle(), SheetTrigger()
+Cohesion: 0.10
+Nodes (17): AulaView(), ContentView(), getRelativeDateString(), ExecutiveCockpitView(), GalleryInfographicsView(), GENERATION_STEPS, InfographicCard(), InfographicsView() (+9 more)
 
 ### Community 57 - "Community 57"
 Cohesion: 0.25
 Nodes (7): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
-
-### Community 58 - "Community 58"
-Cohesion: 0.29
-Nodes (6): BrandBlock(), DemoProfile, LoginForm(), LoginState, JanaLogo(), JanaLogoProps
 
 ### Community 59 - "Community 59"
 Cohesion: 0.29
@@ -335,19 +314,19 @@ Cohesion: 0.50
 Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
 
 ## Knowledge Gaps
-- **387 isolated node(s):** `backstageSystems`, `metadata`, `$schema`, `style`, `rsc` (+382 more)
+- **388 isolated node(s):** `backstageSystems`, `metadata`, `$schema`, `style`, `rsc` (+383 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 55` to `Community 68`, `Community 6`, `Community 11`, `Community 51`, `Community 54`, `Community 56`, `Community 58`?**
+- **Why does `cn()` connect `Community 11` to `Community 42`, `Community 54`, `Community 6`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **Why does `JANA OS - Especificación del Sistema de Diseño (UI/UX)` connect `pgvector & Seguridad RAG` to `Estructura Operativa & Sedes`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `backstageSystems`, `metadata`, `$schema` to the rest of the system?**
-  _387 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _388 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Estructura Operativa & Sedes` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `FastAPI Backend & Comunicación` be split into smaller, more focused modules?**
