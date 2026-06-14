@@ -1,16 +1,16 @@
 # Graph Report - JANA  (2026-06-14)
 
 ## Corpus Check
-- 101 files · ~136,014 words
+- 102 files · ~138,852 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 700 nodes · 1029 edges · 65 communities (52 shown, 13 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 720 nodes · 1083 edges · 71 communities (57 shown, 14 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `82acfba5`
+- Built from commit: `183ec876`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -65,10 +65,14 @@
 - [[_COMMUNITY_Community 47|Community 47]]
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Community 51|Community 51]]
 - [[_COMMUNITY_Community 52|Community 52]]
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
 - [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
 - [[_COMMUNITY_Community 59|Community 59]]
 - [[_COMMUNITY_Community 60|Community 60]]
 - [[_COMMUNITY_Community 61|Community 61]]
@@ -78,19 +82,21 @@
 - [[_COMMUNITY_Community 65|Community 65]]
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 70|Community 70]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cn()` - 71 edges
 2. `Button()` - 18 edges
 3. `useMockData()` - 16 edges
 4. `compilerOptions` - 16 edges
-5. `Card()` - 12 edges
-6. `CardTitle()` - 12 edges
-7. `CardContent()` - 12 edges
-8. `Input()` - 12 edges
-9. `JanaRole` - 12 edges
-10. `CardHeader()` - 11 edges
+5. `build_story()` - 15 edges
+6. `para()` - 14 edges
+7. `JanaRole` - 12 edges
+8. `Card()` - 12 edges
+9. `CardTitle()` - 12 edges
+10. `CardContent()` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Lightbox()` --calls--> `cn()`  [EXTRACTED]
@@ -107,7 +113,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (65 total, 13 thin omitted)
+## Communities (71 total, 14 thin omitted)
 
 ### Community 0 - "Estructura Operativa & Sedes"
 Cohesion: 0.05
@@ -130,12 +136,12 @@ Cohesion: 0.38
 Nodes (3): ProductionPlayer(), StageComposition(), StageCompositionProps
 
 ### Community 5 - "pgvector & Seguridad RAG"
-Cohesion: 0.06
-Nodes (33): 1. Principios Fundamentales, 2.1 Variables CSS del Tema (Tailwind CSS v4), 2. Paleta de Colores y Tokens CSS, 3. Tipografía y Escala, 4.1 Áreas Táctiles y Controles, 4.2 Lectores de Pantalla y Accesibilidad Web, 4.3 Motion Design (Movimiento con Significado), 4. Pautas de Accesibilidad e Interacción (+25 more)
+Cohesion: 0.15
+Nodes (12): 1.1 Tamaño del Objetivo de Pulsación / Target Size (Mínimo) [Criterio 2.5.8 - AA], 1.2 Apariencia del Foco / Focus Appearance [Criterio 2.4.13 - AA], 1.3 Foco No Obstruido / Focus Not Obscured (Mínimo/Mejorado) [Criterios 2.4.11 - A & 2.4.12 - AA], 1.4 Alternativa a Movimientos de Arrastre / Dragging Movements [Criterio 2.5.7 - AA], 1.5 Autenticación Accesible / Accessible Authentication (Mínimo) [Criterio 3.3.8 - A], 1.6 Entrada Redundante / Redundant Entry [Criterio 3.3.7 - A], 1. Nuevos Criterios de WCAG 2.2 AA (Implementación Obligatoria), 2.1 Alternativas Accesibles para Visualizaciones Complejas (+4 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.16
-Nodes (15): ChatContact, ChatContactFilter, ChatContactKind, chatFilterLabels, ChatMessageTag, chatMessageTags, ChatView(), createChatAgenda() (+7 more)
+Cohesion: 0.13
+Nodes (15): AnimatedStat(), content, jsonLdGlobal, jsonLdMexico, LandingPage(), LandingPageProps, useCountUp(), useScrollReveal() (+7 more)
 
 ### Community 7 - "Next.js Frontend"
 Cohesion: 0.24
@@ -154,8 +160,8 @@ Cohesion: 0.17
 Nodes (11): 1.1 Sedes y Usuarios, 1.2 Clases y Evaluaciones, 1.3 CRM externo y señales económicas, 1. Esquema Relacional (PostgreSQL), 2.1 Metadatos de las Relaciones, 2.2 Taxonomía de Skills, 2. Grafo Vivo (JANA TALENT GRAPH), 3.1 Estructura de la Tabla de Embeddings (+3 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.06
-Nodes (81): AlumnoHomeView(), BrainView(), marketBySede, sedes, AnimatedStat(), content, jsonLdGlobal, jsonLdMexico (+73 more)
+Cohesion: 0.11
+Nodes (42): ChatContact, ChatContactFilter, ChatContactKind, chatFilterLabels, ChatMessageTag, chatMessageTags, ChatView(), createChatAgenda() (+34 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.29
@@ -250,8 +256,8 @@ Cohesion: 0.18
 Nodes (10): Affected systems, Backstage modularization, Blockers, Context, Decisions, Implementation plan, Objective, Risks (+2 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.07
-Nodes (27): metadata, AppProviders(), ChatMessage, ContentArticleStatus, ContentNotification, CRMInvoice, generateInitialStudents(), initialArticles (+19 more)
+Cohesion: 0.08
+Nodes (23): metadata, AppProviders(), ChatMessage, ContentArticleStatus, ContentNotification, CRMInvoice, generateInitialStudents(), initialArticles (+15 more)
 
 ### Community 43 - "Community 43"
 Cohesion: 0.22
@@ -269,25 +275,41 @@ Nodes (4): compat, __dirname, eslintConfig, __filename
 Cohesion: 0.50
 Nodes (3): Deploy on Vercel, Getting Started, Learn More
 
+### Community 51 - "Community 51"
+Cohesion: 0.18
+Nodes (10): 1.1 Estética Teatral Oscura (JANA Creative Stage System), 1. Principios de Diseño Visual y Emocional, 2.1 Diseño Mobile-First Estricto, 2.2 Divulgación Progresiva (Progressive Disclosure), 2. Pautas de Arquitectura de Información y Carga Cognitiva, 3.1 Animaciones con Significado, 3.2 Transiciones de Estado Robustas, 3. Micro-interacciones y Feedback Visual (Motion UX) (+2 more)
+
 ### Community 52 - "Community 52"
 Cohesion: 0.08
-Nodes (25): For /graphify add and --watch, For /graphify query, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files, Part B - Semantic extraction (parallel subagents) (+17 more)
+Nodes (25): For /graphify add and --watch, For /graphify query, For the commit hook and native AGENTS.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+17 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.25
 Nodes (7): ADR-001 - Modularizacion incremental del Backstage, Alternatives considered, Consequences, Context, Decision, Status, Tradeoffs
 
 ### Community 54 - "Community 54"
-Cohesion: 0.10
-Nodes (17): AulaView(), ContentView(), getRelativeDateString(), ExecutiveCockpitView(), GalleryInfographicsView(), GENERATION_STEPS, InfographicCard(), InfographicsView() (+9 more)
-
-### Community 57 - "Community 57"
 Cohesion: 0.25
 Nodes (7): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
 
-### Community 59 - "Community 59"
+### Community 55 - "Community 55"
 Cohesion: 0.29
 Nodes (6): 1. Initialization (Init), 2. Adding Components (Add), 3. Verification & Troubleshooting, shadcn-init Skill, Templates Available:, Usage
+
+### Community 56 - "Community 56"
+Cohesion: 0.50
+Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
+
+### Community 57 - "Community 57"
+Cohesion: 0.50
+Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
+
+### Community 58 - "Community 58"
+Cohesion: 0.50
+Nodes (3): For /graphify explain, For /graphify path, graphify reference: query, path, explain
+
+### Community 59 - "Community 59"
+Cohesion: 0.50
+Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ### Community 60 - "Community 60"
 Cohesion: 0.60
@@ -295,38 +317,40 @@ Nodes (4): GET(), POST(), publicRoles(), validateRoleLogin()
 
 ### Community 61 - "Community 61"
 Cohesion: 0.50
-Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
-
-### Community 62 - "Community 62"
-Cohesion: 0.50
-Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
-
-### Community 63 - "Community 63"
-Cohesion: 0.50
-Nodes (3): For /graphify explain, For /graphify path, graphify reference: query, path, explain
-
-### Community 64 - "Community 64"
-Cohesion: 0.50
-Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
-
-### Community 65 - "Community 65"
-Cohesion: 0.50
 Nodes (3): Explanation of Flags:, remotion-skills Skill, Usage
 
+### Community 65 - "Community 65"
+Cohesion: 0.14
+Nodes (23): Flowable, ListFlowable, Paragraph, ParagraphStyle, Path, add_title(), BrandCover, build_pdf() (+15 more)
+
+### Community 66 - "Community 66"
+Cohesion: 0.11
+Nodes (23): StudioView(), TalentGraphView(), CustomDropdown(), cn(), Avatar(), AvatarBadge(), AvatarFallback(), AvatarGroup() (+15 more)
+
+### Community 67 - "Community 67"
+Cohesion: 0.11
+Nodes (17): AlumnoHomeView(), BrainView(), TeacherCockpitView(), allowedTabsByRole, alumnoNavLabels, demoPasswords, DropdownOption, JanaStage() (+9 more)
+
+### Community 68 - "Community 68"
+Cohesion: 0.14
+Nodes (14): ContentView(), ExecutiveCockpitView(), GalleryInfographicsView(), GENERATION_STEPS, InfographicCard(), InfographicsView(), JANA_INFOGRAPHIC_SYSTEM_PROMPT, Lightbox() (+6 more)
+
+### Community 69 - "Community 69"
+Cohesion: 0.40
+Nodes (4): Accordion(), AccordionContent(), AccordionItem(), AccordionTrigger()
+
 ## Knowledge Gaps
-- **388 isolated node(s):** `backstageSystems`, `metadata`, `$schema`, `style`, `rsc` (+383 more)
+- **384 isolated node(s):** `Paragraph`, `ListFlowable`, `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)` (+379 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cn()` connect `Community 11` to `Community 42`, `Community 54`, `Community 6`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `JANA OS - Especificación del Sistema de Diseño (UI/UX)` connect `pgvector & Seguridad RAG` to `Estructura Operativa & Sedes`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `backstageSystems`, `metadata`, `$schema` to the rest of the system?**
-  _388 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `cn()` connect `Community 66` to `Community 67`, `Community 68`, `Community 69`, `Community 70`, `Community 6`, `Community 11`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **What connects `Paragraph`, `ListFlowable`, `Usage` to the rest of the system?**
+  _384 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Estructura Operativa & Sedes` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `FastAPI Backend & Comunicación` be split into smaller, more focused modules?**
@@ -335,3 +359,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
 - **Should `Orquestación & Agentes de Contenido` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+- **Should `Community 6` be split into smaller, more focused modules?**
+  _Cohesion score 0.13157894736842105 - nodes in this community are weakly interconnected._

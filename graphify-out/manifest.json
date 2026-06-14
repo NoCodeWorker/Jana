@@ -538,5 +538,15 @@
     "mtime": 1781463043.7070427,
     "ast_hash": "442bf2fd54618b934a78f549626bb7e6",
     "semantic_hash": ""
+  },
+  "tools/generate_ia_mancha_dossier.py": {
+    "mtime": 1781465553.6457906,
+    "ast_hash": "3efaacc659dafcb19a44427076f26fae",
+    "semantic_hash": ""
+  },
+  "output/pdf/ia_mancha_jana_os_dossier.pdf": {
+    "mtime": 1781465576.5056264,
+    "ast_hash": "ffd3257a3788c24e8fb1b74e8c99a1b8",
+    "semantic_hash": ""
   }
 }
