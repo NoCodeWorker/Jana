@@ -43,17 +43,32 @@ Todo el esquema implementa **Row Level Security (RLS)** a nivel de base de datos
     *   `comentarios`: TEXT
     *   `fecha`: TIMESTAMP
 
-### 1.3 Finanzas y Verifactu
-*   `eventos_financieros`: Registro de cobros o pagos en el MVP para sentar bases ERP y Verifactu.
+### 1.3 CRM externo y señales económicas
+El CRM que ya utiliza la escuela se mantiene como **sistema de registro** para captación, matrículas, cobros, facturación y fiscalidad. JANA OS no migra ni reemplaza ese CRM en el MVP; importa snapshots y eventos normalizados para cruzarlos con datos académicos, asistencia, comunicación, contenido y Talent Graph.
+
+*   `crm_eventos_importados`: Registro de eventos económicos y comerciales importados desde el CRM externo.
     *   `id`: UUID (Primary Key)
     *   `tenant_id`: UUID
     *   `sede_id`: UUID (Foreign Key a `sedes`)
-    *   `usuario_id`: UUID (Foreign Key a `usuarios`)
+    *   `usuario_id`: UUID (Foreign Key a `usuarios`, cuando exista correspondencia)
+    *   `crm_origen`: VARCHAR(80)
+    *   `crm_registro_id`: VARCHAR(120)
     *   `monto`: NUMERIC(10, 2)
     *   `tipo`: VARCHAR(50) (Valores: `matricula`, `mensualidad`, `taller`, `intensivo`)
     *   `estado`: VARCHAR(30) (Valores: `pendiente`, `completado`, `fallido`)
-    *   `verifactu_estado`: VARCHAR(50) (Valores: `no_aplicable`, `registrado`, `enviado`, `error`)
-    *   `verifactu_hash`: VARCHAR(256) (Hash encadenado para cumplimiento legal)
+    *   `estado_fiscal_origen`: VARCHAR(50) (Valores importados: `no_aplicable`, `registrado`, `enviado`, `error`)
+    *   `hash_fiscal_origen`: VARCHAR(256) (Huella importada si el CRM la expone)
+    *   `sincronizado_en`: TIMESTAMP
+    *   `payload_normalizado`: JSONB
+*   `crm_alertas_direccion`: Señales derivadas al cruzar CRM externo con operación académica.
+    *   `id`: UUID (Primary Key)
+    *   `tenant_id`: UUID
+    *   `sede_id`: UUID
+    *   `tipo`: VARCHAR(60) (ej. `riesgo_retencion`, `oportunidad_captacion`, `incidencia_cobro`, `desajuste_capacidad`)
+    *   `prioridad`: VARCHAR(20) (`baja`, `media`, `alta`, `critica`)
+    *   `resumen`: TEXT
+    *   `evidencia`: JSONB
+    *   `estado`: VARCHAR(30) (`nueva`, `en_revision`, `resuelta`, `descartada`)
     *   `creado_en`: TIMESTAMP
 
 ---

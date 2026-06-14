@@ -34,7 +34,7 @@ Los paneles de control o dashboards según el rol se denominan bajo el concepto 
 * **Backstage Chat:** Comunicación en tiempo real entre alumnos, profesores y dirección.
 * **Backstage Brain:** Búsqueda global, analítica e interacción con el motor cognitivo de IA.
 * **Backstage Talent Graph:** Visualización interactiva y tabla accesible de evolución de habilidades.
-* **Backstage Panel:** Administración general, configuración, finanzas e integraciones de la sede.
+* **Backstage Panel:** Integraciones, auditoría de datos externos y señales operativas. No sustituye al CRM ni concentra facturación.
 
 ---
 

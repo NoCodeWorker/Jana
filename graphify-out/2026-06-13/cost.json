@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "date": "2026-06-12T07:22:09.085440+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 4
+    },
+    {
+      "date": "2026-06-12T07:35:21.832319+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 7
+    },
+    {
+      "date": "2026-06-12T07:38:08.765485+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 7
+    },
+    {
+      "date": "2026-06-12T07:49:45.954344+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 11
+    },
+    {
+      "date": "2026-06-12T07:57:07.873486+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 11
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0
+}

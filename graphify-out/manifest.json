@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1781271657.1682236,
-    "ast_hash": "67286393c36c97cad89cdf23f197f379",
+    "mtime": 1781445698.2361987,
+    "ast_hash": "d09dad0e46ead48dce11e8f44b5a2586",
     "semantic_hash": ""
   },
   "docs/01_vision_arquitectonica.md": {
@@ -25,18 +25,18 @@
     "semantic_hash": ""
   },
   "docs/02_modelos_de_datos.md": {
-    "mtime": 1781249625.371463,
-    "ast_hash": "40061fd08341c9a890a39b946fb64da9",
+    "mtime": 1781446177.6305294,
+    "ast_hash": "74eea5dc3c3ac4aae95061686a9813f6",
     "semantic_hash": ""
   },
   "docs/03_requisitos_funcionales.md": {
-    "mtime": 1781252491.3506625,
-    "ast_hash": "82b5e4dc7334c85e1ad9e6ba570857f0",
+    "mtime": 1781446177.7244382,
+    "ast_hash": "df0ebc90c51fc15e07c16fed9c81e34c",
     "semantic_hash": ""
   },
   "docs/04_diseno_ui_ux.md": {
-    "mtime": 1781272208.0294123,
-    "ast_hash": "2a6869bae399b37b4f9f9c822c582d41",
+    "mtime": 1781446177.8238714,
+    "ast_hash": "10b972d371678d991e88168f45764908",
     "semantic_hash": ""
   },
   "graphify-out/memory/query_20260612_074002_why_does_knowledge_service_connect_grafo_de_talent.md": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "app/layout.tsx": {
-    "mtime": 1781275149.5051234,
-    "ast_hash": "4d6b3dbc749386bb3c6b0cdee0b205f2",
+    "mtime": 1781293185.9295604,
+    "ast_hash": "ddddea7b16beedd65521981ff3f29374",
     "semantic_hash": ""
   },
   "app/page.tsx": {
@@ -235,18 +235,18 @@
     "semantic_hash": ""
   },
   "components/jana-stage.tsx": {
-    "mtime": 1781284213.6116965,
-    "ast_hash": "f547716068c76853957a930f0ff82055",
+    "mtime": 1781463324.5350032,
+    "ast_hash": "d3904c89304091a6e8c020b2f2590058",
     "semantic_hash": ""
   },
   "components/remotion/production-player.tsx": {
-    "mtime": 1781275187.3695295,
-    "ast_hash": "86d1b0acfa07fbce42bc7a1807abe7ac",
+    "mtime": 1781297299.1118567,
+    "ast_hash": "65a3a6ead1cf2a516f3b720dc7668044",
     "semantic_hash": ""
   },
   "components/remotion/stage-composition.tsx": {
-    "mtime": 1781274836.2914515,
-    "ast_hash": "12104759d564fdde44e248713bd3e5e9",
+    "mtime": 1781298806.522115,
+    "ast_hash": "9b84e83581812310deb6b08c58a59f5d",
     "semantic_hash": ""
   },
   "components/ui/accordion.tsx": {
@@ -300,8 +300,8 @@
     "semantic_hash": ""
   },
   "lib/jana-auth.ts": {
-    "mtime": 1781274737.4342263,
-    "ast_hash": "410aa31121dbe3ca02fb83b89bcc7cb7",
+    "mtime": 1781433695.57299,
+    "ast_hash": "a166ea872501c4df8b6225686af2e41c",
     "semantic_hash": ""
   },
   "lib/utils.ts": {
@@ -370,13 +370,13 @@
     "semantic_hash": ""
   },
   "components/mock-data-context.tsx": {
-    "mtime": 1781283387.6530745,
-    "ast_hash": "fafdd316c1cd0b1b73da9ebe3424d37f",
+    "mtime": 1781463162.0056088,
+    "ast_hash": "b5a4d5d3986e83bdbd0d1543e9075f0a",
     "semantic_hash": ""
   },
   "components/jana-logo.tsx": {
-    "mtime": 1781284061.8914678,
-    "ast_hash": "9a65592a468ddb7d2486ed594fe5e844",
+    "mtime": 1781284542.3356278,
+    "ast_hash": "26724b336e5575e278118e31bd868ce1",
     "semantic_hash": ""
   },
   "public/escuela_canto.png": {
@@ -387,6 +387,156 @@
   "public/production_la_bella.png": {
     "mtime": 1781284087.0793839,
     "ast_hash": "b5a584c2c4a3ae8f1bd25f09bf0288be",
+    "semantic_hash": ""
+  },
+  "components/backstage/alumno-home-view.tsx": {
+    "mtime": 1781462823.694917,
+    "ast_hash": "96efe02e5c08b33f715d98cd6b098410",
+    "semantic_hash": ""
+  },
+  "components/backstage/login-form.tsx": {
+    "mtime": 1781443709.205724,
+    "ast_hash": "21a3c8f54ed32366ad5f91d00fca4ec3",
+    "semantic_hash": ""
+  },
+  "components/backstage/talent-graph-utils.ts": {
+    "mtime": 1781443828.4954603,
+    "ast_hash": "b012c7e3be33f1bfa1ab9606742374d5",
+    "semantic_hash": ""
+  },
+  "docs/decisions/ADR-001-incremental-backstage-modularization.md": {
+    "mtime": 1781443965.88593,
+    "ast_hash": "efcae22eed00a4d65532d21dc23f0abd",
+    "semantic_hash": ""
+  },
+  "docs/tasks/active/2026-06-14_backstage-modularization.md": {
+    "mtime": 1781446177.9266224,
+    "ast_hash": "9ebfd18704852ac96b48a939a31da3e1",
+    "semantic_hash": ""
+  },
+  "components/backstage/brain-view.tsx": {
+    "mtime": 1781463161.9924033,
+    "ast_hash": "20b8f6a14f94bcc85a6b5bfb70c1c91b",
+    "semantic_hash": ""
+  },
+  "components/backstage/content-view.tsx": {
+    "mtime": 1781463162.0131693,
+    "ast_hash": "114398ec142dd1aee66f70f56bae588b",
+    "semantic_hash": ""
+  },
+  "components/backstage/talent-graph-view.tsx": {
+    "mtime": 1781462893.8348372,
+    "ast_hash": "f7877edb53a4994f32e6134c69c580ba",
+    "semantic_hash": ""
+  },
+  "components/backstage/aula-view.tsx": {
+    "mtime": 1781462958.8250215,
+    "ast_hash": "56ca9509ad5a3d668067febf493c92f3",
+    "semantic_hash": ""
+  },
+  "components/backstage/chat-view.tsx": {
+    "mtime": 1781463162.0107224,
+    "ast_hash": "4ab92e0626b7278f8b6774d2e2b227e6",
+    "semantic_hash": ""
+  },
+  "components/backstage/date-utils.ts": {
+    "mtime": 1781444693.796803,
+    "ast_hash": "a20b9a997a36e0cb1d840d1253a634e9",
+    "semantic_hash": ""
+  },
+  "components/backstage/speech-recognition-types.ts": {
+    "mtime": 1781444599.3910162,
+    "ast_hash": "8a6a01c804c00cb432cbfdb339e53d6e",
+    "semantic_hash": ""
+  },
+  "components/backstage/panel-view.tsx": {
+    "mtime": 1781462969.0260246,
+    "ast_hash": "bfad01bd1fa6fab7d217af68c99f939c",
+    "semantic_hash": ""
+  },
+  "components/backstage/studio-view.tsx": {
+    "mtime": 1781462883.284689,
+    "ast_hash": "0602bd2f611cbced75a14ad240ec8859",
+    "semantic_hash": ""
+  },
+  "components/backstage/executive-cockpit-view.tsx": {
+    "mtime": 1781463287.6618204,
+    "ast_hash": "bbd35529a12bec642727b0eb0b816daf",
+    "semantic_hash": ""
+  },
+  "components/backstage/landing-page.tsx": {
+    "mtime": 1781463162.0201178,
+    "ast_hash": "6da84c2992f165d1b5e1c6d48bb836fa",
+    "semantic_hash": ""
+  },
+  "components/backstage/teacher-cockpit-view.tsx": {
+    "mtime": 1781462873.214593,
+    "ast_hash": "3450c7ce9f2cf58d07026d0b3230a673",
+    "semantic_hash": ""
+  },
+  "docs/decisions/ADR-002-external-crm-as-system-of-record.md": {
+    "mtime": 1781446178.016606,
+    "ast_hash": "4e7073b686a384653f806a090caa261f",
+    "semantic_hash": ""
+  },
+  "components/backstage/infographics-view.tsx": {
+    "mtime": 1781462978.3148644,
+    "ast_hash": "78c6c455c244895c1bd5e3effb07cf05",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/SKILL.md": {
+    "mtime": 1781463043.7070427,
+    "ast_hash": "384e1711f49f7c99954507a6517b6b12",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/add-watch.md": {
+    "mtime": 1781254544.621124,
+    "ast_hash": "0df0589623217ca38a12bdcabfb42f4c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/exports.md": {
+    "mtime": 1781254544.6222453,
+    "ast_hash": "7fb1a81aca17a462db70684a324fcfb0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1781254544.6227922,
+    "ast_hash": "24808b03abfeaf5f6435bb69c0125b2c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1781254544.6233337,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/hooks.md": {
+    "mtime": 1781254544.6244144,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/query.md": {
+    "mtime": 1781254544.624951,
+    "ast_hash": "c2a8e798674a81b02aa9975f43023819",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/transcribe.md": {
+    "mtime": 1781254544.6254945,
+    "ast_hash": "70f6aa30d6211f3a2c7e9fc45479f50c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/graphify/references/update.md": {
+    "mtime": 1781254544.6260386,
+    "ast_hash": "0dad167a95bdb389f02fecffb60b1bc8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/remotion-skills/SKILL.md": {
+    "mtime": 1781463043.7070427,
+    "ast_hash": "b10d61b57693aee68a2f717cf392d0a2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/shadcn/SKILL.md": {
+    "mtime": 1781463043.7070427,
+    "ast_hash": "442bf2fd54618b934a78f549626bb7e6",
     "semantic_hash": ""
   }
 }

@@ -11,15 +11,22 @@ export type StageCompositionProps = {
   productionTitle: string;
   scene: string;
   intensity: number;
+  bgClip?: "luces" | "canto" | "danza" | "montaje";
+  videoUrl?: string;
 };
 
 export function StageComposition({
   productionTitle,
   scene,
   intensity,
+  bgClip = "luces",
+  videoUrl,
 }: StageCompositionProps) {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
+
+  const isVertical = height > width;
+  const isSquare = width === height;
 
   // Global entrance
   const bgIn = interpolate(frame, [0, fps * 0.5], [0, 1], {
@@ -90,29 +97,55 @@ export function StageComposition({
     { label: "Años", value: "15+", color: "#ec690c" },
   ];
 
+  const getGradient = () => {
+    if (bgClip === "canto") return "linear-gradient(180deg, #1e1b4b 0%, #311042 50%, #09050d 100%)";
+    if (bgClip === "danza") return "linear-gradient(180deg, #3b0764 0%, #1e1b4b 50%, #09050d 100%)";
+    if (bgClip === "montaje") return "linear-gradient(180deg, #450a0a 0%, #180000 50%, #050000 100%)";
+    return "linear-gradient(180deg, #0d0f12 0%, #14171b 50%, #08090b 100%)";
+  };
+
   return (
     <AbsoluteFill
       style={{
-        background: "linear-gradient(180deg, #0d0f12 0%, #14171b 50%, #08090b 100%)",
+        background: getGradient(),
         color: "#f5f7fa",
         fontFamily: "Outfit, Inter, sans-serif",
         overflow: "hidden",
         opacity: bgIn,
       }}
     >
+      {videoUrl && videoUrl.trim() !== "" && (
+        <video
+          src={videoUrl}
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: 0.35,
+          }}
+          muted
+          autoPlay
+          loop
+          playsInline
+          onError={(e) => {
+            console.warn("Fondo de video falló al cargar, usando gradiente fallback", e);
+          }}
+        />
+      )}
       {/* === SPOTLIGHT 1 (left) === */}
       <div
         style={{
           position: "absolute",
           top: 0,
-          left: "28%",
-          width: 3,
+          left: isVertical ? "15%" : "28%",
+          width: isVertical ? 2 : 3,
           height: "100%",
           background: "linear-gradient(180deg, rgba(245,183,79,0.9) 0%, rgba(245,183,79,0.1) 60%, transparent 100%)",
           transform: `rotate(${spot1}deg)`,
           transformOrigin: "top center",
           filter: "blur(4px)",
-          opacity: 0.6 * bgIn,
+          opacity: 0.6 * (intensity / 100) * bgIn,
         }}
       />
       {/* Spotlight cone 1 */}
@@ -120,14 +153,14 @@ export function StageComposition({
         style={{
           position: "absolute",
           top: 0,
-          left: "20%",
-          width: "20%",
+          left: isVertical ? "5%" : "20%",
+          width: isVertical ? "30%" : "20%",
           height: "70%",
           background: "linear-gradient(160deg, rgba(245,183,79,0.18) 0%, transparent 100%)",
           transform: `rotate(${spot1 * 0.5}deg)`,
           transformOrigin: "top center",
           filter: "blur(12px)",
-          opacity: bgIn,
+          opacity: (intensity / 100) * bgIn,
         }}
       />
 
@@ -136,14 +169,14 @@ export function StageComposition({
         style={{
           position: "absolute",
           top: 0,
-          right: "28%",
-          width: 3,
+          right: isVertical ? "15%" : "28%",
+          width: isVertical ? 2 : 3,
           height: "100%",
           background: "linear-gradient(180deg, rgba(236,105,12,0.9) 0%, rgba(236,105,12,0.1) 60%, transparent 100%)",
           transform: `rotate(${spot2}deg)`,
           transformOrigin: "top center",
           filter: "blur(4px)",
-          opacity: 0.6 * bgIn,
+          opacity: 0.6 * (intensity / 100) * bgIn,
         }}
       />
       {/* Spotlight cone 2 */}
@@ -151,14 +184,14 @@ export function StageComposition({
         style={{
           position: "absolute",
           top: 0,
-          right: "20%",
-          width: "20%",
+          right: isVertical ? "5%" : "20%",
+          width: isVertical ? "30%" : "20%",
           height: "70%",
           background: "linear-gradient(200deg, rgba(236,105,12,0.18) 0%, transparent 100%)",
           transform: `rotate(${spot2 * 0.5}deg)`,
           transformOrigin: "top center",
           filter: "blur(12px)",
-          opacity: bgIn,
+          opacity: (intensity / 100) * bgIn,
         }}
       />
 
@@ -167,10 +200,10 @@ export function StageComposition({
         style={{
           position: "absolute",
           top: "8%",
-          left: "30%",
-          right: "30%",
+          left: "20%",
+          right: "20%",
           height: "50%",
-          background: `radial-gradient(ellipse at 50% 10%, rgba(236,105,12,${0.35 * glowPulse}), transparent 70%)`,
+          background: `radial-gradient(ellipse at 50% 10%, rgba(236,105,12,${0.35 * (intensity / 100) * glowPulse}), transparent 70%)`,
           filter: "blur(20px)",
         }}
       />
@@ -179,7 +212,7 @@ export function StageComposition({
       <div
         style={{
           position: "absolute",
-          bottom: "22%",
+          bottom: isVertical ? "32%" : "22%",
           left: "5%",
           right: "5%",
           height: 1,
@@ -193,7 +226,7 @@ export function StageComposition({
         <div
           style={{
             position: "absolute",
-            top: "7%",
+            top: isVertical ? "5%" : "7%",
             left: "8%",
             opacity: titleIn,
             display: "flex",
@@ -203,7 +236,7 @@ export function StageComposition({
         >
           <div
             style={{
-              width: 36,
+              width: isVertical ? 20 : 36,
               height: 4,
               borderRadius: 99,
               background: "#ec690c",
@@ -212,9 +245,9 @@ export function StageComposition({
           />
           <span
             style={{
-              fontSize: 16,
+              fontSize: isVertical ? 10 : 16,
               fontWeight: 700,
-              letterSpacing: 4,
+              letterSpacing: isVertical ? 2 : 4,
               textTransform: "uppercase",
               color: "#f28533",
             }}
@@ -229,7 +262,7 @@ export function StageComposition({
         <div
           style={{
             position: "absolute",
-            top: "18%",
+            top: isVertical ? "12%" : "18%",
             left: "8%",
             right: "8%",
             opacity: titleIn,
@@ -238,14 +271,14 @@ export function StageComposition({
         >
           <div
             style={{
-              fontSize: 80,
+              fontSize: isVertical ? 38 : isSquare ? 52 : 80,
               fontWeight: 900,
-              lineHeight: 0.9,
+              lineHeight: 0.95,
               letterSpacing: -2,
               background: "linear-gradient(135deg, #ffffff 30%, #f28533 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
-              maxWidth: 700,
+              maxWidth: isVertical ? 320 : 700,
             }}
           >
             {productionTitle}
@@ -259,11 +292,11 @@ export function StageComposition({
           style={{
             position: "absolute",
             left: "8%",
-            right: "30%",
-            bottom: "30%",
+            right: isVertical ? "8%" : "30%",
+            bottom: isVertical ? "38%" : "30%",
             opacity: subIn,
             transform: `translateY(${(1 - subIn) * 20}px)`,
-            fontSize: 22,
+            fontSize: isVertical ? 15 : 22,
             lineHeight: 1.4,
             color: "rgba(245,247,250,0.75)",
             fontWeight: 400,
@@ -279,7 +312,7 @@ export function StageComposition({
           position: "absolute",
           left: "8%",
           right: "8%",
-          bottom: "14%",
+          bottom: isVertical ? "30%" : "14%",
           height: 6,
           borderRadius: 999,
           background: "rgba(255,255,255,0.08)",
@@ -308,7 +341,8 @@ export function StageComposition({
             left: "8%",
             right: "8%",
             display: "flex",
-            gap: 24,
+            flexWrap: isVertical ? "wrap" : "nowrap",
+            gap: isVertical ? 12 : 24,
             opacity: statsIn,
             transform: `translateY(${(1 - statsIn) * 16}px)`,
           }}
@@ -320,14 +354,15 @@ export function StageComposition({
                 background: "rgba(255,255,255,0.04)",
                 border: `1px solid ${s.color}44`,
                 borderRadius: 12,
-                padding: "10px 18px",
+                padding: isVertical ? "6px 12px" : "10px 18px",
                 textAlign: "center",
-                minWidth: 110,
+                flex: isVertical ? "1 0 40%" : "1 1 auto",
+                minWidth: isVertical ? 90 : 110,
               }}
             >
               <div
                 style={{
-                  fontSize: 28,
+                  fontSize: isVertical ? 20 : 28,
                   fontWeight: 900,
                   color: s.color,
                   lineHeight: 1,
@@ -338,7 +373,7 @@ export function StageComposition({
               </div>
               <div
                 style={{
-                  fontSize: 11,
+                  fontSize: isVertical ? 9 : 11,
                   fontWeight: 600,
                   color: "rgba(245,247,250,0.55)",
                   marginTop: 4,
@@ -355,3 +390,4 @@ export function StageComposition({
     </AbsoluteFill>
   );
 }
+

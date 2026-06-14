@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "app/layout.tsx": {
-    "mtime": 1781275149.5051234,
-    "ast_hash": "4d6b3dbc749386bb3c6b0cdee0b205f2",
+    "mtime": 1781293185.9295604,
+    "ast_hash": "ddddea7b16beedd65521981ff3f29374",
     "semantic_hash": ""
   },
   "app/page.tsx": {
@@ -235,18 +235,18 @@
     "semantic_hash": ""
   },
   "components/jana-stage.tsx": {
-    "mtime": 1781283373.487091,
-    "ast_hash": "59d44767a88b1e2cd9656efa2af9ba92",
+    "mtime": 1781298274.914403,
+    "ast_hash": "c88c86f424c0dde41bc723bc7ff5cbb8",
     "semantic_hash": ""
   },
   "components/remotion/production-player.tsx": {
-    "mtime": 1781275187.3695295,
-    "ast_hash": "86d1b0acfa07fbce42bc7a1807abe7ac",
+    "mtime": 1781297299.1118567,
+    "ast_hash": "65a3a6ead1cf2a516f3b720dc7668044",
     "semantic_hash": ""
   },
   "components/remotion/stage-composition.tsx": {
-    "mtime": 1781274836.2914515,
-    "ast_hash": "12104759d564fdde44e248713bd3e5e9",
+    "mtime": 1781298254.971348,
+    "ast_hash": "14e375ed2911d029111e7104534ccaf5",
     "semantic_hash": ""
   },
   "components/ui/accordion.tsx": {
@@ -370,8 +370,23 @@
     "semantic_hash": ""
   },
   "components/mock-data-context.tsx": {
-    "mtime": 1781283387.6530745,
-    "ast_hash": "fafdd316c1cd0b1b73da9ebe3424d37f",
+    "mtime": 1781293217.1706383,
+    "ast_hash": "31bd6defce91388b4f10479daf33c20a",
+    "semantic_hash": ""
+  },
+  "components/jana-logo.tsx": {
+    "mtime": 1781284542.3356278,
+    "ast_hash": "26724b336e5575e278118e31bd868ce1",
+    "semantic_hash": ""
+  },
+  "public/escuela_canto.png": {
+    "mtime": 1781284100.1246512,
+    "ast_hash": "6a0b36f7df54eb2c96ab670e368b17c5",
+    "semantic_hash": ""
+  },
+  "public/production_la_bella.png": {
+    "mtime": 1781284087.0793839,
+    "ast_hash": "b5a584c2c4a3ae8f1bd25f09bf0288be",
     "semantic_hash": ""
   }
 }

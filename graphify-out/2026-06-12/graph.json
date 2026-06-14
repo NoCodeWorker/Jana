@@ -70,7 +70,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_layout",
-      "community": 42,
+      "community": 6,
       "norm_label": "layout.tsx"
     },
     {
@@ -80,7 +80,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "app_layout_metadata",
-      "community": 42,
+      "community": 6,
       "norm_label": "metadata"
     },
     {
@@ -90,7 +90,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "app_layout_rootlayout",
-      "community": 42,
+      "community": 6,
       "norm_label": "rootlayout()"
     },
     {
@@ -340,7 +340,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_app_providers",
-      "community": 42,
+      "community": 6,
       "norm_label": "app-providers.tsx"
     },
     {
@@ -350,8 +350,38 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "components_app_providers_appproviders",
-      "community": 42,
+      "community": 6,
       "norm_label": "appproviders()"
+    },
+    {
+      "label": "jana-logo.tsx",
+      "file_type": "code",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_jana_logo",
+      "community": 4,
+      "norm_label": "jana-logo.tsx"
+    },
+    {
+      "label": "JanaLogoProps",
+      "file_type": "code",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "components_jana_logo_janalogoprops",
+      "community": 4,
+      "norm_label": "janalogoprops"
+    },
+    {
+      "label": "JanaLogo()",
+      "file_type": "code",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "components_jana_logo_janalogo",
+      "community": 4,
+      "norm_label": "janalogo()"
     },
     {
       "label": "jana-stage.tsx",
@@ -367,7 +397,7 @@
       "label": "navItems",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L41",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "components_jana_stage_navitems",
       "community": 4,
@@ -377,7 +407,7 @@
       "label": "sedes",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L48",
+      "source_location": "L65",
       "_origin": "ast",
       "id": "components_jana_stage_sedes",
       "community": 4,
@@ -387,17 +417,47 @@
       "label": "rolesList",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L50",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "components_jana_stage_roleslist",
       "community": 4,
       "norm_label": "roleslist"
     },
     {
+      "label": "DropdownOption",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "components_jana_stage_dropdownoption",
+      "community": 4,
+      "norm_label": "dropdownoption"
+    },
+    {
+      "label": "CustomDropdown()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "components_jana_stage_customdropdown",
+      "community": 4,
+      "norm_label": "customdropdown()"
+    },
+    {
+      "label": "allowedTabsByRole",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "components_jana_stage_allowedtabsbyrole",
+      "community": 4,
+      "norm_label": "allowedtabsbyrole"
+    },
+    {
       "label": "JanaStage()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L57",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "components_jana_stage_janastage",
       "community": 4,
@@ -407,37 +467,117 @@
       "label": "BrainView()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L407",
+      "source_location": "L543",
       "_origin": "ast",
       "id": "components_jana_stage_brainview",
       "community": 4,
       "norm_label": "brainview()"
     },
     {
+      "label": "ChatView()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L874",
+      "_origin": "ast",
+      "id": "components_jana_stage_chatview",
+      "community": 4,
+      "norm_label": "chatview()"
+    },
+    {
+      "label": "ContentView()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1042",
+      "_origin": "ast",
+      "id": "components_jana_stage_contentview",
+      "community": 4,
+      "norm_label": "contentview()"
+    },
+    {
+      "label": "ArticlePreview()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1351",
+      "_origin": "ast",
+      "id": "components_jana_stage_articlepreview",
+      "community": 4,
+      "norm_label": "articlepreview()"
+    },
+    {
       "label": "AulaView()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L640",
+      "source_location": "L1375",
       "_origin": "ast",
       "id": "components_jana_stage_aulaview",
       "community": 4,
       "norm_label": "aulaview()"
     },
     {
-      "label": "SVGNode",
+      "label": "DISC_COLORS",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L865",
+      "source_location": "L1614",
       "_origin": "ast",
-      "id": "components_jana_stage_svgnode",
+      "id": "components_jana_stage_disc_colors",
       "community": 4,
-      "norm_label": "svgnode"
+      "norm_label": "disc_colors"
+    },
+    {
+      "label": "DISCIPLINES",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1623",
+      "_origin": "ast",
+      "id": "components_jana_stage_disciplines",
+      "community": 4,
+      "norm_label": "disciplines"
+    },
+    {
+      "label": "TalentDiscipline",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1624",
+      "_origin": "ast",
+      "id": "components_jana_stage_talentdiscipline",
+      "community": 4,
+      "norm_label": "talentdiscipline"
+    },
+    {
+      "label": "TalentStudentRow",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1626",
+      "_origin": "ast",
+      "id": "components_jana_stage_talentstudentrow",
+      "community": 4,
+      "norm_label": "talentstudentrow"
+    },
+    {
+      "label": "TalentDisciplineSummary",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1633",
+      "_origin": "ast",
+      "id": "components_jana_stage_talentdisciplinesummary",
+      "community": 4,
+      "norm_label": "talentdisciplinesummary"
+    },
+    {
+      "label": "getPrimaryDiscipline()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1644",
+      "_origin": "ast",
+      "id": "components_jana_stage_getprimarydiscipline",
+      "community": 4,
+      "norm_label": "getprimarydiscipline()"
     },
     {
       "label": "TalentGraphView()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L873",
+      "source_location": "L1655",
       "_origin": "ast",
       "id": "components_jana_stage_talentgraphview",
       "community": 4,
@@ -447,7 +587,7 @@
       "label": "PanelView()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L1184",
+      "source_location": "L2038",
       "_origin": "ast",
       "id": "components_jana_stage_panelview",
       "community": 4,
@@ -457,21 +597,51 @@
       "label": "BrandBlock()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L1366",
+      "source_location": "L2234",
       "_origin": "ast",
       "id": "components_jana_stage_brandblock",
       "community": 4,
       "norm_label": "brandblock()"
     },
     {
-      "label": "BrandMark()",
+      "label": "LoginForm()",
       "file_type": "code",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L1378",
+      "source_location": "L2242",
       "_origin": "ast",
-      "id": "components_jana_stage_brandmark",
+      "id": "components_jana_stage_loginform",
       "community": 4,
-      "norm_label": "brandmark()"
+      "norm_label": "loginform()"
+    },
+    {
+      "label": "StudioView()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2323",
+      "_origin": "ast",
+      "id": "components_jana_stage_studioview",
+      "community": 4,
+      "norm_label": "studioview()"
+    },
+    {
+      "label": "LandingPageProps",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2778",
+      "_origin": "ast",
+      "id": "components_jana_stage_landingpageprops",
+      "community": 4,
+      "norm_label": "landingpageprops"
+    },
+    {
+      "label": "LandingPage()",
+      "file_type": "code",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2792",
+      "_origin": "ast",
+      "id": "components_jana_stage_landingpage",
+      "community": 4,
+      "norm_label": "landingpage()"
     },
     {
       "label": "mock-data-context.tsx",
@@ -544,10 +714,40 @@
       "norm_label": "crminvoice"
     },
     {
-      "label": "MockDataContextType",
+      "label": "ContentArticleStatus",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L56",
+      "_origin": "ast",
+      "id": "components_mock_data_context_contentarticlestatus",
+      "community": 42,
+      "norm_label": "contentarticlestatus"
+    },
+    {
+      "label": "ContentArticle",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "components_mock_data_context_contentarticle",
+      "community": 42,
+      "norm_label": "contentarticle"
+    },
+    {
+      "label": "ContentNotification",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "components_mock_data_context_contentnotification",
+      "community": 42,
+      "norm_label": "contentnotification"
+    },
+    {
+      "label": "MockDataContextType",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L87",
       "_origin": "ast",
       "id": "components_mock_data_context_mockdatacontexttype",
       "community": 42,
@@ -557,7 +757,7 @@
       "label": "MockDataContext",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L70",
+      "source_location": "L108",
       "_origin": "ast",
       "id": "components_mock_data_context_mockdatacontext",
       "community": 42,
@@ -567,7 +767,7 @@
       "label": "initialTeachers",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L73",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "components_mock_data_context_initialteachers",
       "community": 42,
@@ -577,7 +777,7 @@
       "label": "spanishFirstNames",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L87",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "components_mock_data_context_spanishfirstnames",
       "community": 42,
@@ -587,7 +787,7 @@
       "label": "spanishLastNames",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L94",
+      "source_location": "L132",
       "_origin": "ast",
       "id": "components_mock_data_context_spanishlastnames",
       "community": 42,
@@ -597,17 +797,27 @@
       "label": "mockSedes",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L100",
+      "source_location": "L138",
       "_origin": "ast",
       "id": "components_mock_data_context_mocksedes",
       "community": 42,
       "norm_label": "mocksedes"
     },
     {
+      "label": "seededRatio()",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "components_mock_data_context_seededratio",
+      "community": 42,
+      "norm_label": "seededratio()"
+    },
+    {
       "label": "generateInitialStudents()",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L102",
+      "source_location": "L145",
       "_origin": "ast",
       "id": "components_mock_data_context_generateinitialstudents",
       "community": 42,
@@ -617,7 +827,7 @@
       "label": "initialStudents",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L149",
+      "source_location": "L192",
       "_origin": "ast",
       "id": "components_mock_data_context_initialstudents",
       "community": 42,
@@ -627,7 +837,7 @@
       "label": "initialChats",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L152",
+      "source_location": "L195",
       "_origin": "ast",
       "id": "components_mock_data_context_initialchats",
       "community": 42,
@@ -637,27 +847,47 @@
       "label": "initialInvoices",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L160",
+      "source_location": "L203",
       "_origin": "ast",
       "id": "components_mock_data_context_initialinvoices",
       "community": 42,
       "norm_label": "initialinvoices"
     },
     {
+      "label": "initialArticles",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L211",
+      "_origin": "ast",
+      "id": "components_mock_data_context_initialarticles",
+      "community": 42,
+      "norm_label": "initialarticles"
+    },
+    {
+      "label": "initialNotifications",
+      "file_type": "code",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L249",
+      "_origin": "ast",
+      "id": "components_mock_data_context_initialnotifications",
+      "community": 42,
+      "norm_label": "initialnotifications"
+    },
+    {
       "label": "MockDataProvider()",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L168",
+      "source_location": "L261",
       "_origin": "ast",
       "id": "components_mock_data_context_mockdataprovider",
-      "community": 42,
+      "community": 6,
       "norm_label": "mockdataprovider()"
     },
     {
       "label": "useMockData()",
       "file_type": "code",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L261",
+      "source_location": "L441",
       "_origin": "ast",
       "id": "components_mock_data_context_usemockdata",
       "community": 4,
@@ -670,17 +900,17 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "remotion_production_player",
-      "community": 43,
+      "community": 4,
       "norm_label": "production-player.tsx"
     },
     {
       "label": "ProductionPlayer()",
       "file_type": "code",
       "source_file": "components/remotion/production-player.tsx",
-      "source_location": "L6",
+      "source_location": "L8",
       "_origin": "ast",
       "id": "remotion_production_player_productionplayer",
-      "community": 43,
+      "community": 4,
       "norm_label": "productionplayer()"
     },
     {
@@ -697,7 +927,7 @@
       "label": "StageCompositionProps",
       "file_type": "code",
       "source_file": "components/remotion/stage-composition.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "remotion_stage_composition_stagecompositionprops",
       "community": 43,
@@ -707,7 +937,7 @@
       "label": "StageComposition()",
       "file_type": "code",
       "source_file": "components/remotion/stage-composition.tsx",
-      "source_location": "L16",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "remotion_stage_composition_stagecomposition",
       "community": 43,
@@ -1210,7 +1440,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_tooltip",
-      "community": 4,
+      "community": 6,
       "norm_label": "tooltip.tsx"
     },
     {
@@ -1220,7 +1450,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "ui_tooltip_tooltipprovider",
-      "community": 4,
+      "community": 6,
       "norm_label": "tooltipprovider()"
     },
     {
@@ -1230,7 +1460,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "ui_tooltip_tooltip",
-      "community": 4,
+      "community": 6,
       "norm_label": "tooltip()"
     },
     {
@@ -1240,7 +1470,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "ui_tooltip_tooltiptrigger",
-      "community": 4,
+      "community": 6,
       "norm_label": "tooltiptrigger()"
     },
     {
@@ -1250,7 +1480,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "ui_tooltip_tooltipcontent",
-      "community": 4,
+      "community": 6,
       "norm_label": "tooltipcontent()"
     },
     {
@@ -5570,9 +5800,9 @@
       "source_file": "components/app-providers.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_app_providers",
-      "target": "components_mock_data_context",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context"
     },
     {
       "relation": "imports",
@@ -5581,9 +5811,9 @@
       "source_file": "components/app-providers.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_app_providers",
-      "target": "components_mock_data_context_mockdataprovider",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_mockdataprovider"
     },
     {
       "relation": "imports_from",
@@ -5610,12 +5840,107 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_logo",
+      "target": "components_jana_logo_janalogo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_logo",
+      "target": "components_jana_logo_janalogoprops"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_logo",
+      "target": "lib_utils"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_logo",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_logo"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-logo.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "components_jana_logo_janalogo",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_logo_janalogo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_allowedtabsbyrole"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_articlepreview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "components/jana-stage.tsx",
       "source_location": "L640",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_aulaview",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_aulaview"
     },
     {
       "relation": "contains",
@@ -5623,9 +5948,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_brainview",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_brainview"
     },
     {
       "relation": "contains",
@@ -5641,11 +5966,71 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L417",
+      "source_location": "L574",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_brandmark"
+      "target": "components_jana_stage_chatview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L907",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_contentview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_customdropdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1048",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_disc_colors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1059",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_disciplines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_dropdownoption"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1068",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_getprimarydiscipline"
     },
     {
       "relation": "contains",
@@ -5656,6 +6041,36 @@
       "confidence_score": 1.0,
       "source": "components_jana_stage",
       "target": "components_jana_stage_janastage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1591",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_landingpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1578",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_landingpageprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1495",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_loginform"
     },
     {
       "relation": "contains",
@@ -5673,9 +6088,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L1184",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_panelview",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_panelview"
     },
     {
       "relation": "contains",
@@ -5683,9 +6098,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_roleslist",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_roleslist"
     },
     {
       "relation": "contains",
@@ -5693,19 +6108,39 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_sedes",
+      "target": "components_jana_stage_sedes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2323",
+      "weight": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_studioview",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/jana-stage.tsx",
-      "source_location": "L865",
+      "source_location": "L1060",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_svgnode",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_talentdiscipline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1057",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_talentdisciplinesummary"
     },
     {
       "relation": "contains",
@@ -5713,9 +6148,19 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L873",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_jana_stage_talentgraphview",
-      "confidence_score": 1.0
+      "target": "components_jana_stage_talentgraphview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1062",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_jana_stage_talentstudentrow"
     },
     {
       "relation": "imports_from",
@@ -5724,9 +6169,20 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_mock_data_context",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_jana_stage",
+      "target": "components_mock_data_context_contentarticle"
     },
     {
       "relation": "imports",
@@ -5735,9 +6191,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_mock_data_context_student",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_student"
     },
     {
       "relation": "imports",
@@ -5746,9 +6202,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_mock_data_context_teacher",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_teacher"
     },
     {
       "relation": "imports",
@@ -5757,9 +6213,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "components_mock_data_context_usemockdata",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_usemockdata"
     },
     {
       "relation": "imports_from",
@@ -5768,9 +6224,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "lib_jana_auth",
-      "confidence_score": 1.0
+      "target": "lib_jana_auth"
     },
     {
       "relation": "imports",
@@ -5779,9 +6235,9 @@
       "source_file": "components/jana-stage.tsx",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_jana_stage",
-      "target": "lib_jana_auth_janarole",
-      "confidence_score": 1.0
+      "target": "lib_jana_auth_janarole"
     },
     {
       "relation": "imports_from",
@@ -5826,6 +6282,28 @@
       "confidence_score": 1.0,
       "source": "components_jana_stage",
       "target": "remotion_production_player_productionplayer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "components_jana_stage",
+      "target": "remotion_stage_composition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "components_jana_stage",
+      "target": "remotion_stage_composition_stagecomposition",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -6240,6 +6718,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "components/jana-stage.tsx",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "components_jana_stage_customdropdown",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
       "source_location": "L66",
       "weight": 1.0,
       "source": "components_jana_stage_janastage",
@@ -6273,10 +6762,54 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "components/jana-stage.tsx",
+      "source_location": "L575",
+      "weight": 1.0,
+      "source": "components_jana_stage_chatview",
+      "target": "components_mock_data_context_usemockdata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L916",
+      "weight": 1.0,
+      "source": "components_jana_stage_contentview",
+      "target": "components_mock_data_context_usemockdata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1132",
+      "weight": 1.0,
+      "source": "components_jana_stage_contentview",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
       "source_location": "L649",
       "weight": 1.0,
       "source": "components_jana_stage_aulaview",
       "target": "components_mock_data_context_usemockdata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1209",
+      "weight": 1.0,
+      "source": "components_jana_stage_talentgraphview",
+      "target": "lib_utils_cn"
     },
     {
       "relation": "calls",
@@ -6290,84 +6823,57 @@
       "target": "components_mock_data_context_usemockdata"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L1542",
+      "weight": 1.0,
+      "source": "components_jana_stage_loginform",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2477",
+      "weight": 1.0,
+      "source": "components_jana_stage_studioview",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/jana-stage.tsx",
+      "source_location": "L2333",
+      "weight": 1.0,
+      "source": "components_jana_stage_landingpage",
+      "target": "lib_utils_cn"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_chatmessage",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_chatmessage"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "components/mock-data-context.tsx",
-      "source_location": "L46",
+      "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_crminvoice",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L102",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_generateinitialstudents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L152",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_initialchats",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L160",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_initialinvoices",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L149",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_initialstudents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_initialteachers",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "components/mock-data-context.tsx",
-      "source_location": "L70",
-      "weight": 1.0,
-      "source": "components_mock_data_context",
-      "target": "components_mock_data_context_mockdatacontext",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_contentarticle"
     },
     {
       "relation": "contains",
@@ -6375,9 +6881,119 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_mockdatacontexttype",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_contentarticlestatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_contentnotification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_crminvoice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_generateinitialstudents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L206",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialarticles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialchats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialinvoices"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialnotifications"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialstudents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_initialteachers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_mockdatacontext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_mockdatacontexttype"
     },
     {
       "relation": "contains",
@@ -6385,9 +7001,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L168",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_mockdataprovider",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_mockdataprovider"
     },
     {
       "relation": "contains",
@@ -6395,9 +7011,19 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_mocksedes",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_mocksedes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context",
+      "target": "components_mock_data_context_seededratio"
     },
     {
       "relation": "contains",
@@ -6405,9 +7031,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_skillhistory",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_skillhistory"
     },
     {
       "relation": "contains",
@@ -6415,9 +7041,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_spanishfirstnames",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_spanishfirstnames"
     },
     {
       "relation": "contains",
@@ -6425,9 +7051,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_spanishlastnames",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_spanishlastnames"
     },
     {
       "relation": "contains",
@@ -6435,9 +7061,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_student",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_student"
     },
     {
       "relation": "contains",
@@ -6445,9 +7071,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_studentskill",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_studentskill"
     },
     {
       "relation": "contains",
@@ -6455,9 +7081,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_teacher",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_teacher"
     },
     {
       "relation": "contains",
@@ -6465,9 +7091,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "components_mock_data_context_usemockdata",
-      "confidence_score": 1.0
+      "target": "components_mock_data_context_usemockdata"
     },
     {
       "relation": "imports_from",
@@ -6476,9 +7102,9 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "lib_jana_auth",
-      "confidence_score": 1.0
+      "target": "lib_jana_auth"
     },
     {
       "relation": "imports",
@@ -6487,9 +7113,20 @@
       "source_file": "components/mock-data-context.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_mock_data_context",
-      "target": "lib_jana_auth_janarole",
-      "confidence_score": 1.0
+      "target": "lib_jana_auth_janarole"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/mock-data-context.tsx",
+      "source_location": "L154",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_mock_data_context_generateinitialstudents",
+      "target": "components_mock_data_context_seededratio"
     },
     {
       "relation": "contains",
@@ -6522,6 +7159,28 @@
       "confidence_score": 1.0,
       "source": "remotion_production_player",
       "target": "remotion_stage_composition_stagecomposition"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/remotion/production-player.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remotion_production_player",
+      "target": "ui_input"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/remotion/production-player.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remotion_production_player",
+      "target": "ui_input_input"
     },
     {
       "relation": "imports_from",
@@ -11121,5 +11780,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d678699cc46bc2994e6ab26bea43f6f5f5546bb7"
+  "built_at_commit": "82acfba5d1bf702bd7eecd237402fb5bd30b36af"
 }

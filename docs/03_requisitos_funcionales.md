@@ -108,23 +108,26 @@ sequenceDiagram
 
 ---
 
-## 4. Adaptador Verifactu y Finanzas
+## 4. Adaptador de CRM externo e inteligencia de dirección
 
-El sistema de facturación está desacoplado del núcleo operativo para facilitar integraciones de contabilidad y ERP.
+El CRM existente de la escuela se mantiene como sistema de registro. JANA OS no sustituye la herramienta actual, no emite facturas y no fuerza migraciones. Su función es importar datos autorizados del CRM, normalizarlos y cruzarlos con actividad académica, comunicación, contenidos, asistencia y Talent Graph para convertirlos en decisiones directivas.
 
 ```mermaid
 graph LR
-    Pago[Pago Recibido] --> Service[Financial Events Service]
-    Service --> R_Postgres[(Guardar en PostgreSQL)]
-    Service --> Verifactu[Adaptador Verifactu]
+    CRM[CRM existente] --> Connector[CRM Connector Read Model]
+    Connector --> Normalize[Normalización y deduplicación]
+    Normalize --> Store[(Snapshots operativos)]
+    Store --> Cross[Cruce con Aula, Talent Graph, Chat y Content]
+    Cross --> Signals[Alertas y oportunidades de dirección]
     
-    subgraph Proceso Verifactu
-        Verifactu --> Hash[Generar Hash del Registro]
-        Hash --> Chain[Encadenar con Hash del Registro Anterior]
-        Chain --> Sign[Firmar con Certificado Digital]
-        Sign --> Send[Enviar XML a la AEAT / Guardar Log Seguro]
+    subgraph Acciones permitidas
+        Signals --> Dashboard[Backstage Dirección]
+        Signals --> Consultant[Consultor de Dirección]
+        Signals --> Task[Tarea o enlace profundo al CRM]
     end
 ```
-*   **Encadenamiento de Facturas (Hash Chaining):** Cada factura que se genera por matrícula o mensualidad en JANA OS debe contener obligatoriamente el hash de la factura inmediatamente anterior, junto con la fecha y hora de expedición. Esto imposibilita la alteración o borrado de transacciones financieras previas una vez registradas.
-*   **Certificado Digital:** El adaptador de Verifactu firma digitalmente el XML de salida para su validación inmediata por parte de la Agencia Tributaria Española.
-*   **Pasarela de Pago y Checkout Ético:** Todos los cobros, mensualidades e inscripciones procesados por el módulo financiero deben seguir estrictamente la [Regla de Optimización de la Tasa de Conversión Ética (CRO Ético)](../.agents/rules/ethical_cro.md) para garantizar la transparencia y evitar patrones oscuros.
+*   **Modo lectura por defecto:** El MVP importa leads, matrículas, estados de pago, importes, origen de captación y estados fiscales si el CRM los expone. No modifica registros contables.
+*   **CRM como fuente de verdad:** Cualquier corrección de cobro, factura, estado fiscal o ficha comercial se realiza en el CRM de origen.
+*   **Inteligencia cruzada:** JANA OS detecta señales como riesgo de abandono con pago pendiente, sede con alta captación y baja asistencia, profesorado saturado frente a demanda comercial, o contenidos que generan oportunidad de inscripción.
+*   **Writeback opcional futuro:** En versión avanzada puede crear tareas, notas o deep links hacia el CRM, siempre bajo permisos explícitos y con trazabilidad.
+*   **CRO Ético:** Las landings, clases de prueba e inscripciones deben seguir la [Regla de Optimización de la Tasa de Conversión Ética (CRO Ético)](../.agents/rules/ethical_cro.md), evitando patrones oscuros y separando captación web de gestión financiera.

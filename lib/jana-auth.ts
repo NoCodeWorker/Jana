@@ -31,8 +31,8 @@ export const roleProfiles: JanaRoleProfile[] = [
     label: "Profesorado",
     emailEnv: "AUTH_PROFESOR_USER",
     passEnv: "AUTH_PROFESOR_PASS",
-    access: ["Backstage Aula", "Evaluaciones", "Asistencias", "Producciones"],
-    defaultStage: "Backstage Aula",
+    access: ["Backstage Profesorado", "Aula", "Evaluaciones", "Asistencias", "Contenido", "Producciones"],
+    defaultStage: "Backstage Profesorado",
   },
   {
     role: "alumno",
@@ -57,10 +57,22 @@ export function publicRoles() {
 export function validateRoleLogin(email: string, password: string) {
   const normalizedEmail = email.trim().toLowerCase();
 
-  return roleProfiles.find((profile) => {
+  const standardProfile = roleProfiles.find((profile) => {
     const expectedEmail = process.env[profile.emailEnv]?.toLowerCase();
     const expectedPassword = process.env[profile.passEnv];
 
     return expectedEmail === normalizedEmail && expectedPassword === password;
   });
+
+  if (standardProfile) {
+    return standardProfile;
+  }
+
+  // Dynamic Student resolution: any email ending in @escuelajana.com with the correct alumno password
+  const expectedAlumnoPassword = process.env.AUTH_ALUMNO_PASS;
+  if (normalizedEmail.endsWith("@escuelajana.com") && password === expectedAlumnoPassword) {
+    return roleProfiles.find((profile) => profile.role === "alumno");
+  }
+
+  return undefined;
 }

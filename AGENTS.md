@@ -11,6 +11,10 @@ Rules:
 - Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
 - After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
 
+## Windows Python
+
+This workspace runs on Windows. The `python` and `python3` commands may resolve to the Microsoft Store aliases under `C:\Users\usuario\AppData\Local\Microsoft\WindowsApps\`, which can fail with a session/startup error. Use `py -3` for local Python scripts instead. Verified interpreter: `py -3 --version` returns Python 3.13.7.
+
 ## shadcn-init
 
 Initialize shadcn/ui components using:
